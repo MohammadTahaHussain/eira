@@ -68,11 +68,11 @@ export default function HeroSection() {
  <div className="relative mx-auto max-w-[560px] lg:max-w-none">
  <div className="relative bg-surface-container rounded-xl p-3 shadow-xl overflow-hidden group">
  <div className="absolute top-4 left-4 z-20 flex items-center gap-2 bg-on-surface/90 backdrop-blur px-3 py-1.5 rounded-lg text-surface-container-lowest">
- <img alt="EIRA Industrial Machinery" className="h-4 w-auto invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEb9lICOWOLWStCNLzFt8mhq6OqlYiH_8mQRqWuPrUTiVlRWQvcYoOn9ODHBB_TP1mv9E1s2o--75jUj1LXVCVITVL3ztrbzsu6CGO36t6ZhjQWpiLK639aeHpSFf9tWJLhtqtDeauGoI82n-GLRwJoIeYrx251f0SFxu4fMkrNeGPYE9v6RQJThzONbvkXCxBQMaI8HqCb8jUNLwkxxHEmmVIG7biHdmoYnjO7qtv-Sr2O5vnlQg5H0n8JlafVZtoa98" />
+ <img alt="EIRA Industrial Machinery" className="h-4 w-auto invert" src="/images/eira-industrial-machinery.jpg" />
  <span className="text-secondary-container text-[10px] tracking-widest uppercase">SERIES-30D SPEC</span>
  </div>
  <div className="relative rounded-lg overflow-hidden bg-surface-container-highest">
- <img alt="EIRA 3 Ton Heavy Duty Diesel Forklift Pakistan" className="w-full h-auto object-cover max-h-[540px] transform group-hover:scale-[1.01] transition-transform duration-500 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjGZdtfLjM-AkN30aYQcZTYviw9PpV8ARILMj-ny2pnZN42DwHfAiEuA4g31W3OT3zJMRx4-7KgM5fWkIu6GyffoPy0Dglo9k6VJz8eEJGfl5lM17nbltWHTq0G81XTamLPmDJgNTsLdM2qXNWca9d1MkHFy_koQMg2lIr4fWtssVSbI7LXdStER-OEe_itSHpyB--4zl-86uCvekeiM82Ye1TAbAcb07KOhuZqzQhvoJSGUkyGiiO3RNPX5EULa1NkhI" />
+ <img alt="EIRA 3 Ton Heavy Duty Diesel Forklift Pakistan" className="w-full h-auto object-cover max-h-[540px] transform group-hover:scale-[1.01] transition-transform duration-500 ease-out" src="/images/eira-3-ton-heavy-duty-diesel-forklift-pakistan.jpg" />
  </div>
  <div className="absolute bottom-6 left-6 z-20 flex flex-wrap gap-2">
  <div className="bg-on-surface/95 text-surface-container-lowest backdrop-blur px-3 py-1.5 rounded-md shadow flex items-center gap-1.5">
@@ -96,7 +96,7 @@ export default function HeroSection() {
  <div className="mt-space-sm flex items-center justify-between px-2 text-secondary">
  <div className="flex items-center gap-2">
  <span className="text-label-sm uppercase tracking-widest text-on-surface-variant">AUTHENTIC BRANDING:</span>
- <img alt="EIRA Forklifts" className="h-5 w-auto object-contain opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGuLyPLLHi6UBonlc762YhmJYbsPHsXV8Go_AfU708FKIOOwfpdKVUCNXOkdiJmVj8u1WSHUYwCaJT_O1Zw8WW-qrUPZPWn-NlCrsSGpijdKxARqfjzY-so_3jn0oKntIXweOuNaZWivWkX7tpSlEAvr6P6jMOMqWb45kF7QLXUpT0T-GZLlx7rKeau4E9TSkhFGajY2Z4IIVyKHZ1CHgJr4Vw4N4jpRUe7ONGwREAUkJrz9Fc0x3dRa4GclweH6tIcOA" />
+ <img alt="EIRA Forklifts" className="h-5 w-auto object-contain opacity-80" src="/images/eira-forklifts.jpg" />
  </div>
  <span className="text-label-sm text-on-surface-variant">Shanghai Engineering Link • Karachi Hub</span>
  </div>

@@ -52,7 +52,7 @@ export default function Header() {
  <span>Request a Quote</span><ArrowRight className="text-[16px]" />
  </a>
  <div className="pl-space-xs border-l border-surface-container-highest flex items-center">
- <img alt="Profile" className="w-8 h-8 rounded-full object-cover ring-1 ring-surface-container-highest" src="https://lh3.googleusercontent.com/aida/AEtjO1UFUe3SWBEksfSPNF0m1J28UyqqX0wDY12XjR5P23NWhVwu95zVFC-3loQIXqYBw4FQxzpF89JEXZpFHD5eh5xYi0GMdTlJgrxyIBoMT5hwSCQdpZjIIiXIzH3f59bdPMmQ2HPeH-C52CElRPoUipIl8b12dQfpRRvyZkdUoQw1U6MrsaKE2R1LTYvauaSvXuV0Yg5gxWhApLGk9vaADnoy96fKV78IRGaibSLFm0yl4I6I1q-IGRhvnGXr5DHLk3mft6fVvNBcZyg" />
+ <img alt="Profile" className="w-8 h-8 rounded-full object-cover ring-1 ring-surface-container-highest" src="/images/profile.jpg" />
  </div>
  </div>
  </div>

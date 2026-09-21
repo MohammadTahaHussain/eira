@@ -39,7 +39,7 @@ export default function SpotlightSection() {
  </div>
  <div className="lg:col-span-6 relative order-1 lg:order-2 flex flex-col items-center">
  <div className="relative w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl bg-inverse-surface/40 p-2">
- <img alt="EIRA 3 Ton Detailed Industrial Mast and Cabin View" className="w-full h-auto object-cover rounded-xl" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLWSCIIuVpW7r2Mge__d3s7Ma4wflRuQ__87N9vIes8hdv6hcNZZwcdadGBdOw3JqVDGTS5fH8F5c_Ts02CuizkUdwuQw0p230c43HmGQTypbvIZK0uOgqJkbMWVTOPpvX1voOfAS1uX5dx2j31au79ZT-4wMBqZhz83-3IZNDsgfcACeyDi4Smtgivc22Sv_i6vWnjsyayblSULnDYyHAfUKoVF9pRg2foF5naegM8uyO8-5gOpmfQzHZhKHPBCVjT78" />
+ <img alt="EIRA 3 Ton Detailed Industrial Mast and Cabin View" className="w-full h-auto object-cover rounded-xl" src="/images/eira-3-ton-detailed-industrial-mast-and-cabin-view.jpg" />
  <div className="absolute top-8 left-8 bg-on-surface/90 backdrop-blur px-3 py-1.5 rounded-lg flex items-center gap-2">
  <span className="w-2.5 h-2.5 rounded-full bg-primary-container animate-pulse"></span>
  <span className="text-label-sm font-semibold text-white uppercase tracking-wider">Reinforced Triplex Mast</span>
@@ -50,7 +50,7 @@ export default function SpotlightSection() {
  </div>
  </div>
  <div className="mt-space-md flex items-center gap-3">
- <img alt="EIRA" className="h-6 w-auto invert opacity-75" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDvOgkU0_fQsrw72ToMCkkUEtDcD3NLqhsLG-heE2NxvYnuYBPZaZoPKLBbrLrHnTqq8K3FvWYHwX53WyibyoWr377PQ_hBwIKkR2bCumgOHa-NkTpHm786_ot3ksQXG0md7WIeZL5gLLviS08C8m6KcMH3M8JoeTOEDODCTPbQ4lRK1EdvNpUDCc0Bd_vVwXgNqtm2u40cI63-g5xY2_ILTZdWhGUSUNP00i1HSbtbsEoqCEa50naYwK-mZ3EPhFSQP0" />
+ <img alt="EIRA" className="h-6 w-auto invert opacity-75" src="/images/eira.jpg" />
  <span className="text-label-sm text-surface-dim uppercase tracking-widest">SERIES 30 INDUSTRIAL CHASSIS</span>
  </div>
  </div>

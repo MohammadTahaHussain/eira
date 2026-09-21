@@ -8,7 +8,7 @@ export default function AboutSection() {
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
  <div className="lg:col-span-7">
  <div className="flex items-center gap-3 mb-space-sm">
- <img alt="EIRA Logo" className="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDU8DFDCtEhsRjKutOoG7z1dg2tEtWR4QyKybnyajXfqBkCXFOAVJ20fDm-pUyluQ4YPwHe9Fy6JlDWkUyDbm_1onLnAuUvFGoXovGhMAuEQ76t5F2MZN0meU6fxnmCXwn8SDfc1ryqbG5hA_loaeU0JEWqKRbIvET-7M_MyhdkOXfCjGnPg_BUGkBkensyRfp1Lnr8wGUUJ1-jJ1UK1imuQ7HbXR2F56MbONlfN9andFKs6cd3NcHkkwmd4SGzXxLTQro" />
+ <img alt="EIRA Logo" className="h-7 w-auto object-contain" src="/images/eira-logo.jpg" />
  <span className="px-2 py-0.5 bg-on-surface text-primary-container text-[10px] rounded tracking-widest uppercase font-bold">ABOUT US</span>
  </div>
  <h2 className="text-display-hero-mobile font-extrabold text-on-surface tracking-tight mb-space-sm">
@@ -38,7 +38,7 @@ export default function AboutSection() {
  <div className="lg:col-span-5">
  <div className="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
  <div className="rounded-lg overflow-hidden mb-space-sm bg-surface-container-highest">
- <img alt="EIRA Forklift Assembly and Verification" className="w-full h-52 object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAKhReybMCT8zi8Lai3ACNF2mS_fddOT1xWFxDyzt7saFzrggUMhmatPW_co66kZrmjaXwsrHCqDpHOETp7HkNWhEHHyK0sRd7KyPidVQOj9CY29uDO_dhPDA5OwRBFS9QYm3SZHoy2u5pYaW3iB2RQnVosslBXdiX-kX3-11CLHsOuf30JXUxhxnwUgWgXsoyju5DwWV1eETq9z-vgD2Ir5LNr85IeRYo1bAx7Q-e8gp6Hj9Uh_lqK0HIHzQwsES3sy0" />
+ <img alt="EIRA Forklift Assembly and Verification" className="w-full h-52 object-cover" src="/images/eira-forklift-assembly-and-verification.jpg" />
  </div>
  <div className="p-2">
  <div className="flex items-center justify-between text-label-sm text-secondary uppercase mb-1">

@@ -132,7 +132,7 @@ export default function QuoteModule() {
  </div>
  <div className="bg-surface-container p-space-md rounded-xl flex items-center justify-between">
  <div className="flex items-center gap-3">
- <img alt="EIRA Brand Mark" className="h-6 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAA9glH_x49pTRTwnYdSjrFinFY2PTqNNXI18_hzYcpZwNH8fhpIGhxYYgyQgCnzXxUPuK7J14V1JUIetx2Axp9GDgo7OKa4DyxP0KXCBMmF2xL0flsA1ZEF9614ke6v5pb-xHwRQznI2s4VTr8f9SpOD8Z1WnaqsZHrvzNo4LKaRco5aQZnEsPWMAuctCpNqN4EwAr3er2M0WRt1-9G6lMRZIe15FFFwTG8NutccGR4qm9gEM329LRSdZxxRBGgcp8dH8" />
+ <img alt="EIRA Brand Mark" className="h-6 w-auto object-contain" src="/images/eira-brand-mark.jpg" />
  <span className="text-label-sm font-semibold uppercase tracking-wider text-secondary">EIRA Forklifts Pakistan</span>
  </div>
  <span className="text-label-sm text-primary font-bold">Shanghai • Karachi</span>
