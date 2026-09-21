@@ -1,17 +1,7 @@
-import { Inter, Manrope, Poppins } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
-
-const manrope = Manrope({
-  subsets: ["latin"],
-  variable: "--font-manrope",
-});
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -29,10 +19,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="shell-type" content="web_standard" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
       </head>
-      <body className={`bg-surface font-body-md text-on-surface antialiased ${inter.variable} ${manrope.variable} ${poppins.className}`}>
+      <body className={`bg-surface text-on-surface antialiased ${poppins.className}`}>
         <Header />
         {children}
         <Footer />
