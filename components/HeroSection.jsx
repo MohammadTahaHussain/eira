@@ -1,0 +1,109 @@
+export default function HeroSection() {
+  return (
+    <>
+      {/* 1. HERO SECTION */}
+          <section className="relative overflow-hidden bg-surface-container-low pb-space-xl pt-space-md">
+            <div className="absolute inset-0 opacity-[0.035] pointer-events-none" style={{ backgroundImage: 'radial-gradient(#121c2a 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
+            <div className="max-w-7xl mx-auto px-gutter relative z-10">
+              <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center pt-space-sm">
+                <div className="lg:col-span-6 flex flex-col items-start">
+                  <div className="flex items-center gap-space-sm mb-space-sm">
+                    <span className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-on-surface text-surface-container-lowest font-label-sm text-label-sm uppercase tracking-widest rounded">
+                      <span className="w-1.5 h-1.5 rounded-full bg-primary-container animate-ping"></span>
+                      EIRA FORKLIFTS — PAKISTAN
+                    </span>
+                    <span className="font-label-sm text-label-sm text-on-surface-variant font-medium">HEAVY EQUIPMENT DIVISION</span>
+                  </div>
+                  <h1 className="font-headline-sm text-headline-sm text-primary font-bold tracking-tight mb-space-xs">
+                    Reliable Forklifts for Sale in Pakistan
+                  </h1>
+                  <h2 className="font-display-hero text-display-hero text-on-surface font-extrabold tracking-tight leading-[1.08] mb-space-md">
+                    Reliable Forklifts. <br />
+                    <span className="text-primary-container">Practical Prices.</span> <br />
+                    Built for Pakistan.
+                  </h2>
+                  <p className="font-body-lg text-body-lg text-secondary mb-space-lg max-w-xl leading-relaxed">
+                    Reliable diesel, electric, and LPG forklifts for warehouses, factories, and industrial operations across Pakistan — engineered for demanding material handling without unnecessary brand premiums.
+                  </p>
+                  <div className="flex flex-wrap items-center gap-space-sm mb-space-lg w-full sm:w-auto">
+                    <a className="inline-flex items-center justify-center gap-space-xs px-6 py-3.5 rounded-xl bg-primary-container hover:bg-primary-fixed text-on-primary-container font-headline-sm text-headline-sm font-bold shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5" href="#forklifts-catalog">
+                      <span>Explore Forklifts</span>
+                      <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
+                    </a>
+                    <a className="inline-flex items-center justify-center gap-space-xs px-6 py-3.5 rounded-xl bg-surface-container-highest hover:bg-surface-container-high text-on-surface font-headline-sm text-headline-sm font-bold transition-colors" href="#quote-module">
+                      <span>Get Best Price</span>
+                      <span className="material-symbols-outlined text-[18px]">receipt_long</span>
+                    </a>
+                    <a className="inline-flex items-center justify-center gap-space-xs px-5 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white font-label-md text-label-md transition-all shadow-sm" href="https://wa.me/923003472750" rel="noopener noreferrer" target="_blank">
+                      <span className="material-symbols-outlined text-[18px]">chat</span>
+                      <span>Chat on WhatsApp (+92 300 EIRA-PK)</span>
+                    </a>
+                  </div>
+                  <div className="w-full pt-space-md bg-surface-container/50 rounded-xl px-4 py-3 grid grid-cols-1 sm:grid-cols-3 gap-space-sm text-on-surface">
+                    <div className="flex items-center gap-2">
+                      <span className="material-symbols-outlined text-primary-container text-[20px]">local_shipping</span>
+                      <div>
+                        <span className="block font-label-md text-label-md uppercase tracking-wider text-secondary">Powertrains</span>
+                        <strong className="font-spec-numeral text-spec-numeral">Diesel • Electric • LPG</strong>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="material-symbols-outlined text-primary-container text-[20px]">weight</span>
+                      <div>
+                        <span className="block font-label-md text-label-md uppercase tracking-wider text-secondary">Payload Range</span>
+                        <strong className="font-spec-numeral text-spec-numeral">3T to 10T Heavy Duty</strong>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <span className="material-symbols-outlined text-primary-container text-[20px]">verified</span>
+                      <div>
+                        <span className="block font-label-md text-label-md uppercase tracking-wider text-secondary">Local Network</span>
+                        <strong className="font-spec-numeral text-spec-numeral">Karachi &amp; Nationwide</strong>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="lg:col-span-6 relative mt-space-md lg:mt-0">
+                  <div className="relative mx-auto max-w-[560px] lg:max-w-none">
+                    <div className="relative bg-surface-container rounded-xl p-3 shadow-xl overflow-hidden group">
+                      <div className="absolute top-4 left-4 z-20 flex items-center gap-2 bg-on-surface/90 backdrop-blur px-3 py-1.5 rounded-lg text-surface-container-lowest">
+                        <img alt="EIRA Industrial Machinery" className="h-4 w-auto invert" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEb9lICOWOLWStCNLzFt8mhq6OqlYiH_8mQRqWuPrUTiVlRWQvcYoOn9ODHBB_TP1mv9E1s2o--75jUj1LXVCVITVL3ztrbzsu6CGO36t6ZhjQWpiLK639aeHpSFf9tWJLhtqtDeauGoI82n-GLRwJoIeYrx251f0SFxu4fMkrNeGPYE9v6RQJThzONbvkXCxBQMaI8HqCb8jUNLwkxxHEmmVIG7biHdmoYnjO7qtv-Sr2O5vnlQg5H0n8JlafVZtoa98" />
+                        <span className="text-secondary-container font-label-sm text-[10px] tracking-widest uppercase">SERIES-30D SPEC</span>
+                      </div>
+                      <div className="relative rounded-lg overflow-hidden bg-surface-container-highest">
+                        <img alt="EIRA 3 Ton Heavy Duty Diesel Forklift Pakistan" className="w-full h-auto object-cover max-h-[540px] transform group-hover:scale-[1.01] transition-transform duration-500 ease-out" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCjGZdtfLjM-AkN30aYQcZTYviw9PpV8ARILMj-ny2pnZN42DwHfAiEuA4g31W3OT3zJMRx4-7KgM5fWkIu6GyffoPy0Dglo9k6VJz8eEJGfl5lM17nbltWHTq0G81XTamLPmDJgNTsLdM2qXNWca9d1MkHFy_koQMg2lIr4fWtssVSbI7LXdStER-OEe_itSHpyB--4zl-86uCvekeiM82Ye1TAbAcb07KOhuZqzQhvoJSGUkyGiiO3RNPX5EULa1NkhI" />
+                      </div>
+                      <div className="absolute bottom-6 left-6 z-20 flex flex-wrap gap-2">
+                        <div className="bg-on-surface/95 text-surface-container-lowest backdrop-blur px-3 py-1.5 rounded-md shadow flex items-center gap-1.5">
+                          <span className="w-2 h-2 rounded-full bg-primary-container"></span>
+                          <span className="font-label-sm text-label-sm uppercase tracking-wider text-surface-variant">Rated Payload:</span>
+                          <span className="font-spec-numeral text-spec-numeral text-primary-fixed font-bold">3,000 KG</span>
+                        </div>
+                        <div className="bg-on-surface/95 text-surface-container-lowest backdrop-blur px-3 py-1.5 rounded-md shadow hidden sm:flex items-center gap-1.5">
+                          <span className="font-label-sm text-label-sm uppercase tracking-wider text-surface-variant">Powertrain:</span>
+                          <span className="font-spec-numeral text-spec-numeral font-bold">Industrial Diesel</span>
+                        </div>
+                        <div className="bg-on-surface/95 text-surface-container-lowest backdrop-blur px-3 py-1.5 rounded-md shadow flex items-center gap-1.5">
+                          <span className="font-label-sm text-label-sm uppercase tracking-wider text-surface-variant">Chassis:</span>
+                          <span className="font-spec-numeral text-spec-numeral font-bold">K-Series Reinforced</span>
+                        </div>
+                      </div>
+                      <div className="absolute top-4 right-4 z-20 bg-primary-container text-on-primary-container px-3 py-1 rounded font-label-sm text-label-sm font-bold uppercase tracking-wider shadow">
+                        In Stock Karachi
+                      </div>
+                    </div>
+                    <div className="mt-space-sm flex items-center justify-between px-2 text-secondary">
+                      <div className="flex items-center gap-2">
+                        <span className="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant">AUTHENTIC BRANDING:</span>
+                        <img alt="EIRA Forklifts" className="h-5 w-auto object-contain opacity-80" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGuLyPLLHi6UBonlc762YhmJYbsPHsXV8Go_AfU708FKIOOwfpdKVUCNXOkdiJmVj8u1WSHUYwCaJT_O1Zw8WW-qrUPZPWn-NlCrsSGpijdKxARqfjzY-so_3jn0oKntIXweOuNaZWivWkX7tpSlEAvr6P6jMOMqWb45kF7QLXUpT0T-GZLlx7rKeau4E9TSkhFGajY2Z4IIVyKHZ1CHgJr4Vw4N4jpRUe7ONGwREAUkJrz9Fc0x3dRa4GclweH6tIcOA" />
+                      </div>
+                      <span className="font-label-sm text-label-sm text-on-surface-variant">Shanghai Engineering Link • Karachi Hub</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+    </>
+  );
+}
