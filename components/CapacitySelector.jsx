@@ -45,9 +45,9 @@ const capacityData = {
  chassis: 'Extreme Yard'
  },
  'ev': {
- title: 'Electric Forklifts (1.5 - 3.5 Ton)',
- desc: 'Zero-emission AC motors paired with industrial Lithium-Ion or lead-acid packs. Essential for clean pharmaceutical facilities, food & beverage plants, and cold storages.',
- load: '1,500 - 3,500',
+ title: 'Electric Forklifts (1.0 - 5.0 Ton)',
+ desc: 'Zero-emission AC drive motors. Essential for clean pharmaceutical facilities, food & beverage plants, and cold storages.',
+ load: '1,000 - 5,000',
  lift: '3.0 - 6.0',
  radius: '2,150',
  chassis: 'Non-Marking Tyres'

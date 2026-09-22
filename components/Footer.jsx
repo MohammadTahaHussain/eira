@@ -25,7 +25,7 @@ export default function Footer() {
  <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">5.0 Ton Yard Heavy</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">10.0 Ton Port Terminal Unit</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">3.5 Ton Clean LPG Dual-Fuel</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">1.5 - 5.0 Ton Li-Ion Electric</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">1.0 - 5.0 Ton Li-Ion Electric</a></li>
  </ul>
  </div>
  <div>
@@ -34,10 +34,6 @@ export default function Footer() {
  <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">Diesel Forklifts</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">Electric Li-Ion Forklifts</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">LPG &amp; Dual Fuel Units</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">Heavy Container Handlers</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">Electric Pallet Stackers</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">Narrow Aisle Reach Trucks</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="request-a-quote" href="#">Custom Mast Engineering</a></li>
  </ul>
  </div>
  <div>

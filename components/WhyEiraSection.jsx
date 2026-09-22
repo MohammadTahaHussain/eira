@@ -41,7 +41,7 @@ export default function WhyEiraSection() {
  </div>
  <h3 className="text-headline-sm font-bold text-on-surface mb-2">Multiple Load Capacities</h3>
  <p className="text-body-md text-secondary leading-relaxed">
- From agile 3-ton warehouse units up to massive 10-ton dry port container handlers, plus electric AC and dual-fuel LPG variations tailored to your facility.
+ From agile 3-ton warehouse units up to massive 10-ton K Series diesel workhorses, plus electric AC and dual-fuel LPG variations tailored to your facility.
  </p>
  </div>
  <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d">

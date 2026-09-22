@@ -46,7 +46,7 @@ export default function AboutSection() {
  <span className="text-primary font-bold">Shanghai ➔ Karachi</span>
  </div>
  <p className="text-body-md text-on-surface font-medium">
- Continuous supply chain integration ensuring timely dispatch, custom mast rigging, and rapid spare parts replenishment.
+ Continuous supply chain integration ensuring timely dispatch and rapid spare parts replenishment.
  </p>
  </div>
  </div>

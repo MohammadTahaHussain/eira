@@ -302,7 +302,7 @@ export default function ProductRange() {
  Zero Emissions AC Electric Drive
  </div>
  <h3 className="text-headline-md font-bold text-on-surface mb-2">
- Electric Forklifts (1.5 - 3.5 Ton)
+ Electric Forklifts (1.0 - 5.0 Ton)
  </h3>
  <p className="text-body-md text-secondary mb-space-md max-w-2xl">
  Engineered specifically for pharmaceutical cold chains, food processing facilities, and textile warehouses where clean air standards are non-negotiable. Available with fast-charging Lithium-Ion battery configurations.
@@ -310,7 +310,7 @@ export default function ProductRange() {
  <div className="grid grid-cols-2 sm:grid-cols-3 gap-2 mb-space-md">
  <div className="bg-surface-container-low p-2 rounded">
  <span className="text-label-sm uppercase text-secondary block">Capacity Range</span>
- <strong className="text-spec-numeral">1,500 – 3,500 KG</strong>
+ <strong className="text-spec-numeral">1,000 – 5,000 KG</strong>
  </div>
  <div className="bg-surface-container-low p-2 rounded">
  <span className="text-label-sm uppercase text-secondary block">Drive</span>

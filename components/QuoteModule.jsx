@@ -70,7 +70,7 @@ export default function QuoteModule() {
  <option value="5ton-diesel">5.0 Ton High-Torque Diesel Forklift</option>
  <option value="10ton-diesel">10.0 Ton Heavy Port &amp; Terminal Handler</option>
  <option value="35ton-lpg">3.5 Ton Clean LPG Dual-Fuel Unit</option>
- <option value="electric-range">1.5 - 3.5 Ton Li-Ion Electric Forklift</option>
+ <option value="electric-range">1.0 - 5.0 Ton Li-Ion Electric Forklift</option>
  <option value="not-sure">Not Sure — Request Technical Load Assessment</option>
  </select>
  </div>

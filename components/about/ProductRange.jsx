@@ -26,7 +26,7 @@ export default function ProductRange() {
     </div>
     <div className="pt-2">
     <h3 className="font-headline-sm text-headline-sm font-extrabold text-on-surface">Diesel Series</h3>
-    <p className="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">3.0T | 3.5T | 5.0T | 10.0T</p>
+    <p className="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">3.0T | 3.5T | 4.0T | 5.0T | 10.0T</p>
     </div>
     <p className="font-body-md text-body-md text-secondary">
                   Rugged diesel power plants tailored for high-ambient heat, unpaved factory ground, and continuous 16-hour heavy lifting operations.
@@ -48,15 +48,15 @@ export default function ProductRange() {
     </div>
     <div className="pt-2">
     <h3 className="font-headline-sm text-headline-sm font-extrabold text-on-surface">Li-Ion Electric Series</h3>
-    <p className="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">1.5T | 2.5T | 3.5T</p>
+    <p className="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">1.0T – 5.0T · 8 Models</p>
     </div>
     <p className="font-body-md text-body-md text-secondary">
                   Fast opportunity-charging lithium technology with zero tailpipe emissions, perfect for pharmaceuticals, cold storage, and food processing.
                 </p>
     </div>
     <div className="pt-space-md mt-space-md bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between">
-    <span className="font-label-sm text-label-sm text-secondary uppercase">Battery Pack</span>
-    <span className="font-label-sm text-label-sm font-bold text-on-surface">80V / 400Ah Rapid LiFePO4</span>
+    <span className="font-label-sm text-label-sm text-secondary uppercase">Drive Control</span>
+    <span className="font-label-sm text-label-sm font-bold text-on-surface">AC</span>
     </div>
     </div>
     {/* Machine 3: LPG Dual Fuel */}
@@ -70,15 +70,15 @@ export default function ProductRange() {
     </div>
     <div className="pt-2">
     <h3 className="font-headline-sm text-headline-sm font-extrabold text-on-surface">LPG &amp; Dual-Fuel Series</h3>
-    <p className="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">2.5T | 3.5T</p>
+    <p className="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">3.5T</p>
     </div>
     <p className="font-body-md text-body-md text-secondary">
                   Low-emission operation with the torque of an internal combustion engine. Switch seamlessly between indoor warehouse aisles and container yards.
                 </p>
     </div>
     <div className="pt-space-md mt-space-md bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between">
-    <span className="font-label-sm text-label-sm text-secondary uppercase">Engine Platform</span>
-    <span className="font-label-sm text-label-sm font-bold text-on-surface">Industrial Dual Vaporizer</span>
+    <span className="font-label-sm text-label-sm text-secondary uppercase">Engine</span>
+    <span className="font-label-sm text-label-sm font-bold text-on-surface">Nissan K25 · 37.4 kW</span>
     </div>
     </div>
     </div>
