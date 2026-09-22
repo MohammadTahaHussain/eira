@@ -45,10 +45,10 @@ export default function Header() {
  </nav>
  </div>
  <div className="flex items-center gap-space-sm">
- <a className="hidden sm:inline-flex items-center gap-space-xs px-3.5 py-2.5 rounded bg-[#25D366] hover:bg-[#20ba59] text-white text-label-md transition-all shadow-sm" data-path="contact" href="#">
+ <a className="hidden sm:inline-flex items-center gap-space-xs px-3.5 py-2.5 rounded bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-label-md transition-all shadow-sm" data-path="contact" href="#">
  <MessageCircle className="text-[18px]" /><span>WhatsApp Sales</span>
  </a>
- <a className="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded bg-primary-container hover:bg-primary-fixed text-on-primary-container text-label-md uppercase tracking-wider font-bold transition-all transform hover:-translate-y-0.5 shadow-sm" data-path="request-a-quote" href="#">
+ <a className="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md uppercase tracking-wider font-bold transition-all transform hover:-translate-y-0.5 shadow-sm" data-path="request-a-quote" href="#">
  <span>Request a Quote</span><ArrowRight className="text-[16px]" />
  </a>
  <div className="pl-space-xs border-l border-surface-container-highest flex items-center">

@@ -26,7 +26,7 @@ export default function BrandStatement() {
     </div>
     {/* Machine Framing */}
     <div className="lg:col-span-5 relative">
-    <div className="w-full aspect-square bg-surface-container rounded-2xl overflow-hidden shadow-md relative">
+    <div className="w-full aspect-square bg-surface-container rounded-2xl overflow-hidden shadow-md relative tilt-3d">
     <img alt="EIRA Green Industrial Forklift 3.0 Ton parked inside modern assembly floor, showing rugged mast details and high visibility paint" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEsIpX-WZjm9GVg0l_ZMhMEJIiFqgbxl7sfwpPuwcYEmTUufW-GV62bxg060X_OPed0Bl1-TCc4N58BHsxK0MIaGh05X9ByQMKa7Y-K8fZDa8-y2yjOfWffZLVPhtYPsIo_Z95aFGjVsDTlJZa5ee1lTNdFmrw9WLd4qK8ZMrZ5NA7AmRVjZe8yYLUQxg7U840-obcnI1JNWAApQBwHxH39WR-dy95J_8e5uSPEOYGODmz3-l8dtgEy1sf8DXfDWMn51A"/>
     <div className="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div>
     <div className="absolute bottom-6 left-6 right-6 text-surface-container-lowest">

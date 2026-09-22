@@ -27,7 +27,7 @@ export default function HeroSection() {
  Reliable diesel, electric, and LPG forklifts for warehouses, factories, and industrial operations across Pakistan — engineered for demanding material handling without unnecessary brand premiums.
  </p>
  <div className="flex flex-wrap items-center gap-space-sm mb-space-lg w-full sm:w-auto">
- <a className="inline-flex items-center justify-center gap-space-xs px-6 py-3.5 rounded-xl bg-primary-container hover:bg-primary-fixed text-on-primary-container text-headline-sm font-bold shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5" href="#forklifts-catalog">
+ <a className="inline-flex items-center justify-center gap-space-xs px-6 py-3.5 rounded-xl bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-headline-sm font-bold shadow-md hover:shadow-lg transition-all transform hover:-translate-y-0.5" href="#forklifts-catalog">
  <span>Explore Forklifts</span>
  <ArrowRight className="text-[20px]" />
  </a>
@@ -35,7 +35,7 @@ export default function HeroSection() {
  <span>Get Best Price</span>
  <Receipt className="text-[18px]" />
  </a>
- <a className="inline-flex items-center justify-center gap-space-xs px-5 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white text-label-md transition-all shadow-sm" href="https://wa.me/923003472750" rel="noopener noreferrer" target="_blank">
+ <a className="inline-flex items-center justify-center gap-space-xs px-5 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-label-md transition-all shadow-sm" href="https://wa.me/923003472750" rel="noopener noreferrer" target="_blank">
  <MessageCircle className="text-[18px]" />
  <span>Chat on WhatsApp (+92 300 EIRA-PK)</span>
  </a>
@@ -66,7 +66,7 @@ export default function HeroSection() {
  </div>
  <div className="lg:col-span-6 relative mt-space-md lg:mt-0">
  <div className="relative mx-auto max-w-[560px] lg:max-w-none">
- <div className="relative bg-surface-container rounded-xl p-3 shadow-xl overflow-hidden group">
+ <div className="relative bg-surface-container rounded-xl p-3 shadow-xl overflow-hidden group tilt-3d">
  <div className="absolute top-4 left-4 z-20 flex items-center gap-2 bg-on-surface/90 backdrop-blur px-3 py-1.5 rounded-lg text-surface-container-lowest">
  <img alt="EIRA Industrial Machinery" className="h-4 w-auto invert" src="/images/eira-industrial-machinery.jpg" />
  <span className="text-secondary-container text-[10px] tracking-widest uppercase">SERIES-30D SPEC</span>

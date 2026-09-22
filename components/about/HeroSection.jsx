@@ -38,7 +38,7 @@ export default function HeroSection() {
     </div>
     {/* Buttons */}
     <div className="flex flex-wrap items-center gap-space-sm pt-space-xs">
-    <a className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-primary-container hover:bg-primary-fixed text-on-primary-container font-headline-sm text-body-md font-bold transition-transform hover:-translate-y-0.5 shadow-sm" data-path="forklifts-catalog" href="#">
+    <a className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container font-headline-sm text-body-md font-bold transition-transform hover:-translate-y-0.5 shadow-sm" data-path="forklifts-catalog" href="#">
     <span>Explore Our Forklifts</span>
     <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
     </a>
@@ -50,7 +50,7 @@ export default function HeroSection() {
     </div>
     {/* Right: Real Machine Photographic Stage */}
     <div className="lg:col-span-6 relative flex justify-center items-center">
-    <div className="relative w-full aspect-[4/3] lg:aspect-[5/4] bg-surface-container-high rounded-xl overflow-hidden shadow-md">
+    <div className="relative w-full aspect-[4/3] lg:aspect-[5/4] bg-surface-container-high rounded-xl overflow-hidden shadow-md tilt-3d">
     <img alt="EIRA 3.0 Ton Diesel Forklift side profile showing reinforced heavy duty steel chassis, all-terrain industrial tyres, and safety overhead cabin" className="w-full h-full object-cover object-center" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCh8nv4USQW_KbDJ1bHe7aJrCBSjbyfkYQXMsMGpU9D5lU_QSheLqhu5dxYQcx_D_umPnD5rpguDBdAwy1c2M9AL7EJE6g1hL44Em_GwYfof6h-I239UOKnhOcjNf48wjJUnIRRTrvG73ThHmyMllOYutlMTTDBF9TnsG_SA7JC3eurcEiCciuXROKW-1C93TE45GB2XR5zY0AUKUx906P3qmv2mlVOfaf2pnP_LKnrfQLIdKgQxkm7LPB8KzIwhhptGkU"/>
     {/* Technical Overlay Badges */}
     <div className="absolute top-4 left-4 flex flex-col gap-2">

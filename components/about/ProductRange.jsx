@@ -16,7 +16,7 @@ export default function ProductRange() {
     </div>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
     {/* Machine 1: Diesel */}
-    <div className="bg-surface-container p-space-md rounded-xl flex flex-col justify-between shadow-sm">
+    <div className="bg-surface-container p-space-md rounded-xl flex flex-col justify-between card-3d tilt-3d">
     <div className="space-y-space-sm">
     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container-high">
     <img alt="EIRA Diesel Heavy Forklift 3.0 Ton high angle view showing rugged mast system and heavy counterweight in an industrial warehouse setting" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2YoPQJjnKdMcWPInb9rhwIQuYaN-qQiJYwx-jxiEvLsN3dxEWI9kCQI73YFCd24oy3QHfgFwLaWh80TioG8jfhiHA5gkiBxTTReLIDkJ9lIgXIDGYU9sTYYBAzx8wrgTTKQBjNI5I9pMy2FZEP6FFrN24w9v3ZqzKXi0H8vIVVFwooiTWcJPWM4ZxaF5xY3mcfNrVAXDf-VJJ8rHDJ9En2pmphT54RioriB6pdRvwEdKNDIcb8AiN84pJM6JrTiJs-yI"/>
@@ -38,7 +38,7 @@ export default function ProductRange() {
     </div>
     </div>
     {/* Machine 2: Electric Li-Ion */}
-    <div className="bg-surface-container p-space-md rounded-xl flex flex-col justify-between shadow-sm">
+    <div className="bg-surface-container p-space-md rounded-xl flex flex-col justify-between card-3d tilt-3d">
     <div className="space-y-space-sm">
     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container-high">
     <img className="w-full h-full object-cover" data-alt="Modern high performance industrial electric forklift with lime green chassis and black mast operating in a clean modern pharmaceutical and FMCG distribution warehouse, bright daylight, high precision steel engineering, crisp photo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuABXPv84xa5Qo1ZJ9tVCFg99iY7TE9pFbWA12dV-_8JUXLqJ3jkIq4d9FxktHlLnRfAIH-MLP-H7b8YIlBNxzuhEeHxxpAjXtAvqqUKumXqaSELHRoe-Zk1UeBFS-ptFexvmzxkTAaEHybHQHSa3pYYqoDFjfIDIX-lnDue2EuwNPwWZAQSW4IBpzPPGR1QCc17ZS84dDKcCvAQKjV3zNn9Qwcb3eak-a-7fBATIK6ZLcTTqk2zrZ5pEw"/>
@@ -60,7 +60,7 @@ export default function ProductRange() {
     </div>
     </div>
     {/* Machine 3: LPG Dual Fuel */}
-    <div className="bg-surface-container p-space-md rounded-xl flex flex-col justify-between shadow-sm">
+    <div className="bg-surface-container p-space-md rounded-xl flex flex-col justify-between card-3d tilt-3d">
     <div className="space-y-space-sm">
     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container-high">
     <img className="w-full h-full object-cover" data-alt="Heavy duty LPG dual-fuel industrial forklift operating seamlessly between an outdoor dispatch yard and an indoor manufacturing facility, clean green and slate colorway, high clarity industrial photograph" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYu899ryaSVbb_qTlcAK4rqh2dJ1BZXZxqmvKJaqrmRhMiMEWHhsep_tg1RbMMvfn6E3ejcZVAUS7UGkU43ff3jatZQcOlBBVD23pnbTq35tu_Y15GDeCRzIzt153fCCrekKPWalAaU3YVSjI-R0TjHsIy5RChzXp4nnWY2EIElAoQ6CB_XWAg_JAFmXtcULvHWMdo95P18qq1Pl-5KI-B2nGs3yUuv8yHBWmaX_LrcT446o3y7j0Pog"/>

@@ -15,7 +15,7 @@ export default function ServicePillars() {
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
     {/* Pillar 01 */}
-    <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+    <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d flex flex-col justify-between">
     <div className="space-y-space-sm">
     <span className="font-spec-numeral text-headline-md font-extrabold text-primary block">01</span>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Product Consultation</h3>
@@ -29,7 +29,7 @@ export default function ServicePillars() {
     </div>
     </div>
     {/* Pillar 02 */}
-    <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+    <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d flex flex-col justify-between">
     <div className="space-y-space-sm">
     <span className="font-spec-numeral text-headline-md font-extrabold text-primary block">02</span>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Forklift Supply</h3>
@@ -43,7 +43,7 @@ export default function ServicePillars() {
     </div>
     </div>
     {/* Pillar 03 */}
-    <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+    <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d flex flex-col justify-between">
     <div className="space-y-space-sm">
     <span className="font-spec-numeral text-headline-md font-extrabold text-primary block">03</span>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Maintenance SLAs</h3>
@@ -57,7 +57,7 @@ export default function ServicePillars() {
     </div>
     </div>
     {/* Pillar 04 */}
-    <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+    <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d flex flex-col justify-between">
     <div className="space-y-space-sm">
     <span className="font-spec-numeral text-headline-md font-extrabold text-primary block">04</span>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">After-Sales Assistance</h3>

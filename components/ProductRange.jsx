@@ -32,7 +32,7 @@ export default function ProductRange() {
  </div>
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
  {/* Card 1 */}
- <div className="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+ <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
  <img alt="EIRA 3 Ton Diesel Forklift" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/eira-3-ton-diesel-forklift.jpg" />
@@ -68,7 +68,7 @@ export default function ProductRange() {
  </div>
  </div>
  <div className="p-space-md pt-0 grid grid-cols-2 gap-2">
- <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
  <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#spotlight-section">
@@ -77,7 +77,7 @@ export default function ProductRange() {
  </div>
  </div>
  {/* Card 2 */}
- <div className="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+ <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
  <img alt="EIRA 3.5 Ton Heavy Diesel Forklift" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/eira-3-5-ton-heavy-diesel-forklift.jpg" />
@@ -113,7 +113,7 @@ export default function ProductRange() {
  </div>
  </div>
  <div className="p-space-md pt-0 grid grid-cols-2 gap-2">
- <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
  <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#quote-module">
@@ -122,7 +122,7 @@ export default function ProductRange() {
  </div>
  </div>
  {/* Card 3 */}
- <div className="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+ <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
  <img alt="Heavy 4 Ton industrial diesel forklift operating in a Pakistani cargo yard" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/heavy-4-ton-industrial-diesel-forklift-operating-i.jpg" />
@@ -155,7 +155,7 @@ export default function ProductRange() {
  </div>
  </div>
  <div className="p-space-md pt-0 grid grid-cols-2 gap-2">
- <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
  <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#quote-module">
@@ -164,7 +164,7 @@ export default function ProductRange() {
  </div>
  </div>
  {/* Card 4 */}
- <div className="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+ <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
  <img alt="5 Ton heavy duty industrial forklift handling timber and steel pipes" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/5-ton-heavy-duty-industrial-forklift-handling-timb.jpg" />
@@ -197,7 +197,7 @@ export default function ProductRange() {
  </div>
  </div>
  <div className="p-space-md pt-0 grid grid-cols-2 gap-2">
- <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
  <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#quote-module">
@@ -206,7 +206,7 @@ export default function ProductRange() {
  </div>
  </div>
  {/* Card 5 */}
- <div className="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+ <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
  <img alt="Massive 10 Ton container handling forklift in Port Qasim Karachi" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/massive-10-ton-container-handling-forklift-in-port.jpg" />
@@ -239,7 +239,7 @@ export default function ProductRange() {
  </div>
  </div>
  <div className="p-space-md pt-0 grid grid-cols-2 gap-2">
- <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
  <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#quote-module">
@@ -248,7 +248,7 @@ export default function ProductRange() {
  </div>
  </div>
  {/* Card 6 */}
- <div className="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between">
+ <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
  <img alt="Modern clean LPG powered forklift with cylinder mounted on rear" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/modern-clean-lpg-powered-forklift-with-cylinder-mo.jpg" />
@@ -281,7 +281,7 @@ export default function ProductRange() {
  </div>
  </div>
  <div className="p-space-md pt-0 grid grid-cols-2 gap-2">
- <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
  <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#quote-module">
@@ -290,7 +290,7 @@ export default function ProductRange() {
  </div>
  </div>
  {/* Card 7 */}
- <div className="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col justify-between lg:col-span-3">
+ <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between lg:col-span-3">
  <div className="grid grid-cols-1 lg:grid-cols-12 items-center">
  <div className="lg:col-span-5 h-64 bg-surface-container-high overflow-hidden">
  <img alt="Modern electric lithium-ion forklift operating silently inside a high-rack FMCG warehouse in Karachi" className="w-full h-full object-cover object-center" src="/images/modern-electric-lithium-ion-forklift-operating-sil.jpg" />
@@ -323,10 +323,10 @@ export default function ProductRange() {
  </div>
  </div>
  <div className="flex flex-wrap items-center gap-space-sm">
- <a className="py-2.5 px-5 bg-primary-container hover:bg-primary-fixed text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="py-2.5 px-5 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Electric Quote
  </a>
- <a className="py-2.5 px-4 bg-[#25D366] hover:bg-[#20ba59] text-white text-label-md font-bold text-center rounded-lg transition-colors flex items-center gap-1.5" href="https://wa.me/923003472750?text=Please%20share%20Electric%20Forklift%20pricing" target="_blank">
+ <a className="py-2.5 px-4 bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-label-md font-bold text-center rounded-lg transition-colors flex items-center gap-1.5" href="https://wa.me/923003472750?text=Please%20share%20Electric%20Forklift%20pricing" target="_blank">
  <MessageCircle className="text-[16px]" />
  <span>WhatsApp Electric Specs</span>
  </a>

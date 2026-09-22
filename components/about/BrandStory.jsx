@@ -17,7 +17,7 @@ export default function BrandStory() {
     <p className="font-body-md text-body-md text-secondary leading-relaxed">
                 EIRA was founded on a simple mechanical principle: industrial buyers need reliable payload, robust hydraulic cylinders, straightforward diesel or battery powertrains, and transparent domestic pricing backed by local Pakistani field technicians.
               </p>
-    <div className="p-space-md bg-surface-container-lowest rounded-lg shadow-sm">
+    <div className="p-space-md bg-surface-container-lowest rounded-lg card-3d tilt-3d">
     <h4 className="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Our Equipment Selection Matrix</h4>
     <p className="font-body-md text-body-md text-secondary mb-space-sm">We strip away speculation and build exact proposals based on four baseline operational realities:</p>
     <div className="grid grid-cols-2 gap-2">
@@ -42,7 +42,7 @@ export default function BrandStory() {
     </div>
     {/* Right graphic tonnage layout */}
     <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-space-md">
-    <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+    <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d flex flex-col justify-between">
     <div>
     <div className="flex items-baseline justify-between mb-space-sm">
     <span className="font-tonnage-stat text-[52px] leading-none font-extrabold text-on-surface tracking-tighter">03<span className="text-primary text-headline-md">TON</span></span>
@@ -56,7 +56,7 @@ export default function BrandStory() {
     <span className="font-spec-numeral text-spec-numeral text-on-surface">Triplex 4.5m Free-Lift Mast • Side Shifter</span>
     </div>
     </div>
-    <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+    <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d flex flex-col justify-between">
     <div>
     <div className="flex items-baseline justify-between mb-space-sm">
     <span className="font-tonnage-stat text-[52px] leading-none font-extrabold text-on-surface tracking-tighter">05<span className="text-primary text-headline-md">TON</span></span>
@@ -71,7 +71,7 @@ export default function BrandStory() {
     </div>
     </div>
     {/* Wide highlight bar */}
-    <div className="sm:col-span-2 bg-on-surface text-surface-container-lowest p-space-lg rounded-xl shadow-md">
+    <div className="sm:col-span-2 bg-on-surface text-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d">
     <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-sm">
     <div className="space-y-1">
     <div className="flex items-center gap-2">

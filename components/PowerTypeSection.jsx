@@ -18,7 +18,7 @@ export default function PowerTypeSection() {
  </div>
  <div className="grid grid-cols-1 md:grid-cols-3 gap-space-md">
  {/* Panel 1 */}
- <div className="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+ <div className="bg-surface-container-lowest rounded-xl p-space-lg card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="w-12 h-12 rounded-xl bg-on-surface text-primary-container flex items-center justify-center mb-space-md">
  <Fuel className="text-[26px]" />
@@ -48,7 +48,7 @@ export default function PowerTypeSection() {
  </a>
  </div>
  {/* Panel 2 */}
- <div className="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+ <div className="bg-surface-container-lowest rounded-xl p-space-lg card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="w-12 h-12 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center mb-space-md">
  <Zap className="text-[26px]" />
@@ -78,7 +78,7 @@ export default function PowerTypeSection() {
  </a>
  </div>
  {/* Panel 3 */}
- <div className="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col justify-between">
+ <div className="bg-surface-container-lowest rounded-xl p-space-lg card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="w-12 h-12 rounded-xl bg-surface-container-highest text-on-surface flex items-center justify-center mb-space-md">
  <Flame className="text-[26px]" />

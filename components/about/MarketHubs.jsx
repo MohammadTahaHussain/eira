@@ -13,7 +13,7 @@ export default function MarketHubs() {
     </div>
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-md items-stretch">
     {/* Left Hub: Shanghai */}
-    <div className="lg:col-span-5 bg-surface-container-lowest p-space-lg lg:p-8 rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden">
+    <div className="lg:col-span-5 bg-surface-container-lowest p-space-lg lg:p-8 rounded-xl card-3d tilt-3d flex flex-col justify-between relative overflow-hidden">
     <div className="space-y-space-md">
     <div className="flex items-center justify-between">
     <div className="flex items-center gap-2">
@@ -76,7 +76,7 @@ export default function MarketHubs() {
     </div>
     </div>
     {/* Right Hub: Karachi */}
-    <div className="lg:col-span-5 bg-surface-container-lowest p-space-lg lg:p-8 rounded-xl shadow-sm flex flex-col justify-between relative overflow-hidden">
+    <div className="lg:col-span-5 bg-surface-container-lowest p-space-lg lg:p-8 rounded-xl card-3d tilt-3d flex flex-col justify-between relative overflow-hidden">
     <div className="space-y-space-md">
     <div className="flex items-center justify-between">
     <div className="flex items-center gap-2">

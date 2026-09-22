@@ -17,7 +17,7 @@ export default function WhyEiraSection() {
  </p>
  </div>
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
- <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d">
  <div className="w-10 h-10 rounded-lg bg-primary-container/20 text-primary-container flex items-center justify-center mb-space-md">
  <Banknote className="text-[22px]" />
  </div>
@@ -26,7 +26,7 @@ export default function WhyEiraSection() {
  By operating direct supply lines between production engineering and local Pakistan distribution, we strip away redundant intermediaries and brand markups.
  </p>
  </div>
- <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d">
  <div className="w-10 h-10 rounded-lg bg-primary-container/20 text-primary-container flex items-center justify-center mb-space-md">
  <Wrench className="text-[22px]" />
  </div>
@@ -35,7 +35,7 @@ export default function WhyEiraSection() {
  Rigid high-tensile steel masts, reinforced chassis frames, and heavy-duty hydraulic valves proven in extreme heat and dusty industrial environments.
  </p>
  </div>
- <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d">
  <div className="w-10 h-10 rounded-lg bg-primary-container/20 text-primary-container flex items-center justify-center mb-space-md">
  <LayoutGrid className="text-[22px]" />
  </div>
@@ -44,7 +44,7 @@ export default function WhyEiraSection() {
  From agile 3-ton warehouse units up to massive 10-ton dry port container handlers, plus electric AC and dual-fuel LPG variations tailored to your facility.
  </p>
  </div>
- <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d">
  <div className="w-10 h-10 rounded-lg bg-primary-container/20 text-primary-container flex items-center justify-center mb-space-md">
  <Settings className="text-[22px]" />
  </div>
@@ -53,7 +53,7 @@ export default function WhyEiraSection() {
  Dedicated service mechanics in Karachi, scheduled preventative maintenance SLAs, and ready stock of critical wear-and-tear spares across Pakistan.
  </p>
  </div>
- <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d">
  <div className="w-10 h-10 rounded-lg bg-primary-container/20 text-primary-container flex items-center justify-center mb-space-md">
  <Network className="text-[22px]" />
  </div>
@@ -62,7 +62,7 @@ export default function WhyEiraSection() {
  Directly connected with advanced Shanghai heavy equipment manufacturing clusters, ensuring world-class CE/ISO quality controls on every single unit.
  </p>
  </div>
- <div className="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d">
  <div className="w-10 h-10 rounded-lg bg-primary-container/20 text-primary-container flex items-center justify-center mb-space-md">
  <Gauge className="text-[22px]" />
  </div>

@@ -14,7 +14,7 @@ export default function Industries() {
             </p>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
-    <div className="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm">
+    <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
     <span className="material-symbols-outlined text-[22px]">directions_boat</span>
@@ -28,7 +28,7 @@ export default function Industries() {
                 Continuous container destuffing, pallet transfers, and heavy cargo offloading around Karachi Port Trust and Port Qasim logistics clusters.
               </p>
     </div>
-    <div className="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm">
+    <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
     <span className="material-symbols-outlined text-[22px]">precision_manufacturing</span>
@@ -42,7 +42,7 @@ export default function Industries() {
                 Heavy engineering, automotive parts distribution, and industrial assembly facilities requiring continuous heavy forklift cycles.
               </p>
     </div>
-    <div className="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm">
+    <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
     <span className="material-symbols-outlined text-[22px]">checkroom</span>
@@ -56,7 +56,7 @@ export default function Industries() {
                 Handling heavy cotton bales, yarn pallets, and finished textile containers with specialized bale clamps and clean electric indoor trucks.
               </p>
     </div>
-    <div className="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm">
+    <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
     <span className="material-symbols-outlined text-[22px]">ac_unit</span>
@@ -70,7 +70,7 @@ export default function Industries() {
                 Low-temperature Li-ion electric units operating with zero emission output inside food packaging, cold stores, and central grocery distribution.
               </p>
     </div>
-    <div className="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm">
+    <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
     <span className="material-symbols-outlined text-[22px]">foundation</span>
@@ -84,7 +84,7 @@ export default function Industries() {
                 High-tonnage 5.0T and 10.0T diesel workhorses operating reliably in abrasive, high-dust yards across Hattar, Hub, and Chakwal.
               </p>
     </div>
-    <div className="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm">
+    <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
     <span className="material-symbols-outlined text-[22px]">domain</span>

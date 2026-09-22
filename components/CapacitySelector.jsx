@@ -110,7 +110,7 @@ export default function CapacitySelector() {
  </button>
  ))}
  </div>
- <div className="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm" id="capacity-preview-box">
+ <div className="bg-surface-container-lowest rounded-xl p-space-lg card-3d tilt-3d" id="capacity-preview-box">
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
  <div className="lg:col-span-4 flex flex-col justify-center">
  <span className="inline-flex items-center gap-1.5 text-primary text-label-md font-bold uppercase tracking-wider mb-2">
@@ -124,7 +124,7 @@ export default function CapacitySelector() {
  {activeData.desc}
  </p>
  <div className="flex items-center gap-space-sm">
- <a className="inline-flex items-center gap-space-xs px-5 py-2.5 bg-primary-container hover:bg-primary-fixed text-on-primary-container text-label-md font-bold rounded-lg transition-colors" href="#quote-module">
+ <a className="inline-flex items-center gap-space-xs px-5 py-2.5 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold rounded-lg transition-colors" href="#quote-module">
  <span>Request Quotation</span>
  <ArrowRight className="text-[16px]" />
  </a>

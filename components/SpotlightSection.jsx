@@ -38,7 +38,7 @@ export default function SpotlightSection() {
  </div>
  </div>
  <div className="lg:col-span-6 relative order-1 lg:order-2 flex flex-col items-center">
- <div className="relative w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl bg-inverse-surface/40 p-2">
+ <div className="relative w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl bg-inverse-surface/40 p-2 tilt-3d">
  <img alt="EIRA 3 Ton Detailed Industrial Mast and Cabin View" className="w-full h-auto object-cover rounded-xl" src="/images/eira-3-ton-detailed-industrial-mast-and-cabin-view.jpg" />
  <div className="absolute top-8 left-8 bg-on-surface/90 backdrop-blur px-3 py-1.5 rounded-lg flex items-center gap-2">
  <span className="w-2.5 h-2.5 rounded-full bg-primary-container animate-pulse"></span>
@@ -73,11 +73,11 @@ export default function SpotlightSection() {
  </div>
  </div>
  <div className="mt-space-xl pt-space-lg flex flex-wrap items-center justify-center gap-space-md bg-inverse-surface/60 rounded-xl p-space-md">
- <a className="px-6 py-3 bg-primary-container hover:bg-primary-fixed text-on-primary-container text-headline-sm font-bold rounded-lg transition-colors flex items-center gap-2" href="#quote-module">
+ <a className="px-6 py-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-headline-sm font-bold rounded-lg transition-colors flex items-center gap-2" href="#quote-module">
  <span>Request 3 Ton Price</span>
  <FileText className="text-[18px]" />
  </a>
- <a className="px-6 py-3 bg-[#25D366] hover:bg-[#20ba59] text-white text-headline-sm font-bold rounded-lg transition-colors flex items-center gap-2" href="https://wa.me/923003472750?text=Please%20send%203%20Ton%20EIRA%20Spec%20Sheet%20PDF" target="_blank">
+ <a className="px-6 py-3 bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-headline-sm font-bold rounded-lg transition-colors flex items-center gap-2" href="https://wa.me/923003472750?text=Please%20send%203%20Ton%20EIRA%20Spec%20Sheet%20PDF" target="_blank">
  <MessageCircle className="text-[18px]" />
  <span>WhatsApp Consultation</span>
  </a>

@@ -16,28 +16,28 @@ export default function SupportSection() {
  </p>
  </div>
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
- <div className="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d">
  <span className="text-[28px] text-primary-container font-extrabold block mb-2">01</span>
  <h3 className="text-headline-sm font-bold text-on-surface mb-1">Product Consultation</h3>
  <p className="text-body-md text-secondary">
  Accurate tonnage matching, mast collapse height verification, and turning aisle calculations prior to purchase.
  </p>
  </div>
- <div className="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d">
  <span className="text-[28px] text-primary-container font-extrabold block mb-2">02</span>
  <h3 className="text-headline-sm font-bold text-on-surface mb-1">Forklift Maintenance</h3>
  <p className="text-body-md text-secondary">
  Structured 250-hour and 500-hour preventative inspection contracts to maintain operational uptime and resale value.
  </p>
  </div>
- <div className="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d">
  <span className="text-[28px] text-primary-container font-extrabold block mb-2">03</span>
  <h3 className="text-headline-sm font-bold text-on-surface mb-1">After-Sales Support</h3>
  <p className="text-body-md text-secondary">
  Karachi-based support desk with mobile field mechanics ready to travel for diagnostics, repairs, and mast servicing.
  </p>
  </div>
- <div className="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d">
  <span className="text-[28px] text-primary-container font-extrabold block mb-2">04</span>
  <h3 className="text-headline-sm font-bold text-on-surface mb-1">Parts &amp; Assistance</h3>
  <p className="text-body-md text-secondary">

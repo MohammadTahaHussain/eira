@@ -36,7 +36,7 @@ export default function AboutSection() {
  </div>
  </div>
  <div className="lg:col-span-5">
- <div className="bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+ <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d">
  <div className="rounded-lg overflow-hidden mb-space-sm bg-surface-container-highest">
  <img alt="EIRA Forklift Assembly and Verification" className="w-full h-52 object-cover" src="/images/eira-forklift-assembly-and-verification.jpg" />
  </div>

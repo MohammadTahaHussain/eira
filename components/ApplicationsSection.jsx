@@ -18,7 +18,7 @@ export default function ApplicationsSection() {
  </div>
  </div>
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
- <div className="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+ <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
  <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">warehouse</span>
  <h3 className="text-headline-sm font-bold text-on-surface">Warehouses &amp; Logistics Hubs</h3>
@@ -28,7 +28,7 @@ export default function ApplicationsSection() {
  </p>
  <span className="text-label-sm font-bold text-primary">Key Match: 3.0T Diesel &amp; 2.5T Electric</span>
  </div>
- <div className="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+ <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
  <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">texture</span>
  <h3 className="text-headline-sm font-bold text-on-surface">Textile &amp; Garment Mills</h3>
@@ -38,7 +38,7 @@ export default function ApplicationsSection() {
  </p>
  <span className="text-label-sm font-bold text-primary">Key Match: 3.0T – 3.5T Diesel &amp; LPG</span>
  </div>
- <div className="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+ <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
  <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">factory</span>
  <h3 className="text-headline-sm font-bold text-on-surface">Manufacturing &amp; Assembly</h3>
@@ -48,7 +48,7 @@ export default function ApplicationsSection() {
  </p>
  <span className="text-label-sm font-bold text-primary">Key Match: 3.5T – 5.0T Heavy Diesel</span>
  </div>
- <div className="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+ <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
  <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">restaurant</span>
  <h3 className="text-headline-sm font-bold text-on-surface">Food &amp; Beverage Distribution</h3>
@@ -58,7 +58,7 @@ export default function ApplicationsSection() {
  </p>
  <span className="text-label-sm font-bold text-primary">Key Match: 1.5T – 3.5T Li-Ion Electric</span>
  </div>
- <div className="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+ <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
  <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">foundation</span>
  <h3 className="text-headline-sm font-bold text-on-surface">Cement &amp; Construction Depots</h3>
@@ -68,7 +68,7 @@ export default function ApplicationsSection() {
  </p>
  <span className="text-label-sm font-bold text-primary">Key Match: 4.0T – 5.0T High-Torque Diesel</span>
  </div>
- <div className="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+ <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
  <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">science</span>
  <h3 className="text-headline-sm font-bold text-on-surface">Chemical &amp; Bulk Storage</h3>

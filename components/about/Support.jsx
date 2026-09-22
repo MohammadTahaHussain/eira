@@ -12,7 +12,7 @@ export default function Support() {
             </p>
     </div>
     {/* Linear Process Bar */}
-    <div className="grid grid-cols-1 md:grid-cols-5 gap-space-xs bg-surface-container-lowest p-space-md rounded-xl shadow-sm">
+    <div className="grid grid-cols-1 md:grid-cols-5 gap-space-xs bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d">
     <div className="p-space-sm bg-surface-container rounded-lg flex flex-col justify-between">
     <span className="font-label-sm text-label-sm font-bold text-primary">STEP 01</span>
     <div>
@@ -51,21 +51,21 @@ export default function Support() {
     </div>
     {/* Metric Highlights */}
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-space-md mt-space-md">
-    <div className="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex items-center gap-space-md">
+    <div className="p-space-md bg-surface-container-lowest rounded-xl card-3d tilt-3d flex items-center gap-space-md">
     <span className="material-symbols-outlined text-primary text-[32px]">schedule</span>
     <div>
     <span className="font-headline-md text-headline-md font-extrabold text-on-surface block">24–48 Hr</span>
     <span className="font-body-md text-body-md text-secondary">Major Hub Service SLA Dispatch</span>
     </div>
     </div>
-    <div className="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex items-center gap-space-md">
+    <div className="p-space-md bg-surface-container-lowest rounded-xl card-3d tilt-3d flex items-center gap-space-md">
     <span className="material-symbols-outlined text-primary text-[32px]">inventory_2</span>
     <div>
     <span className="font-headline-md text-headline-md font-extrabold text-on-surface block">98% In-Stock</span>
     <span className="font-body-md text-body-md text-secondary">Common Filter &amp; Hydraulic Seals</span>
     </div>
     </div>
-    <div className="p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex items-center gap-space-md">
+    <div className="p-space-md bg-surface-container-lowest rounded-xl card-3d tilt-3d flex items-center gap-space-md">
     <span className="material-symbols-outlined text-primary text-[32px]">verified_user</span>
     <div>
     <span className="font-headline-md text-headline-md font-extrabold text-on-surface block">12 Months / 2000 Hr</span>
