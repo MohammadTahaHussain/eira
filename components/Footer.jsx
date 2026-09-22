@@ -23,13 +23,13 @@ export default function Footer() {
  <div>
  <h4 className="text-headline-sm text-surface-container-lowest mb-space-md font-bold">Forklifts by Capacity</h4>
  <ul className="space-y-space-xs text-body-md text-tertiary-fixed-dim">
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpcd30">3.0 Ton Diesel Series</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpc35">3.5 Ton Heavy Diesel</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpc40">4.0 Ton Logistics Spec</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpc50">5.0 Ton Yard Heavy</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpcd100t">10.0 Ton Port Terminal Unit</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpg35">3.5 Ton Clean LPG Dual-Fuel</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#electric">1.0 - 5.0 Ton Li-Ion Electric</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/3-ton-diesel-forklift-cpcd30">3.0 Ton Diesel Series</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/3-5-ton-diesel-forklift-cpc35">3.5 Ton Heavy Diesel</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/4-ton-diesel-forklift-cpc40">4.0 Ton Logistics Spec</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/5-ton-diesel-forklift-cpc50">5.0 Ton Yard Heavy</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/10-ton-diesel-forklift-cpcd100t">10.0 Ton Port Terminal Unit</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/3-5-ton-lpg-forklift-cpg35">3.5 Ton Clean LPG Dual-Fuel</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/electric-forklifts-cpd10-cpd50">1.0 - 5.0 Ton Li-Ion Electric</a></li>
  </ul>
  </div>
  <div>

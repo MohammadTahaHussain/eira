@@ -71,7 +71,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpcd30">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/products/3-ton-diesel-forklift-cpcd30">
  Full Specs
  </a>
  </div>
@@ -116,7 +116,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpc35">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/products/3-5-ton-diesel-forklift-cpc35">
  View Specs
  </a>
  </div>
@@ -158,7 +158,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpc40">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/products/4-ton-diesel-forklift-cpc40">
  View Specs
  </a>
  </div>
@@ -200,7 +200,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpc50">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/products/5-ton-diesel-forklift-cpc50">
  View Specs
  </a>
  </div>
@@ -242,7 +242,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpcd100t">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/products/10-ton-diesel-forklift-cpcd100t">
  View Specs
  </a>
  </div>
@@ -284,7 +284,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpg35">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/products/3-5-ton-lpg-forklift-cpg35">
  View Specs
  </a>
  </div>
