@@ -57,6 +57,24 @@
   --spacing-space-sm: 0.5rem;
   --spacing-space-md: 1rem;
 
+  --font-label-md: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-headline-lg: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-headline-md: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-body-md: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-body-lg: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display-hero: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-display-hero-mobile: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-label-sm: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-headline-lg-mobile: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-spec-numeral: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-tonnage-stat: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-headline-sm: "Manrope", ui-sans-serif, system-ui, sans-serif;
+
+  --radius: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+
 
   --text-label-md: 12px;
   --text-label-md--line-height: 16px;
