@@ -1,11 +1,17 @@
+import { Poppins } from "next/font/google";
 import "./globals.css";
-import Header from "../components/homepage/Header";
-import Footer from "../components/homepage/Footer";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  variable: "--font-poppins",
+});
 
 export const metadata = {
   title: "EIRA Forklifts Pakistan | Heavy-Duty Material Handling Solutions",
-  description:
-    "Heavy-duty diesel, electric Li-ion, and LPG industrial forklifts across Pakistan. Sourced from Shanghai, supported from Karachi.",
+  description: "Reliable Forklifts for Sale in Pakistan",
 };
 
 export default function RootLayout({ children }) {
@@ -24,7 +30,7 @@ export default function RootLayout({ children }) {
           rel="stylesheet"
         />
       </head>
-      <body className="bg-surface font-body-md text-on-surface antialiased">
+      <body className={`bg-surface text-on-surface antialiased ${poppins.className}`}>
         <Header />
         {children}
         <Footer />
