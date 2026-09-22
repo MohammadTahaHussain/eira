@@ -128,7 +128,7 @@ export default function CapacitySelector() {
  <span>Request Quotation</span>
  <ArrowRight className="text-[16px]" />
  </a>
- <a className="inline-flex items-center gap-space-xs px-4 py-2.5 bg-[#25D366]/10 hover:bg-[#25D366]/20 text-[#128C7E] text-label-md font-bold rounded-lg transition-colors" href={`https://wa.me/923003472750?text=I%20am%20interested%20in%20${activeData.title}`} target="_blank">
+ <a className="inline-flex items-center gap-space-xs px-4 py-2.5 bg-[#25D366]/10 hover:bg-[#25D366]/20 text-[#128C7E] text-label-md font-bold rounded-lg transition-colors" href={`https://wa.me/923000214188?text=I%20am%20interested%20in%20${activeData.title}`} target="_blank">
  <MessageCircle className="text-[18px]" />
  <span>WhatsApp Specs</span>
  </a>

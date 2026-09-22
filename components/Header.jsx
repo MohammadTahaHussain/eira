@@ -10,10 +10,10 @@ export default function Header() {
  </div>
  <div className="hidden lg:flex items-center gap-space-md text-surface-variant">
  <span className="flex items-center gap-space-xs hover:text-surface-container-lowest transition-colors">
- <Phone className="text-[13px]" />Karachi: +92 21 3456 7890
+ <Phone className="text-[13px]" />Karachi: +92 300 0214188
  </span>
  <span className="text-tertiary">|</span>
- <a className="flex items-center gap-space-xs text-primary-fixed hover:text-surface-container-lowest transition-colors" data-path="contact" href="#">
+ <a className="flex items-center gap-space-xs text-primary-fixed hover:text-surface-container-lowest transition-colors" href="https://wa.me/923000214188" target="_blank" rel="noopener noreferrer">
  <MessageCircle className="text-[13px]" />WhatsApp Sales
  </a>
  <span className="text-tertiary">|</span>
@@ -38,6 +38,7 @@ export default function Header() {
  <nav className="hidden xl:flex items-center gap-1" data-active-classes="text-primary font-semibold bg-surface-container-high/50">
  <a aria-current="page" className="px-3 py-2 rounded transition-colors text-primary font-semibold bg-surface-container-high/50" data-path="home" href="#">Home</a>
  <a className="px-3 py-2 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors text-body-md flex items-center gap-1" data-path="forklifts-catalog" href="#">Forklifts</a>
+ <a className="px-3 py-2 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors text-body-md" href="/specifications">Specifications</a>
  <a className="px-3 py-2 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors text-body-md" data-path="about-eira" href="#">About EIRA</a>
  <a className="px-3 py-2 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors text-body-md" data-path="industries" href="#">Industries</a>
  <a className="px-3 py-2 rounded text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-colors text-body-md" data-path="support-services" href="#">Support</a>

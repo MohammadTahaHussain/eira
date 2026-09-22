@@ -77,7 +77,7 @@ export default function SpotlightSection() {
  <span>Request 3 Ton Price</span>
  <FileText className="text-[18px]" />
  </a>
- <a className="px-6 py-3 bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-headline-sm font-bold rounded-lg transition-colors flex items-center gap-2" href="https://wa.me/923003472750?text=Please%20send%203%20Ton%20EIRA%20Spec%20Sheet%20PDF" target="_blank">
+ <a className="px-6 py-3 bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-headline-sm font-bold rounded-lg transition-colors flex items-center gap-2" href="https://wa.me/923000214188?text=Please%20send%203%20Ton%20EIRA%20Spec%20Sheet%20PDF" target="_blank">
  <MessageCircle className="text-[18px]" />
  <span>WhatsApp Consultation</span>
  </a>

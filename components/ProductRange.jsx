@@ -71,8 +71,8 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#spotlight-section">
- Specs (PDF)
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpcd30">
+ Full Specs
  </a>
  </div>
  </div>
@@ -116,7 +116,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpc35">
  View Specs
  </a>
  </div>
@@ -158,7 +158,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpc40">
  View Specs
  </a>
  </div>
@@ -200,7 +200,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpc50">
  View Specs
  </a>
  </div>
@@ -242,7 +242,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpcd100t">
  View Specs
  </a>
  </div>
@@ -284,7 +284,7 @@ export default function ProductRange() {
  <a className="w-full py-2.5 px-3 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Price
  </a>
- <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="#quote-module">
+ <a className="w-full py-2.5 px-3 bg-surface-container hover:bg-surface-container-high text-on-surface text-label-md font-semibold text-center rounded-lg transition-colors" href="/specifications#cpg35">
  View Specs
  </a>
  </div>
@@ -326,7 +326,7 @@ export default function ProductRange() {
  <a className="py-2.5 px-5 bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container text-label-md font-bold text-center rounded-lg transition-colors" href="#quote-module">
  Request Electric Quote
  </a>
- <a className="py-2.5 px-4 bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-label-md font-bold text-center rounded-lg transition-colors flex items-center gap-1.5" href="https://wa.me/923003472750?text=Please%20share%20Electric%20Forklift%20pricing" target="_blank">
+ <a className="py-2.5 px-4 bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-label-md font-bold text-center rounded-lg transition-colors flex items-center gap-1.5" href="https://wa.me/923000214188?text=Please%20share%20Electric%20Forklift%20pricing" target="_blank">
  <MessageCircle className="text-[16px]" />
  <span>WhatsApp Electric Specs</span>
  </a>

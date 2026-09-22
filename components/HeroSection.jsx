@@ -35,7 +35,7 @@ export default function HeroSection() {
  <span>Get Best Price</span>
  <Receipt className="text-[18px]" />
  </a>
- <a className="inline-flex items-center justify-center gap-space-xs px-5 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-label-md transition-all shadow-sm" href="https://wa.me/923003472750" rel="noopener noreferrer" target="_blank">
+ <a className="inline-flex items-center justify-center gap-space-xs px-5 py-3.5 rounded-xl bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-label-md transition-all shadow-sm" href="https://wa.me/923000214188" rel="noopener noreferrer" target="_blank">
  <MessageCircle className="text-[18px]" />
  <span>Chat on WhatsApp (+92 300 EIRA-PK)</span>
  </a>

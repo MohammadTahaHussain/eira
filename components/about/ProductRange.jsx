@@ -9,7 +9,7 @@ export default function ProductRange() {
                 High-Performance Machinery Fleet.
               </h2>
     </div>
-    <a className="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded bg-on-surface text-surface-container-lowest font-headline-sm text-body-md font-semibold hover:bg-primary transition-colors" data-path="forklifts-catalog" href="#">
+    <a className="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded bg-on-surface text-surface-container-lowest font-headline-sm text-body-md font-semibold hover:bg-primary transition-colors" href="/specifications">
     <span>Explore All Forklifts</span>
     <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
     </a>

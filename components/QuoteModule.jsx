@@ -103,7 +103,7 @@ export default function QuoteModule() {
  </div>
  <MessageCircle className="text-[32px] text-[#25D366]" />
  </div>
- <a className="w-full py-3 px-4 bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-headline-sm font-bold rounded-xl text-center block transition-colors shadow" href="https://wa.me/923003472750?text=Hello%20EIRA%20Pakistan%20Sales%20Team%2C%20I%20need%20a%20forklift%20quote." target="_blank">
+ <a className="w-full py-3 px-4 bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white text-headline-sm font-bold rounded-xl text-center block transition-colors shadow" href="https://wa.me/923000214188?text=Hello%20EIRA%20Pakistan%20Sales%20Team%2C%20I%20need%20a%20forklift%20quote." target="_blank">
  Open WhatsApp Sales Chat
  </a>
  </div>
@@ -118,7 +118,7 @@ export default function QuoteModule() {
  <div className="space-y-2 text-body-md text-on-surface">
  <div className="flex items-center gap-2">
  <Phone className="text-primary text-[18px]" />
- <span>Karachi Office: +92 21 3456 7890</span>
+ <span>Karachi Office: +92 300 0214188</span>
  </div>
  <div className="flex items-center gap-2">
  <Clock className="text-primary text-[18px]" />

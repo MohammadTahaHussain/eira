@@ -18,17 +18,21 @@ export default function ContactCta() {
     <span className="font-body-md text-body-md font-bold text-on-surface">Industrial Area, Karachi, Pakistan</span>
     </div>
     <div className="p-space-sm bg-surface-container rounded-lg">
-    <span className="font-label-sm text-label-sm text-secondary uppercase block font-semibold">Direct Engineering Line</span>
-    <span className="font-body-md text-body-md font-bold text-on-surface">+92 21 3456 7890</span>
+    <span className="font-label-sm text-label-sm text-secondary uppercase block font-semibold">WhatsApp Business — Ali Raj</span>
+    <span className="font-body-md text-body-md font-bold text-on-surface">+92 300 0214188</span>
+    </div>
+    <div className="p-space-sm bg-surface-container rounded-lg">
+    <span className="font-label-sm text-label-sm text-secondary uppercase block font-semibold">Shanghai Factory Link</span>
+    <span className="font-body-md text-body-md font-bold text-on-surface">+86 18516005027</span>
     </div>
     </div>
     </div>
     <div className="lg:col-span-5 flex flex-col space-y-space-sm">
-    <a className="w-full inline-flex items-center justify-center gap-space-xs px-space-lg py-4 rounded-lg bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container font-headline-sm text-body-md font-bold transition-all shadow-sm" data-path="request-a-quote" href="#">
+    <a className="w-full inline-flex items-center justify-center gap-space-xs px-space-lg py-4 rounded-lg bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container font-headline-sm text-body-md font-bold transition-all shadow-sm" href="/#quote-module">
     <span>Request a Formal Technical Quote</span>
     <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
     </a>
-    <a className="w-full inline-flex items-center justify-center gap-space-xs px-space-lg py-4 rounded-lg bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white font-headline-sm text-body-md font-bold transition-all shadow-sm" data-path="contact" href="#">
+    <a className="w-full inline-flex items-center justify-center gap-space-xs px-space-lg py-4 rounded-lg bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white font-headline-sm text-body-md font-bold transition-all shadow-sm" href="https://wa.me/923000214188" target="_blank" rel="noopener noreferrer">
     <span className="material-symbols-outlined text-[20px]">chat</span>
     <span>Connect via WhatsApp Sales</span>
     </a>

@@ -12,6 +12,10 @@ export default function Footer() {
  <p className="text-body-md text-tertiary-fixed-dim mb-space-md max-w-md leading-relaxed">
  EIRA supplies heavy-duty, reliable, and practical diesel, electric, and LPG industrial forklifts across Pakistan. Engineering excellence sourced directly from Shanghai with localized assembly, service hubs, and parts warehousing in Karachi, Lahore, Faisalabad, and Islamabad.
  </p>
+ <p className="text-body-md text-tertiary-fixed-dim mb-space-sm max-w-md leading-relaxed">
+ <span className="text-surface-container-lowest font-bold">Shanghai Zhuojing Trading Co., Ltd. (EIRA)</span><br />
+ WhatsApp Business — Ali Raj: <a className="text-primary-fixed-dim hover:text-surface-container-lowest transition-colors" href="https://wa.me/923000214188" target="_blank" rel="noopener noreferrer">+92 300 0214188</a> (Pakistan) · <span className="text-surface-container-lowest">+86 18516005027</span> (Shanghai)
+ </p>
  <div className="flex items-center gap-space-xs text-label-sm text-surface-dim uppercase tracking-wider">
  <CheckCircle2 className="text-primary-fixed-dim text-[16px]" />Certified ISO 9001 / CE Industrial Machinery Export Standard
  </div>
@@ -19,13 +23,13 @@ export default function Footer() {
  <div>
  <h4 className="text-headline-sm text-surface-container-lowest mb-space-md font-bold">Forklifts by Capacity</h4>
  <ul className="space-y-space-xs text-body-md text-tertiary-fixed-dim">
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">3.0 Ton Diesel Series</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">3.5 Ton Heavy Diesel</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">4.0 Ton Logistics Spec</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">5.0 Ton Yard Heavy</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">10.0 Ton Port Terminal Unit</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">3.5 Ton Clean LPG Dual-Fuel</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">1.0 - 5.0 Ton Li-Ion Electric</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpcd30">3.0 Ton Diesel Series</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpc35">3.5 Ton Heavy Diesel</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpc40">4.0 Ton Logistics Spec</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpc50">5.0 Ton Yard Heavy</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpcd100t">10.0 Ton Port Terminal Unit</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#cpg35">3.5 Ton Clean LPG Dual-Fuel</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/specifications#electric">1.0 - 5.0 Ton Li-Ion Electric</a></li>
  </ul>
  </div>
  <div>
