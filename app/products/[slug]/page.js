@@ -6,8 +6,9 @@ export function generateStaticParams() {
   return PRODUCTS.map((p) => ({ slug: p.slug }));
 }
 
-export function generateMetadata({ params }) {
-  const p = getProduct(params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const p = getProduct(slug);
   if (!p) return { title: "Product not found | EIRA Forklifts Pakistan" };
   const url = `https://eiraforklifts.com.pk${productUrl(p.slug)}`;
   return {
@@ -84,8 +85,9 @@ function ElectricTable() {
   );
 }
 
-export default function ProductPage({ params }) {
-  const p = getProduct(params.slug);
+export default async function ProductPage({ params }) {
+  const { slug } = await params;
+  const p = getProduct(slug);
   if (!p) return <main className="pt-40 pb-24 text-center">Product not found.</main>;
 
   const isElectric = p.id === "electric";
