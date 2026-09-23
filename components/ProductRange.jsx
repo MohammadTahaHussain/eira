@@ -15,6 +15,9 @@ export default function ProductRange() {
  <p className="text-body-md text-secondary mt-1">
  Choose the right EIRA forklift by capacity and power type. Directly sourced, fully certified, and field-supported across Pakistan.
  </p>
+ <a href="/products" className="inline-flex items-center gap-1.5 text-label-md font-bold text-primary-container hover:underline mt-2">
+ View the full 7-model lineup <span aria-hidden="true">→</span>
+ </a>
  </div>
  <div className="flex items-center gap-2 overflow-x-auto pb-2 mb-space-md">
  <button className="px-4 py-2 rounded-lg bg-on-surface text-surface-container-lowest text-label-md font-bold tracking-wide">

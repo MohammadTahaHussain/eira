@@ -40,7 +40,7 @@ export default function NotFound() {
                 <Home size={18} /> Back to Home
               </Link>
               <Link
-                href="/#forklifts-catalog"
+                href="/products"
                 className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-highest hover:bg-surface-container-high text-on-surface text-headline-sm font-bold transition-colors"
               >
                 <Forklift size={18} /> Browse Forklifts

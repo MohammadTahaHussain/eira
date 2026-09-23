@@ -7,7 +7,7 @@ import { ArrowRight, Mail, MessageCircle, Phone, Menu, X } from "lucide-react";
 
 const NAV = [
   { label: "Home", href: "/" },
-  { label: "Forklifts", href: "/#forklifts-catalog" },
+  { label: "Forklifts", href: "/products" },
   { label: "Specifications", href: "/specifications" },
   { label: "Prices", href: "/forklift-prices" },
   { label: "About EIRA", href: "/about" },
@@ -20,8 +20,8 @@ const WA_LINK = "https://wa.me/923000214188?text=Hello%20EIRA%2C%20I%20need%20fo
 
 function isActiveLink(item, pathname, hash) {
   if (item.href === "/") return pathname === "/" && !hash;
-  if (item.href === "/#forklifts-catalog")
-    return pathname.startsWith("/products") || (pathname === "/" && hash === "#forklifts-catalog");
+  if (item.href === "/products")
+    return pathname === "/products" || pathname.startsWith("/products/");
   if (item.href.startsWith("/#"))
     return pathname === "/" && hash === "#" + item.href.split("#")[1];
   return pathname === item.href;
