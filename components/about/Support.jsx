@@ -1,3 +1,4 @@
+import { Clock, Package, ShieldCheck } from 'lucide-react';
 export default function Support() {
   return (
     <section className="w-full bg-surface-container-low py-space-xl lg:py-24">
@@ -52,21 +53,21 @@ export default function Support() {
     {/* Metric Highlights */}
     <div className="grid grid-cols-1 sm:grid-cols-3 gap-space-md mt-space-md">
     <div className="p-space-md bg-surface-container-lowest rounded-xl card-3d tilt-3d flex items-center gap-space-md">
-    <span className="material-symbols-outlined text-primary text-[32px]">schedule</span>
+    <Clock size={32} className="text-primary" />
     <div>
     <span className="font-headline-md text-headline-md font-extrabold text-on-surface block">24–48 Hr</span>
     <span className="font-body-md text-body-md text-secondary">Major Hub Service SLA Dispatch</span>
     </div>
     </div>
     <div className="p-space-md bg-surface-container-lowest rounded-xl card-3d tilt-3d flex items-center gap-space-md">
-    <span className="material-symbols-outlined text-primary text-[32px]">inventory_2</span>
+    <Package size={32} className="text-primary" />
     <div>
     <span className="font-headline-md text-headline-md font-extrabold text-on-surface block">98% In-Stock</span>
     <span className="font-body-md text-body-md text-secondary">Common Filter &amp; Hydraulic Seals</span>
     </div>
     </div>
     <div className="p-space-md bg-surface-container-lowest rounded-xl card-3d tilt-3d flex items-center gap-space-md">
-    <span className="material-symbols-outlined text-primary text-[32px]">verified_user</span>
+    <ShieldCheck size={32} className="text-primary" />
     <div>
     <span className="font-headline-md text-headline-md font-extrabold text-on-surface block">12 Months / 2000 Hr</span>
     <span className="font-body-md text-body-md text-secondary">Factory Machinery Warranty</span>

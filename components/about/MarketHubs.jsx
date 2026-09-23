@@ -1,3 +1,4 @@
+import { CheckCircle2, Factory, Sailboat, Store, Truck } from 'lucide-react';
 export default function MarketHubs() {
   return (
     <section className="w-full bg-surface py-space-xl lg:py-24">
@@ -17,7 +18,7 @@ export default function MarketHubs() {
     <div className="space-y-space-md">
     <div className="flex items-center justify-between">
     <div className="flex items-center gap-2">
-    <span className="material-symbols-outlined text-primary text-[24px]">factory</span>
+    <Factory size={24} className="text-primary" />
     <span className="font-label-md text-label-md font-bold uppercase tracking-wider text-on-surface">East Hub</span>
     </div>
     <span className="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">31°13′N, 121°28′E</span>
@@ -31,15 +32,15 @@ export default function MarketHubs() {
                 </p>
     <ul className="space-y-2 pt-2">
     <li className="flex items-start gap-2 text-on-surface font-body-md text-body-md">
-    <span className="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+    <CheckCircle2 size={18} className="text-primary mt-0.5" />
     <span>Direct tier-one factory component supply chains</span>
     </li>
     <li className="flex items-start gap-2 text-on-surface font-body-md text-body-md">
-    <span className="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+    <CheckCircle2 size={18} className="text-primary mt-0.5" />
     <span>CE &amp; ISO 9001 load testing on factory floors</span>
     </li>
     <li className="flex items-start gap-2 text-on-surface font-body-md text-body-md">
-    <span className="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+    <CheckCircle2 size={18} className="text-primary mt-0.5" />
     <span>Optimized export freight staging for Karachi Port &amp; Port Qasim</span>
     </li>
     </ul>
@@ -54,7 +55,7 @@ export default function MarketHubs() {
     <div className="flex lg:flex-col items-center justify-between w-full h-full py-4 gap-4">
     <div className="flex flex-col items-center">
     <div className="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-sm">
-    <span className="material-symbols-outlined text-primary text-[20px]">sailing</span>
+    <Sailboat size={20} className="text-primary" />
     </div>
     <span className="font-label-sm text-label-sm text-on-surface font-bold mt-1">Maritime</span>
     </div>
@@ -69,7 +70,7 @@ export default function MarketHubs() {
     </div>
     <div className="flex flex-col items-center">
     <div className="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center shadow-sm">
-    <span className="material-symbols-outlined text-primary text-[20px]">local_shipping</span>
+    <Truck size={20} className="text-primary" />
     </div>
     <span className="font-label-sm text-label-sm text-on-surface font-bold mt-1">Inland Fleet</span>
     </div>
@@ -80,7 +81,7 @@ export default function MarketHubs() {
     <div className="space-y-space-md">
     <div className="flex items-center justify-between">
     <div className="flex items-center gap-2">
-    <span className="material-symbols-outlined text-primary text-[24px]">storefront</span>
+    <Store size={24} className="text-primary" />
     <span className="font-label-md text-label-md font-bold uppercase tracking-wider text-on-surface">West Hub</span>
     </div>
     <span className="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">24°51′N, 67°00′E</span>
@@ -94,15 +95,15 @@ export default function MarketHubs() {
                 </p>
     <ul className="space-y-2 pt-2">
     <li className="flex items-start gap-2 text-on-surface font-body-md text-body-md">
-    <span className="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+    <CheckCircle2 size={18} className="text-primary mt-0.5" />
     <span>Direct client site surveys and duty matching</span>
     </li>
     <li className="flex items-start gap-2 text-on-surface font-body-md text-body-md">
-    <span className="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+    <CheckCircle2 size={18} className="text-primary mt-0.5" />
     <span>Nationwide delivery logistics across Sindh &amp; Punjab</span>
     </li>
     <li className="flex items-start gap-2 text-on-surface font-body-md text-body-md">
-    <span className="material-symbols-outlined text-primary text-[18px] mt-0.5">check_circle</span>
+    <CheckCircle2 size={18} className="text-primary mt-0.5" />
     <span>Genuine consumable warehousing: filters, hoses, mast rollers</span>
     </li>
     </ul>

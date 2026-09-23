@@ -1,3 +1,4 @@
+import { Clock, Warehouse, Weight, Zap } from 'lucide-react';
 export default function BrandStory() {
   return (
     <section className="w-full bg-surface-container py-space-xl lg:py-24">
@@ -22,19 +23,19 @@ export default function BrandStory() {
     <p className="font-body-md text-body-md text-secondary mb-space-sm">We strip away speculation and build exact proposals based on four baseline operational realities:</p>
     <div className="grid grid-cols-2 gap-2">
     <div className="flex items-center gap-2 p-2 bg-surface-container rounded">
-    <span className="material-symbols-outlined text-primary text-[18px]">weight</span>
+    <Weight size={18} className="text-primary" />
     <span className="font-label-md text-label-md font-semibold text-on-surface">Load Capacity</span>
     </div>
     <div className="flex items-center gap-2 p-2 bg-surface-container rounded">
-    <span className="material-symbols-outlined text-primary text-[18px]">bolt</span>
+    <Zap size={18} className="text-primary" />
     <span className="font-label-md text-label-md font-semibold text-on-surface">Power Type</span>
     </div>
     <div className="flex items-center gap-2 p-2 bg-surface-container rounded">
-    <span className="material-symbols-outlined text-primary text-[18px]">warehouse</span>
+    <Warehouse size={18} className="text-primary" />
     <span className="font-label-md text-label-md font-semibold text-on-surface">Environment</span>
     </div>
     <div className="flex items-center gap-2 p-2 bg-surface-container rounded">
-    <span className="material-symbols-outlined text-primary text-[18px]">schedule</span>
+    <Clock size={18} className="text-primary" />
     <span className="font-label-md text-label-md font-semibold text-on-surface">Daily Cycles</span>
     </div>
     </div>

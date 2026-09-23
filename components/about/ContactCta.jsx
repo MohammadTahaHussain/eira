@@ -1,3 +1,4 @@
+import { ArrowRight, MessageCircle } from 'lucide-react';
 export default function ContactCta() {
   return (
     <section className="w-full bg-surface-container-high py-space-xl lg:py-24">
@@ -30,10 +31,10 @@ export default function ContactCta() {
     <div className="lg:col-span-5 flex flex-col space-y-space-sm">
     <a className="w-full inline-flex items-center justify-center gap-space-xs px-space-lg py-4 rounded-lg bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container font-headline-sm text-body-md font-bold transition-all shadow-sm" href="/#quote-module">
     <span>Request a Formal Technical Quote</span>
-    <span className="material-symbols-outlined text-[20px]">arrow_forward</span>
+    <ArrowRight size={20} />
     </a>
     <a className="w-full inline-flex items-center justify-center gap-space-xs px-space-lg py-4 rounded-lg bg-[#25D366] hover:bg-[#20ba59] btn-3d text-white font-headline-sm text-body-md font-bold transition-all shadow-sm" href="https://wa.me/923000214188" target="_blank" rel="noopener noreferrer">
-    <span className="material-symbols-outlined text-[20px]">chat</span>
+    <MessageCircle size={20} />
     <span>Connect via WhatsApp Sales</span>
     </a>
     <div className="text-center pt-2">

@@ -1,3 +1,4 @@
+import { ArrowRight } from 'lucide-react';
 export default function ProductRange() {
   return (
     <section className="w-full bg-surface-container-lowest py-space-xl lg:py-24">
@@ -11,7 +12,7 @@ export default function ProductRange() {
     </div>
     <a className="inline-flex items-center gap-space-xs px-space-md py-2.5 rounded bg-on-surface text-surface-container-lowest font-headline-sm text-body-md font-semibold hover:bg-primary transition-colors" href="/specifications">
     <span>Explore All Forklifts</span>
-    <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
+    <ArrowRight size={16} />
     </a>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-space-lg">

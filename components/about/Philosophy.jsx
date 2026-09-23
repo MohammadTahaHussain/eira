@@ -1,3 +1,4 @@
+import { Building, Power, Scale } from 'lucide-react';
 export default function Philosophy() {
   return (
     <section className="w-full bg-surface py-space-xl lg:py-24">
@@ -17,7 +18,7 @@ export default function Philosophy() {
     <div>
     <div className="flex items-center justify-between mb-space-sm">
     <span className="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Stage 01</span>
-    <span className="material-symbols-outlined text-secondary text-[24px]">scale</span>
+    <Scale size={24} className="text-secondary" />
     </div>
     <h3 className="font-headline-md text-headline-md font-extrabold text-on-surface mb-space-xs">Capacity</h3>
     <p className="font-body-md text-body-md text-secondary mb-space-md">
@@ -36,7 +37,7 @@ export default function Philosophy() {
     <div>
     <div className="flex items-center justify-between mb-space-sm">
     <span className="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Stage 02</span>
-    <span className="material-symbols-outlined text-secondary text-[24px]">power</span>
+    <Power size={24} className="text-secondary" />
     </div>
     <h3 className="font-headline-md text-headline-md font-extrabold text-on-surface mb-space-xs">Power Source</h3>
     <p className="font-body-md text-body-md text-secondary mb-space-md">
@@ -63,7 +64,7 @@ export default function Philosophy() {
     <div>
     <div className="flex items-center justify-between mb-space-sm">
     <span className="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Stage 03</span>
-    <span className="material-symbols-outlined text-secondary text-[24px]">location_city</span>
+    <Building size={24} className="text-secondary" />
     </div>
     <h3 className="font-headline-md text-headline-md font-extrabold text-on-surface mb-space-xs">Application</h3>
     <p className="font-body-md text-body-md text-secondary mb-space-md">

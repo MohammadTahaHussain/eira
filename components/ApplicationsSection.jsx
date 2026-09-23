@@ -1,3 +1,4 @@
+import { Factory, FlaskConical, Landmark, Shirt, UtensilsCrossed, Warehouse } from 'lucide-react';
 export default function ApplicationsSection() {
  return (
  <>
@@ -20,7 +21,7 @@ export default function ApplicationsSection() {
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
  <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
- <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">warehouse</span>
+ <Warehouse size={24} className="p-2 rounded-lg bg-surface-container text-primary" />
  <h3 className="text-headline-sm font-bold text-on-surface">Warehouses &amp; Logistics Hubs</h3>
  </div>
  <p className="text-body-md text-secondary mb-2">
@@ -30,7 +31,7 @@ export default function ApplicationsSection() {
  </div>
  <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
- <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">texture</span>
+ <Shirt size={24} className="p-2 rounded-lg bg-surface-container text-primary" />
  <h3 className="text-headline-sm font-bold text-on-surface">Textile &amp; Garment Mills</h3>
  </div>
  <p className="text-body-md text-secondary mb-2">
@@ -40,7 +41,7 @@ export default function ApplicationsSection() {
  </div>
  <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
- <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">factory</span>
+ <Factory size={24} className="p-2 rounded-lg bg-surface-container text-primary" />
  <h3 className="text-headline-sm font-bold text-on-surface">Manufacturing &amp; Assembly</h3>
  </div>
  <p className="text-body-md text-secondary mb-2">
@@ -50,7 +51,7 @@ export default function ApplicationsSection() {
  </div>
  <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
- <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">restaurant</span>
+ <UtensilsCrossed size={24} className="p-2 rounded-lg bg-surface-container text-primary" />
  <h3 className="text-headline-sm font-bold text-on-surface">Food &amp; Beverage Distribution</h3>
  </div>
  <p className="text-body-md text-secondary mb-2">
@@ -60,7 +61,7 @@ export default function ApplicationsSection() {
  </div>
  <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
- <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">foundation</span>
+ <Landmark size={24} className="p-2 rounded-lg bg-surface-container text-primary" />
  <h3 className="text-headline-sm font-bold text-on-surface">Cement &amp; Construction Depots</h3>
  </div>
  <p className="text-body-md text-secondary mb-2">
@@ -70,7 +71,7 @@ export default function ApplicationsSection() {
  </div>
  <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">
- <span className="p-2 rounded-lg bg-surface-container text-primary material-symbols-outlined">science</span>
+ <FlaskConical size={24} className="p-2 rounded-lg bg-surface-container text-primary" />
  <h3 className="text-headline-sm font-bold text-on-surface">Chemical &amp; Bulk Storage</h3>
  </div>
  <p className="text-body-md text-secondary mb-2">

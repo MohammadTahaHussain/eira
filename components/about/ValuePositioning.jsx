@@ -1,3 +1,4 @@
+import { CheckCircle2, Gauge, Handshake, List } from 'lucide-react';
 export default function ValuePositioning() {
   return (
     <section className="w-full bg-[#121417] text-surface-container-highest py-space-xl lg:py-24">
@@ -36,22 +37,22 @@ export default function ValuePositioning() {
     </div>
     <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-2 gap-space-md">
     <div className="bg-[#1a1d22] p-space-lg rounded-xl card-3d-dark tilt-3d">
-    <span className="material-symbols-outlined text-primary-container text-[28px] mb-2">check_circle</span>
+    <CheckCircle2 size={28} className="text-primary-container mb-2" />
     <h3 className="font-headline-sm text-headline-sm font-bold text-surface-container-lowest mb-1">Practical Value</h3>
     <p className="font-body-md text-body-md text-tertiary-fixed-dim">Heavy steel frames, reliable powertrains, and fair commercial terms without inflated brand overhead.</p>
     </div>
     <div className="bg-[#1a1d22] p-space-lg rounded-xl card-3d-dark tilt-3d">
-    <span className="material-symbols-outlined text-primary-container text-[28px] mb-2">speed</span>
+    <Gauge size={28} className="text-primary-container mb-2" />
     <h3 className="font-headline-sm text-headline-sm font-bold text-surface-container-lowest mb-1">Reliable Performance</h3>
     <p className="font-body-md text-body-md text-tertiary-fixed-dim">Tested against continuous multi-shift demands, severe warehouse dust, and extreme regional summer ambient temps.</p>
     </div>
     <div className="bg-[#1a1d22] p-space-lg rounded-xl card-3d-dark tilt-3d">
-    <span className="material-symbols-outlined text-primary-container text-[28px] mb-2">view_list</span>
+    <List size={28} className="text-primary-container mb-2" />
     <h3 className="font-headline-sm text-headline-sm font-bold text-surface-container-lowest mb-1">Clear Product Choice</h3>
     <p className="font-body-md text-body-md text-tertiary-fixed-dim">Straightforward tonnage specs and transparent equipment capabilities. You get exactly what your job requires.</p>
     </div>
     <div className="bg-[#1a1d22] p-space-lg rounded-xl card-3d-dark tilt-3d">
-    <span className="material-symbols-outlined text-primary-container text-[28px] mb-2">handshake</span>
+    <Handshake size={28} className="text-primary-container mb-2" />
     <h3 className="font-headline-sm text-headline-sm font-bold text-surface-container-lowest mb-1">Dependable Support</h3>
     <p className="font-body-md text-body-md text-tertiary-fixed-dim">Direct access to experienced mechanics, rapid preventive checkups, and verified local spare parts catalogs.</p>
     </div>

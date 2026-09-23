@@ -1,3 +1,4 @@
+import { ArrowRight, BadgeCheck, HardHat } from 'lucide-react';
 export default function HeroSection() {
   return (
     <section className="relative w-full bg-surface-container-lowest overflow-hidden">
@@ -40,10 +41,10 @@ export default function HeroSection() {
     <div className="flex flex-wrap items-center gap-space-sm pt-space-xs">
     <a className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container font-headline-sm text-body-md font-bold transition-transform hover:-translate-y-0.5 shadow-sm" href="/#forklifts-catalog">
     <span>Explore Our Forklifts</span>
-    <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
+    <ArrowRight size={18} />
     </a>
     <a className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-headline-sm text-body-md font-semibold transition-colors" href="/#quote-module">
-    <span className="material-symbols-outlined text-[18px]">engineering</span>
+    <HardHat size={18} />
     <span>Talk to EIRA</span>
     </a>
     </div>
@@ -63,7 +64,7 @@ export default function HeroSection() {
     </div>
     <div className="absolute bottom-4 right-4 max-w-xs bg-surface-container-lowest/95 backdrop-blur-md p-space-sm rounded-lg shadow-md hidden sm:block">
     <div className="flex items-center gap-2">
-    <span className="material-symbols-outlined text-primary text-[20px]">verified</span>
+    <BadgeCheck size={20} className="text-primary" />
     <div>
     <div className="font-label-sm text-label-sm uppercase font-bold text-on-surface">Factory Direct Inspection</div>
     <div className="font-body-md text-[11px] text-secondary">Pre-shipment Load Tested in Shanghai Facility</div>

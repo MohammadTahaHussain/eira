@@ -1,3 +1,4 @@
+import { MoveRight } from 'lucide-react';
 export default function ServicePillars() {
   return (
     <section className="w-full bg-surface-container-low py-space-xl lg:py-24">
@@ -25,7 +26,7 @@ export default function ServicePillars() {
     </div>
     <div className="pt-space-md mt-space-md flex items-center gap-2 text-primary font-label-md text-label-md uppercase font-bold">
     <span>Capacity Audits</span>
-    <span className="material-symbols-outlined text-[16px]">trending_flat</span>
+    <MoveRight size={16} />
     </div>
     </div>
     {/* Pillar 02 */}
@@ -39,7 +40,7 @@ export default function ServicePillars() {
     </div>
     <div className="pt-space-md mt-space-md flex items-center gap-2 text-primary font-label-md text-label-md uppercase font-bold">
     <span>Ready Inventory</span>
-    <span className="material-symbols-outlined text-[16px]">trending_flat</span>
+    <MoveRight size={16} />
     </div>
     </div>
     {/* Pillar 03 */}
@@ -53,7 +54,7 @@ export default function ServicePillars() {
     </div>
     <div className="pt-space-md mt-space-md flex items-center gap-2 text-primary font-label-md text-label-md uppercase font-bold">
     <span>Scheduled Servicing</span>
-    <span className="material-symbols-outlined text-[16px]">trending_flat</span>
+    <MoveRight size={16} />
     </div>
     </div>
     {/* Pillar 04 */}
@@ -67,7 +68,7 @@ export default function ServicePillars() {
     </div>
     <div className="pt-space-md mt-space-md flex items-center gap-2 text-primary font-label-md text-label-md uppercase font-bold">
     <span>Lifecycle Guarantee</span>
-    <span className="material-symbols-outlined text-[16px]">trending_flat</span>
+    <MoveRight size={16} />
     </div>
     </div>
     </div>

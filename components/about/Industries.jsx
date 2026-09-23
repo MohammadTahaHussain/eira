@@ -1,3 +1,4 @@
+import { Building, Cog, Landmark, Ship, Shirt, Snowflake } from 'lucide-react';
 export default function Industries() {
   return (
     <section className="w-full bg-surface py-space-xl lg:py-24">
@@ -17,7 +18,7 @@ export default function Industries() {
     <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
-    <span className="material-symbols-outlined text-[22px]">directions_boat</span>
+    <Ship size={22} />
     </span>
     <div>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Port Qasim &amp; Karachi Cargo</h3>
@@ -31,7 +32,7 @@ export default function Industries() {
     <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
-    <span className="material-symbols-outlined text-[22px]">precision_manufacturing</span>
+    <Cog size={22} />
     </span>
     <div>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Sundar &amp; Sheikhupura Zones</h3>
@@ -45,7 +46,7 @@ export default function Industries() {
     <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
-    <span className="material-symbols-outlined text-[22px]">checkroom</span>
+    <Shirt size={22} />
     </span>
     <div>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Faisalabad Textile Hubs</h3>
@@ -59,7 +60,7 @@ export default function Industries() {
     <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
-    <span className="material-symbols-outlined text-[22px]">ac_unit</span>
+    <Snowflake size={22} />
     </span>
     <div>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">FMCG &amp; Cold Storage</h3>
@@ -73,7 +74,7 @@ export default function Industries() {
     <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
-    <span className="material-symbols-outlined text-[22px]">foundation</span>
+    <Landmark size={22} />
     </span>
     <div>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Cement &amp; Raw Materials</h3>
@@ -87,7 +88,7 @@ export default function Industries() {
     <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">
     <div className="flex items-center gap-3 mb-space-sm">
     <span className="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
-    <span className="material-symbols-outlined text-[22px]">domain</span>
+    <Building size={22} />
     </span>
     <div>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Islamabad &amp; CPEC Logistics</h3>
