@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 export const metadata = {
   title: "Contact Us — WhatsApp, Phone & Email | EIRA Forklifts Pakistan",
   description:
-    "Contact EIRA Forklifts Pakistan: WhatsApp Ali Raj +92 300 0214188, Shanghai +86 18516005027, support@eiraforklifts.com.pk. Karachi hub, nationwide service.",
+    "Contact EIRA Forklifts Pakistan: WhatsApp Ali Raj +92 300 0214188, Shanghai +86 18516005027, rajputbrotherstradingco@gmail.com. Karachi hub, nationwide service.",
   alternates: { canonical: "https://eiraforklifts.com.pk/contact" },
   openGraph: {
     title: "Contact EIRA Forklifts Pakistan",
@@ -34,8 +34,8 @@ const cards = [
   {
     icon: Mail,
     title: "Email",
-    lines: ["Sales & Support", "support@eiraforklifts.com.pk"],
-    href: "mailto:support@eiraforklifts.com.pk",
+    lines: ["Sales & Support", "rajputbrotherstradingco@gmail.com"],
+    href: "mailto:rajputbrotherstradingco@gmail.com",
     cta: "Send Email",
   },
   {

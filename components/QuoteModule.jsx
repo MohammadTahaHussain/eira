@@ -94,7 +94,7 @@ export default function QuoteModule() {
  <label className={labelCls} htmlFor="qm-phone">
  Phone / WhatsApp Number <span className="text-primary">*</span>
  </label>
- <input id="qm-phone" className={inputCls} placeholder="+92 300 1234567" required type="tel" value={form.phone} onChange={update("phone")} disabled={status === "sending"} />
+ <input id="qm-phone" className={inputCls} placeholder="+92 300 0214188" required type="tel" value={form.phone} onChange={update("phone")} disabled={status === "sending"} />
  </div>
  <div>
  <label className={labelCls} htmlFor="qm-city">

@@ -96,7 +96,7 @@ export default function Header() {
               </a>
               <span className="text-tertiary">|</span>
               <span className="flex items-center gap-space-xs hover:text-surface-container-lowest transition-colors">
-                <Mail className="text-[13px]" />support@eiraforklifts.com.pk
+                <Mail className="text-[13px]" />rajputbrotherstradingco@gmail.com
               </span>
             </div>
           </div>
