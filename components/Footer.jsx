@@ -43,10 +43,10 @@ export default function Footer() {
  <div>
  <h4 className="text-headline-sm text-surface-container-lowest mb-space-md font-bold">Support &amp; Operations</h4>
  <ul className="space-y-space-xs text-body-md text-tertiary-fixed-dim">
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#support">Maintenance SLA Contracts</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#support">Genuine Spare Parts Vault</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#support">Operator Safety Training</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#support">Karachi Hub &amp; Port Link</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/support">Maintenance SLA Contracts</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/support">Genuine Spare Parts Vault</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/support">Operator Safety Training</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/support">Karachi Hub &amp; Port Link</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#quote-module">Lahore Regional Office</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a href="/about">Shanghai Engineering Link</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#quote-module">24/7 Field Tech Dispatch</a></li>

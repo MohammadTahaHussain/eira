@@ -11,7 +11,7 @@ const NAV = [
   { label: "Specifications", href: "/specifications" },
   { label: "About EIRA", href: "/about" },
   { label: "Industries", href: "/industries" },
-  { label: "Support", href: "/#support" },
+  { label: "Support", href: "/support" },
   { label: "Contact", href: "/contact" },
 ];
 
