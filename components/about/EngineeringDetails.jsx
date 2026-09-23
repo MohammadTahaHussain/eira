@@ -15,7 +15,7 @@ export default function EngineeringDetails() {
     {/* Detail 1 */}
     <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d space-y-space-sm">
     <div className="w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container-high">
-    <img className="w-full h-full object-cover" data-alt="Macro close-up photograph of thick heavy-gauge steel mast channels, roller bearings and hydraulic cylinders on an industrial EIRA forklift, high detail industrial mechanical photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdXhAkGqFhU-lgBS3gDFp94cewIIadT3Y4XUpmoq-RY15fOOkkbVSUF0nMHytEO6ZzOGvE6t62W2Gmft0yt37OpvQZMegBWosDWURKxY0C4doRCgIuqHISryciD6BMszTdr5ecHU9wM4Z89_L6Bgw6qZlMEqU-kYYcW7a6aPOJUDQPn-OQwZ2YJ7RcsRdjzLoQhhzANlRTymRc3zomclwcqS-DD7a2baOMwnzy0YpvN5Xl8RNeZD8JKg"/>
+    <img className="w-full h-full object-cover" alt="Macro close-up photograph of thick heavy-gauge steel mast channels, roller bearings and hydraulic cylinders on an industrial EIRA forklift, high detail industrial mechanical photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCdXhAkGqFhU-lgBS3gDFp94cewIIadT3Y4XUpmoq-RY15fOOkkbVSUF0nMHytEO6ZzOGvE6t62W2Gmft0yt37OpvQZMegBWosDWURKxY0C4doRCgIuqHISryciD6BMszTdr5ecHU9wM4Z89_L6Bgw6qZlMEqU-kYYcW7a6aPOJUDQPn-OQwZ2YJ7RcsRdjzLoQhhzANlRTymRc3zomclwcqS-DD7a2baOMwnzy0YpvN5Xl8RNeZD8JKg"/>
     </div>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Reinforced Steel Mast</h3>
     <p className="font-body-md text-body-md text-secondary">
@@ -26,7 +26,7 @@ export default function EngineeringDetails() {
     {/* Detail 2 */}
     <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d space-y-space-sm">
     <div className="w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container-high">
-    <img className="w-full h-full object-cover" data-alt="Close up photograph of deep-tread heavy industrial pneumatic forklift tyres and heavy cast iron front wheel hubs on concrete floor, high contrast industrial photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANngkTnipvYKV39D2obrErVDrWo9Y6YY69qhKAShDjHz4XlXOelaRPV9ORewk8Mg1cLSHmhIOw8R_GZJEl0XXelkk0B0uSubGJVcuEM14W5mkRf6mchlTLfauDh56VcjcIi3DG1NvORFfg9RlieQ_Po7agZxa21zQ7oze0vZEmUVs6tyO0YZzNlbfghje0wh0UI6K2dVOBajKDA20SE9lbByK2hg6KEElZM3YaSHlfm7FP3YzYQBujkA"/>
+    <img className="w-full h-full object-cover" alt="Close up photograph of deep-tread heavy industrial pneumatic forklift tyres and heavy cast iron front wheel hubs on concrete floor, high contrast industrial photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuANngkTnipvYKV39D2obrErVDrWo9Y6YY69qhKAShDjHz4XlXOelaRPV9ORewk8Mg1cLSHmhIOw8R_GZJEl0XXelkk0B0uSubGJVcuEM14W5mkRf6mchlTLfauDh56VcjcIi3DG1NvORFfg9RlieQ_Po7agZxa21zQ7oze0vZEmUVs6tyO0YZzNlbfghje0wh0UI6K2dVOBajKDA20SE9lbByK2hg6KEElZM3YaSHlfm7FP3YzYQBujkA"/>
     </div>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Deep-Lug Traction Tyres</h3>
     <p className="font-body-md text-body-md text-secondary">
@@ -37,7 +37,7 @@ export default function EngineeringDetails() {
     {/* Detail 3 */}
     <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d space-y-space-sm">
     <div className="w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container-high">
-    <img className="w-full h-full object-cover" data-alt="Interior driver cabin view of a heavy forklift showing protective overhead guard steel grid, ergonomic suspension seat and clear digital dashboard instrumentation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjcklZsOcIyNga7CAmRPr_g4p4X65TJKgcq1Andw1Vs6-tgy0BYb6hXsAxhp6Wn_XE1071h0lNGX7vOgPgppxe1CHfU-kNuQoBn_kFbtx-5VYcLoTnPAauJ-hvHed_ACCjFpYBR4l7423QhBw9rCo235fGMtJ7mSvIo_CdA3DGpJsbJ7AOaUl9fIUWk3dElp3rBNr5fcZocqgTiUP5Ecw5yDFSqTX1w9YYqrdATVtlqZOoJ2fogpK0xQ"/>
+    <img className="w-full h-full object-cover" alt="Interior driver cabin view of a heavy forklift showing protective overhead guard steel grid, ergonomic suspension seat and clear digital dashboard instrumentation" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDjcklZsOcIyNga7CAmRPr_g4p4X65TJKgcq1Andw1Vs6-tgy0BYb6hXsAxhp6Wn_XE1071h0lNGX7vOgPgppxe1CHfU-kNuQoBn_kFbtx-5VYcLoTnPAauJ-hvHed_ACCjFpYBR4l7423QhBw9rCo235fGMtJ7mSvIo_CdA3DGpJsbJ7AOaUl9fIUWk3dElp3rBNr5fcZocqgTiUP5Ecw5yDFSqTX1w9YYqrdATVtlqZOoJ2fogpK0xQ"/>
     </div>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Certified Overhead Guard</h3>
     <p className="font-body-md text-body-md text-secondary">
@@ -48,7 +48,7 @@ export default function EngineeringDetails() {
     {/* Detail 4 */}
     <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d space-y-space-sm">
     <div className="w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container-high">
-    <img className="w-full h-full object-cover" data-alt="Close-up photograph of solid forged forklift steel forks and hydraulic side-shifter assembly with precise grease fittings and industrial fasteners" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxTzxZBRJ03illPnErcaSjqtlm2O-XsNZPvJ-wC5Wt2a9rQTEZO7a1ysnM1C3MpU4fadn8_JYSmQkFNh3vsNQfedMaJfz8nSnAbuLsbS4hiIPKPsvtxv0CIRlCKBRLQ8YAC-esJ0CGPZs-le8pdOFPN-5lvjOmXClxMf6tC5ne8MTpDJCeoViFmSuNb4VMJyuAw0t-3PimPIMjKlBjg5LCo2Jt4Yxkds1w6iGabk-VwpxKqbDfbpSq8Q"/>
+    <img className="w-full h-full object-cover" alt="Close-up photograph of solid forged forklift steel forks and hydraulic side-shifter assembly with precise grease fittings and industrial fasteners" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxTzxZBRJ03illPnErcaSjqtlm2O-XsNZPvJ-wC5Wt2a9rQTEZO7a1ysnM1C3MpU4fadn8_JYSmQkFNh3vsNQfedMaJfz8nSnAbuLsbS4hiIPKPsvtxv0CIRlCKBRLQ8YAC-esJ0CGPZs-le8pdOFPN-5lvjOmXClxMf6tC5ne8MTpDJCeoViFmSuNb4VMJyuAw0t-3PimPIMjKlBjg5LCo2Jt4Yxkds1w6iGabk-VwpxKqbDfbpSq8Q"/>
     </div>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Solid Forged Forks</h3>
     <p className="font-body-md text-body-md text-secondary">

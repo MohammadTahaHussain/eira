@@ -15,14 +15,14 @@ export default function HeroSection() {
  </span>
  <span className="text-label-sm text-on-surface-variant font-medium">HEAVY EQUIPMENT DIVISION</span>
  </div>
- <h1 className="text-headline-sm text-primary font-bold tracking-tight mb-space-xs">
+ <p className="text-headline-sm text-primary font-bold tracking-tight mb-space-xs">
  Reliable Forklifts for Sale in Pakistan
- </h1>
- <h2 className="text-display-hero-mobile lg:text-display-hero text-on-surface font-extrabold tracking-tight leading-[1.08] mb-space-md">
+ </p>
+ <h1 className="text-display-hero-mobile lg:text-display-hero text-on-surface font-extrabold tracking-tight leading-[1.08] mb-space-md">
  Reliable Forklifts. <br />
  <span className="text-primary-container">Practical Prices.</span> <br />
  Built for Pakistan.
- </h2>
+ </h1>
  <p className="text-body-lg text-secondary mb-space-lg max-w-xl leading-relaxed">
  Reliable diesel, electric, and LPG forklifts for warehouses, factories, and industrial operations across Pakistan — engineered for demanding material handling without unnecessary brand premiums.
  </p>
