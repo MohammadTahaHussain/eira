@@ -12,6 +12,7 @@ export default function sitemap() {
     { url: `${BASE}/support`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${BASE}/forklift-prices`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },
     { url: `${BASE}/guides/diesel-vs-electric-vs-lpg-forklifts`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
+    { url: `${BASE}/privacy`, lastModified: new Date(), changeFrequency: "yearly", priority: 0.3 },
   ];
   const productRoutes = PRODUCTS.map((p) => ({
     url: `${BASE}${productUrl(p.slug)}`,

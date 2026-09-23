@@ -82,7 +82,7 @@ export default function NotFound() {
                       src={p.image}
                       alt={p.imageAlt}
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
-                    />
+                    loading="lazy" decoding="async" />
                   </div>
                   <div className="p-space-md">
                     <div className="text-label-sm uppercase tracking-wider text-secondary mb-1">

@@ -190,7 +190,7 @@ export default function ProductPage({ params }) {
           </div>
         </div>
         <div className="rounded-2xl overflow-hidden card-3d tilt-3d">
-          <img src={p.image} alt={p.imageAlt} className="w-full h-full object-cover aspect-[4/3]" />
+          <img src={p.image} alt={p.imageAlt} className="w-full h-full object-cover aspect-[4/3]" loading="lazy" decoding="async" />
         </div>
       </section>
 
@@ -247,7 +247,7 @@ export default function ProductPage({ params }) {
           {related.map((r) => (
             <Link key={r.slug} href={productUrl(r.slug)} className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d block">
               <div className="h-40 overflow-hidden">
-                <img src={r.image} alt={r.imageAlt} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" />
+                <img src={r.image} alt={r.imageAlt} className="w-full h-full object-cover hover:scale-105 transition-transform duration-500" loading="lazy" decoding="async" />
               </div>
               <div className="p-space-md">
                 <div className="text-label-sm uppercase tracking-wider text-secondary mb-1">Model {r.model}</div>

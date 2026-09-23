@@ -161,7 +161,7 @@ export default function Header() {
                   alt="EIRA Pakistan representative"
                   className="w-8 h-8 rounded-full object-cover ring-1 ring-surface-container-highest"
                   src="/images/profile.jpg"
-                />
+                loading="lazy" decoding="async" />
               </div>
               <button
                 type="button"

@@ -57,18 +57,18 @@
   --spacing-space-sm: 0.5rem;
   --spacing-space-md: 1rem;
 
-  --font-label-md: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-headline-lg: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-headline-md: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-body-md: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-body-lg: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-display-hero: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-display-hero-mobile: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-label-sm: "Inter", ui-sans-serif, system-ui, sans-serif;
-  --font-headline-lg-mobile: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-spec-numeral: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-tonnage-stat: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --font-headline-sm: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-label-md: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-headline-lg: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-headline-md: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-body-md: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-body-lg: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display-hero: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-display-hero-mobile: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-label-sm: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-headline-lg-mobile: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-spec-numeral: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-tonnage-stat: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
+  --font-headline-sm: var(--font-manrope), ui-sans-serif, system-ui, sans-serif;
 
 
   --text-label-md: 12px;

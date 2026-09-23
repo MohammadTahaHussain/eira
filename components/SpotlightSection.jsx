@@ -39,7 +39,7 @@ export default function SpotlightSection() {
  </div>
  <div className="lg:col-span-6 relative order-1 lg:order-2 flex flex-col items-center">
  <div className="relative w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl bg-inverse-surface/40 p-2 tilt-3d">
- <img alt="EIRA 3 Ton Detailed Industrial Mast and Cabin View" className="w-full h-auto object-cover rounded-xl" src="/images/eira-3-ton-detailed-industrial-mast-and-cabin-view.jpg" />
+ <img alt="EIRA 3 Ton Detailed Industrial Mast and Cabin View" className="w-full h-auto object-cover rounded-xl" src="/images/eira-3-ton-detailed-industrial-mast-and-cabin-view.jpg" loading="lazy" decoding="async" />
  <div className="absolute top-8 left-8 bg-on-surface/90 backdrop-blur px-3 py-1.5 rounded-lg flex items-center gap-2">
  <span className="w-2.5 h-2.5 rounded-full bg-primary-container animate-pulse"></span>
  <span className="text-label-sm font-semibold text-white uppercase tracking-wider">Reinforced Triplex Mast</span>
@@ -50,7 +50,7 @@ export default function SpotlightSection() {
  </div>
  </div>
  <div className="mt-space-md flex items-center gap-3">
- <img alt="EIRA" className="h-6 w-auto invert opacity-75" src="/images/eira.jpg" />
+ <img alt="EIRA" className="h-6 w-auto invert opacity-75" src="/images/eira.jpg" loading="lazy" decoding="async" />
  <span className="text-label-sm text-surface-dim uppercase tracking-widest">SERIES 30 INDUSTRIAL CHASSIS</span>
  </div>
  </div>
@@ -81,10 +81,10 @@ export default function SpotlightSection() {
  <MessageCircle className="text-[18px]" />
  <span>WhatsApp Consultation</span>
  </a>
- <button className="px-6 py-3 bg-surface-container-high/10 hover:bg-surface-container-high/20 text-white text-headline-sm font-semibold rounded-lg transition-colors flex items-center gap-2" onClick={() => alert('Downloading 3-Ton EIRA Technical Data Sheet (PDF)...')} type="button">
+ <a className="px-6 py-3 bg-surface-container-high/10 hover:bg-surface-container-high/20 text-white text-headline-sm font-semibold rounded-lg transition-colors flex items-center gap-2" href="/specifications">
  <Download className="text-[18px]" />
- <span>Download PDF Spec Sheet</span>
- </button>
+ <span>View Full Spec Sheet</span>
+ </a>
  </div>
  </div>
  </section>

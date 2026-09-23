@@ -35,7 +35,7 @@ export default function ProductRange() {
  <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
- <img alt="EIRA 3 Ton Diesel Forklift" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/eira-3-ton-diesel-forklift.jpg" />
+ <img alt="EIRA 3 Ton Diesel Forklift" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/eira-3-ton-diesel-forklift.jpg" loading="lazy" decoding="async" />
  <div className="absolute top-3 left-3 bg-primary-container text-on-primary-container text-label-sm font-bold uppercase px-2.5 py-1 rounded">
  Most Popular
  </div>
@@ -80,7 +80,7 @@ export default function ProductRange() {
  <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
- <img alt="EIRA 3.5 Ton Heavy Diesel Forklift" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/eira-3-5-ton-heavy-diesel-forklift.jpg" />
+ <img alt="EIRA 3.5 Ton Heavy Diesel Forklift" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/eira-3-5-ton-heavy-diesel-forklift.jpg" loading="lazy" decoding="async" />
  <div className="absolute top-3 left-3 bg-on-surface text-surface-container-lowest text-label-sm font-bold uppercase px-2.5 py-1 rounded">
  Heavy Duty
  </div>
@@ -125,7 +125,7 @@ export default function ProductRange() {
  <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
- <img alt="Heavy 4 Ton industrial diesel forklift operating in a Pakistani cargo yard" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/heavy-4-ton-industrial-diesel-forklift-operating-i.jpg" />
+ <img alt="Heavy 4 Ton industrial diesel forklift operating in a Pakistani cargo yard" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/heavy-4-ton-industrial-diesel-forklift-operating-i.jpg" loading="lazy" decoding="async" />
  <div className="absolute top-3 left-3 bg-secondary text-surface-container-lowest text-label-sm font-bold uppercase px-2.5 py-1 rounded">
  Industrial Depot
  </div>
@@ -167,7 +167,7 @@ export default function ProductRange() {
  <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
- <img alt="5 Ton heavy duty industrial forklift handling timber and steel pipes" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/5-ton-heavy-duty-industrial-forklift-handling-timb.jpg" />
+ <img alt="5 Ton heavy duty industrial forklift handling timber and steel pipes" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/5-ton-heavy-duty-industrial-forklift-handling-timb.jpg" loading="lazy" decoding="async" />
  <div className="absolute top-3 left-3 bg-on-surface text-surface-container-lowest text-label-sm font-bold uppercase px-2.5 py-1 rounded">
  Heavy Yard
  </div>
@@ -209,7 +209,7 @@ export default function ProductRange() {
  <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
- <img alt="Massive 10 Ton container handling forklift in Port Qasim Karachi" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/massive-10-ton-container-handling-forklift-in-port.jpg" />
+ <img alt="Massive 10 Ton container handling forklift in Port Qasim Karachi" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/massive-10-ton-container-handling-forklift-in-port.jpg" loading="lazy" decoding="async" />
  <div className="absolute top-3 left-3 bg-error text-on-error text-label-sm font-bold uppercase px-2.5 py-1 rounded">
  Extreme Load
  </div>
@@ -251,7 +251,7 @@ export default function ProductRange() {
  <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between">
  <div>
  <div className="relative bg-surface-container-high h-56 overflow-hidden">
- <img alt="Modern clean LPG powered forklift with cylinder mounted on rear" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/modern-clean-lpg-powered-forklift-with-cylinder-mo.jpg" />
+ <img alt="Modern clean LPG powered forklift with cylinder mounted on rear" className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-500" src="/images/modern-clean-lpg-powered-forklift-with-cylinder-mo.jpg" loading="lazy" decoding="async" />
  <div className="absolute top-3 left-3 bg-tertiary text-on-tertiary text-label-sm font-bold uppercase px-2.5 py-1 rounded">
  Dual Fuel / Clean
  </div>
@@ -293,7 +293,7 @@ export default function ProductRange() {
  <div className="bg-surface-container-lowest rounded-xl overflow-hidden card-3d tilt-3d flex flex-col justify-between lg:col-span-3">
  <div className="grid grid-cols-1 lg:grid-cols-12 items-center">
  <div className="lg:col-span-5 h-64 bg-surface-container-high overflow-hidden">
- <img alt="Modern electric lithium-ion forklift operating silently inside a high-rack FMCG warehouse in Karachi" className="w-full h-full object-cover object-center" src="/images/modern-electric-lithium-ion-forklift-operating-sil.jpg" />
+ <img alt="Modern electric lithium-ion forklift operating silently inside a high-rack FMCG warehouse in Karachi" className="w-full h-full object-cover object-center" src="/images/modern-electric-lithium-ion-forklift-operating-sil.jpg" loading="lazy" decoding="async" />
  </div>
  <div className="lg:col-span-7 p-space-lg flex flex-col justify-between">
  <div>

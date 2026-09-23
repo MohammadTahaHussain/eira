@@ -20,14 +20,14 @@ export default function BrandStatement() {
               </p>
     {/* Official Logo mark representation */}
     <div className="pt-4 flex items-center gap-4">
-    <img alt="Official EIRA Logo Wordmark" className="h-10 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYnDQossygoYZG_Tkz5rsebRmbdMeR1CsOHfhLkckoma2chXmBDYZAbMNfOo4GoB-_efAFKVoTLZg35ODC8HRMZLknnw_hbHxObLpfUIefVsCqRDUdSgFl8psRKP0kDI3uZdjidyzp4ypHGnWbLvnOqcDSfNsvvxb9Ohb2kiiWLLsPEDcUFAPLRx18_Gyjl8b1D8B3ySNU3Ic2t_Y8oXKh_bSWwtpTE0T83Jb3GNaA9dCQRP8_8ZLymymdZlvNQl9AWak"/>
+    <img alt="Official EIRA Logo Wordmark" className="h-10 w-auto object-contain" src="/images/eira-logo.jpg" loading="lazy" decoding="async" />
     <span className="text-tertiary font-label-sm text-label-sm uppercase">Registered Industrial Machinery Mark</span>
     </div>
     </div>
     {/* Machine Framing */}
     <div className="lg:col-span-5 relative">
     <div className="w-full aspect-square bg-surface-container rounded-2xl overflow-hidden shadow-md relative tilt-3d">
-    <img alt="EIRA Green Industrial Forklift 3.0 Ton parked inside modern assembly floor, showing rugged mast details and high visibility paint" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAEsIpX-WZjm9GVg0l_ZMhMEJIiFqgbxl7sfwpPuwcYEmTUufW-GV62bxg060X_OPed0Bl1-TCc4N58BHsxK0MIaGh05X9ByQMKa7Y-K8fZDa8-y2yjOfWffZLVPhtYPsIo_Z95aFGjVsDTlJZa5ee1lTNdFmrw9WLd4qK8ZMrZ5NA7AmRVjZe8yYLUQxg7U840-obcnI1JNWAApQBwHxH39WR-dy95J_8e5uSPEOYGODmz3-l8dtgEy1sf8DXfDWMn51A"/>
+    <img alt="EIRA Green Industrial Forklift 3.0 Ton parked inside modern assembly floor, showing rugged mast details and high visibility paint" className="w-full h-full object-cover" src="/images/eira-3-ton-diesel-forklift.jpg" loading="lazy" decoding="async" />
     <div className="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div>
     <div className="absolute bottom-6 left-6 right-6 text-surface-container-lowest">
     <span className="font-label-sm text-label-sm uppercase text-primary-container font-bold block mb-1">Authentic Quality</span>

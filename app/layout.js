@@ -1,13 +1,28 @@
-import { Poppins } from "next/font/google";
+import { Poppins, Inter, Manrope } from "next/font/google";
 import "./globals.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Tilt3D from "../components/Tilt3D";
+import Analytics from "../components/Analytics";
 
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
   variable: "--font-poppins",
+});
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  weight: ["600", "700", "800"],
+  variable: "--font-manrope",
+  display: "swap",
 });
 
 const SITE_URL = "https://eiraforklifts.com.pk";
@@ -63,18 +78,13 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <meta name="shell-type" content="web_standard" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
-          rel="stylesheet"
-        />
       </head>
-      <body className={`bg-surface text-on-surface antialiased ${poppins.className}`}>
+      <body className={`bg-surface text-on-surface antialiased ${poppins.className} ${inter.variable} ${manrope.variable}`}>
         <Header />
         {children}
         <Footer />
         <Tilt3D />
+        <Analytics />
       </body>
     </html>
   );

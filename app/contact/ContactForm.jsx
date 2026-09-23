@@ -9,8 +9,9 @@ const inputCls =
   "w-full px-4 py-3 rounded-xl bg-surface-container-lowest border border-tertiary/25 text-on-surface text-body-md placeholder:text-secondary/70 focus:outline-none focus:ring-2 focus:ring-primary-container focus:border-transparent transition";
 
 export default function ContactForm() {
-  const [form, setForm] = useState({ name: "", phone: "", city: "", product: "", message: "" });
+  const [form, setForm] = useState({ name: "", phone: "", city: "", product: "", message: "", website: "" });
   const [status, setStatus] = useState("idle"); // idle | sending | sent | error
+  const [sentName, setSentName] = useState("");
   const update = (k) => (e) => setForm((f) => ({ ...f, [k]: e.target.value }));
 
   const submit = async (e) => {
@@ -24,8 +25,9 @@ export default function ContactForm() {
       });
       const data = await res.json();
       if (data.ok) {
+        setSentName(form.name.trim());
         setStatus("sent");
-        setForm({ name: "", phone: "", city: "", product: "", message: "" });
+        setForm({ name: "", phone: "", city: "", product: "", message: "", website: "" });
       } else {
         setStatus("error");
       }
@@ -40,7 +42,7 @@ export default function ContactForm() {
         <CheckCircle2 size={48} className="text-primary-container mx-auto mb-4" />
         <h3 className="text-headline-md font-extrabold text-on-surface mb-2">Enquiry sent!</h3>
         <p className="text-body-md text-secondary max-w-sm mx-auto mb-6">
-          Thank you, {form.name || "friend"}. An EIRA specialist will contact you shortly on your phone/WhatsApp.
+          Thank you, {sentName || "friend"}. An EIRA specialist will contact you shortly on your phone/WhatsApp.
         </p>
         <button
           type="button"
@@ -55,6 +57,8 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={submit} className="space-y-space-md">
+      {/* Honeypot — invisible to humans, bots fill it */}
+      <input type="text" value={form.website} onChange={update("website")} tabIndex={-1} autoComplete="off" aria-hidden="true" className="hidden" />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
         <input required value={form.name} onChange={update("name")} placeholder="Your name *" className={inputCls} aria-label="Your name" disabled={status === "sending"} />
         <input required value={form.phone} onChange={update("phone")} placeholder="Phone / WhatsApp *" className={inputCls} aria-label="Phone or WhatsApp" disabled={status === "sending"} />

@@ -55,11 +55,11 @@ export default function Footer() {
  </div>
  </div>
  <div className="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-label-sm text-secondary-fixed-dim">
- <p>© 2025 EIRA Forklifts Pakistan. All rights reserved. Precision Material Handling Equipment.</p>
+ <p>© 2026 EIRA Forklifts Pakistan. All rights reserved. Precision Material Handling Equipment.</p>
  <div className="flex items-center gap-space-md">
  <a className="hover:text-surface-container-lowest transition-colors" href="/about">Commercial Quotation Terms</a>
  <span className="text-tertiary">•</span>
- <a className="hover:text-surface-container-lowest transition-colors" href="/about">Privacy Policy</a>
+ <a className="hover:text-surface-container-lowest transition-colors" href="/privacy">Privacy Policy</a>
  <span className="text-tertiary">•</span>
  <a className="hover:text-surface-container-lowest transition-colors" href="/about">Port Delivery Protocol</a>
  </div>
