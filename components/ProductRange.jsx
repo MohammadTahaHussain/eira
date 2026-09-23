@@ -4,7 +4,7 @@ export default function ProductRange() {
  <>
  {/* 3. PRODUCT RANGE */}
  <section className="py-space-xl bg-surface-container-low" id="forklifts-catalog">
- <div className="max-w-7xl mx-auto px-gutter">
+ <div className="wrapper">
  <div className="max-w-3xl mb-space-lg">
  <div className="inline-flex items-center gap-1 px-2.5 py-0.5 bg-on-surface text-surface-container-lowest rounded text-label-sm uppercase tracking-wider mb-2">
  Fleet Inventory

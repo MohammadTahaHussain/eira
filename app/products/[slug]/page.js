@@ -125,7 +125,7 @@ export default function ProductPage({ params }) {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
       {/* Breadcrumb */}
-      <nav className="max-w-7xl mx-auto px-gutter pt-space-md text-label-md text-secondary flex items-center gap-1.5 flex-wrap" aria-label="Breadcrumb">
+      <nav className="wrapper pt-space-md text-label-md text-secondary flex items-center gap-1.5 flex-wrap" aria-label="Breadcrumb">
         <Link href="/" className="hover:text-primary">Home</Link>
         <ChevronRight className="text-[14px]" />
         <Link href="/specifications" className="hover:text-primary">Specifications</Link>
@@ -134,7 +134,7 @@ export default function ProductPage({ params }) {
       </nav>
 
       {/* Hero */}
-      <section className="max-w-7xl mx-auto px-gutter pt-space-md pb-space-lg grid grid-cols-1 lg:grid-cols-2 gap-space-xl items-center">
+      <section className="wrapper pt-space-md pb-space-lg grid grid-cols-1 lg:grid-cols-2 gap-space-xl items-center">
         <div>
           <div className="flex flex-wrap items-center gap-2 mb-4">
             <span className="px-2.5 py-1 rounded bg-primary-container text-on-primary-container text-label-sm font-bold uppercase">
@@ -174,7 +174,7 @@ export default function ProductPage({ params }) {
       </section>
 
       {/* Highlights */}
-      <section className="max-w-7xl mx-auto px-gutter pb-space-lg">
+      <section className="wrapper pb-space-lg">
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-space-sm">
           {p.highlights.map(([label, value]) => (
             <div key={label} className="bg-surface-container-lowest rounded-xl p-space-md card-3d text-center">
@@ -186,7 +186,7 @@ export default function ProductPage({ params }) {
       </section>
 
       {/* Specs */}
-      <section className="max-w-7xl mx-auto px-gutter pb-space-xl">
+      <section className="wrapper pb-space-xl">
         <h2 className="text-headline-md font-extrabold text-on-surface mb-2">
           {p.name} — Full Technical Specifications
         </h2>
@@ -198,7 +198,7 @@ export default function ProductPage({ params }) {
       </section>
 
       {/* FAQs */}
-      <section className="max-w-7xl mx-auto px-gutter pb-space-xl">
+      <section className="wrapper pb-space-xl">
         <h2 className="text-headline-md font-extrabold text-on-surface mb-space-md">
           Frequently Asked Questions
         </h2>
@@ -215,7 +215,7 @@ export default function ProductPage({ params }) {
       </section>
 
       {/* Related */}
-      <section className="max-w-7xl mx-auto px-gutter pb-space-xl">
+      <section className="wrapper pb-space-xl">
         <h2 className="text-headline-md font-extrabold text-on-surface mb-space-md">Related EIRA Models</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-space-md">
           {related.map((r) => (
@@ -236,7 +236,7 @@ export default function ProductPage({ params }) {
       </section>
 
       {/* CTA */}
-      <section className="max-w-7xl mx-auto px-gutter pb-space-xl">
+      <section className="wrapper pb-space-xl">
         <div className="bg-on-surface text-surface-container-lowest rounded-2xl p-space-lg card-3d-dark flex flex-col md:flex-row items-center justify-between gap-space-md">
           <div>
             <h2 className="text-headline-md font-extrabold mb-2">Get the {p.name} price in Pakistan</h2>

@@ -1,7 +1,7 @@
 export default function BrandStory() {
   return (
     <section className="w-full bg-surface-container py-space-xl lg:py-24">
-    <div className="max-w-7xl mx-auto px-gutter">
+    <div className="wrapper">
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
     {/* Left narrative */}
     <div className="lg:col-span-5 flex flex-col space-y-space-md">

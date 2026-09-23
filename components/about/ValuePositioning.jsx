@@ -1,7 +1,7 @@
 export default function ValuePositioning() {
   return (
     <section className="w-full bg-[#121417] text-surface-container-highest py-space-xl lg:py-24">
-    <div className="max-w-7xl mx-auto px-gutter">
+    <div className="wrapper">
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
     <div className="lg:col-span-6 space-y-space-md">
     <div className="inline-flex items-center gap-2 px-3 py-1 bg-[#1e2228] rounded-full">

@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <section className="relative w-full bg-surface-container-lowest overflow-hidden">
-    <div className="max-w-7xl mx-auto px-gutter py-space-xl lg:py-24">
+    <div className="wrapper py-space-xl lg:py-24">
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
     {/* Left: Text content */}
     <div className="lg:col-span-6 flex flex-col space-y-space-md z-10">

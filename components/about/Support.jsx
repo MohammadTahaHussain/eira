@@ -1,7 +1,7 @@
 export default function Support() {
   return (
     <section className="w-full bg-surface-container-low py-space-xl lg:py-24">
-    <div className="max-w-7xl mx-auto px-gutter">
+    <div className="wrapper">
     <div className="max-w-3xl mb-space-xl">
     <span className="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold block mb-2">Lifecycle Management</span>
     <h2 className="font-headline-lg text-headline-lg font-extrabold text-on-surface tracking-tight">

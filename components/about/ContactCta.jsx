@@ -1,7 +1,7 @@
 export default function ContactCta() {
   return (
     <section className="w-full bg-surface-container-high py-space-xl lg:py-24">
-    <div className="max-w-7xl mx-auto px-gutter">
+    <div className="wrapper">
     <div className="bg-surface-container-lowest rounded-2xl p-space-lg lg:p-12 card-3d tilt-3d">
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
     <div className="lg:col-span-7 space-y-space-sm">

@@ -6,7 +6,7 @@ export default function QuoteModule() {
  <>
  {/* 10. LEAD GENERATION / QUOTATION MODULE */}
  <section className="py-space-xl bg-surface-container-low" id="quote-module">
- <div className="max-w-7xl mx-auto px-gutter">
+ <div className="wrapper">
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
  <div className="lg:col-span-7 bg-surface-container-lowest p-space-lg sm:p-space-xl rounded-2xl card-3d tilt-3d">
  <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 bg-primary/10 text-primary rounded text-label-sm font-bold uppercase tracking-wider mb-2">

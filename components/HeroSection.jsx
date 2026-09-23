@@ -5,7 +5,7 @@ export default function HeroSection() {
  {/* 1. HERO SECTION */}
  <section className="relative overflow-hidden bg-surface-container-low pb-space-xl pt-space-md">
  <div className="absolute inset-0 opacity-[0.035] pointer-events-none" style={{ backgroundImage: 'radial-gradient(#121c2a 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
- <div className="max-w-7xl mx-auto px-gutter relative z-10">
+ <div className="wrapper relative z-10">
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center pt-space-sm">
  <div className="lg:col-span-6 flex flex-col items-start">
  <div className="flex items-center gap-space-sm mb-space-sm">

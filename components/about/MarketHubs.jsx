@@ -1,7 +1,7 @@
 export default function MarketHubs() {
   return (
     <section className="w-full bg-surface py-space-xl lg:py-24">
-    <div className="max-w-7xl mx-auto px-gutter">
+    <div className="wrapper">
     <div className="text-center max-w-3xl mx-auto mb-space-xl">
     <span className="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold block mb-2">Cross-Border Architecture</span>
     <h2 className="font-headline-lg text-headline-lg font-extrabold text-on-surface tracking-tight">

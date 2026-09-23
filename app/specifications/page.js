@@ -77,7 +77,7 @@ export default function SpecificationsPage() {
 
   return (
     <main className="pt-28 bg-surface min-h-screen">
-      <section className="max-w-7xl mx-auto px-gutter pt-space-xl pb-space-lg">
+      <section className="wrapper pt-space-xl pb-space-lg">
         <div className="flex items-center gap-2 text-label-md text-secondary mb-3">
           <FileCheck2 className="text-[16px] text-primary" />
           <span className="uppercase tracking-wider font-semibold">Official Factory Catalogue Data</span>
@@ -93,7 +93,7 @@ export default function SpecificationsPage() {
       </section>
 
       <div className="sticky top-28 z-30 bg-surface/95 backdrop-blur-md border-y border-tertiary/20">
-        <div className="max-w-7xl mx-auto px-gutter py-3 flex gap-2 overflow-x-auto">
+        <div className="wrapper py-3 flex gap-2 overflow-x-auto">
           {PRODUCTS.map((m) => (
             <button
               key={m.id}
@@ -110,7 +110,7 @@ export default function SpecificationsPage() {
         </div>
       </div>
 
-      <section className="max-w-7xl mx-auto px-gutter py-space-xl">
+      <section className="wrapper py-space-xl">
         {isElectric ? (
           <div>
             <div className="flex flex-wrap items-center gap-3 mb-space-md">

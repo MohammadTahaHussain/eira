@@ -1,7 +1,7 @@
 export default function ProductRange() {
   return (
     <section className="w-full bg-surface-container-lowest py-space-xl lg:py-24">
-    <div className="max-w-7xl mx-auto px-gutter">
+    <div className="wrapper">
     <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-xl gap-4">
     <div>
     <span className="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold block mb-2">Our Equipment</span>

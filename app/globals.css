@@ -148,6 +148,12 @@
   }
 }
 
+@layer components{
+  .wrapper{
+    @apply max-w-screen-2xl px-4 mx-auto;
+  }
+}
+
 ::-webkit-scrollbar {
   display: none;
 }

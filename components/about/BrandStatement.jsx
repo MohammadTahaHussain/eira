@@ -1,7 +1,7 @@
 export default function BrandStatement() {
   return (
     <section className="w-full bg-surface-container-lowest py-space-xl lg:py-28 overflow-hidden">
-    <div className="max-w-7xl mx-auto px-gutter">
+    <div className="wrapper">
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
     {/* Large Statement Typography */}
     <div className="lg:col-span-7 flex flex-col space-y-space-md">

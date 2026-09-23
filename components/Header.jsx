@@ -3,7 +3,7 @@ export default function Header() {
  return (
  <header className="fixed top-0 w-full z-50 shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
  <div className="bg-on-surface text-surface-dim text-label-sm border-b border-tertiary/20">
- <div className="max-w-7xl mx-auto px-gutter h-8 flex items-center justify-between">
+ <div className="wrapper h-8 flex items-center justify-between">
  <div className="flex items-center gap-space-sm">
  <span className="inline-block w-2 h-2 rounded-full bg-primary-container animate-pulse"></span>
  <span className="tracking-wide uppercase text-surface-container-high">Forklift Solutions for Pakistan — Sourcing &amp; Engineering direct from Karachi &amp; Shanghai</span>
@@ -24,7 +24,7 @@ export default function Header() {
  </div>
  </div>
  <div className="h-20 bg-surface/95 backdrop-blur-md">
- <div className="max-w-7xl mx-auto px-gutter h-full flex items-center justify-between gap-space-md">
+ <div className="wrapper h-full flex items-center justify-between gap-space-md">
  <div className="flex items-center gap-space-lg">
  <a className="flex items-center gap-space-sm focus:outline-none" data-path="home" href="#">
  <div className="flex flex-col">

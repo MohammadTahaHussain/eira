@@ -7,7 +7,7 @@ export default function SpotlightSection() {
  {/* 5. 3 TON FEATURE SPOTLIGHT */}
  <section className="py-space-xl bg-on-surface text-surface-container-lowest relative overflow-hidden" id="spotlight-section">
  <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'linear-gradient(#aff763 1px, transparent 1px), linear-gradient(90deg, #aff763 1px, transparent 1px)', backgroundSize: '32px 32px' }}></div>
- <div className="max-w-7xl mx-auto px-gutter relative z-10">
+ <div className="wrapper relative z-10">
  <div className="text-center max-w-3xl mx-auto mb-space-lg">
  <div className="inline-flex items-center gap-2 px-3 py-1 bg-primary-container text-on-primary-container text-label-sm font-bold uppercase tracking-widest rounded mb-3">
  Engineering Showcase

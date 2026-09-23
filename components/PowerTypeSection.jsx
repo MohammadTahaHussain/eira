@@ -4,7 +4,7 @@ export default function PowerTypeSection() {
  <>
  {/* 4. POWER TYPE SECTION */}
  <section className="py-space-xl bg-surface">
- <div className="max-w-7xl mx-auto px-gutter">
+ <div className="wrapper">
  <div className="text-center max-w-2xl mx-auto mb-space-xl">
  <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 bg-primary/10 text-primary rounded text-label-sm font-bold uppercase tracking-wider mb-2">
  Powertrain Architecture

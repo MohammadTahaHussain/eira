@@ -70,7 +70,7 @@ export default function CapacitySelector() {
  <>
  {/* 2. INTERACTIVE CAPACITY SELECTOR */}
  <section className="py-space-xl bg-surface">
- <div className="max-w-7xl mx-auto px-gutter">
+ <div className="wrapper">
  <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-lg">
  <div>
  <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 bg-primary/10 text-primary rounded text-label-sm font-bold uppercase tracking-wider mb-2">

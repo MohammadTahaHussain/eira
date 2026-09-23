@@ -2,7 +2,7 @@ import { CheckCircle2 } from 'lucide-react';
 export default function Footer() {
  return (
  <footer className="w-full bg-[#121417] text-surface-container-highest pt-space-xl pb-space-lg">
- <div className="max-w-7xl mx-auto px-gutter">
+ <div className="wrapper">
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-xl border-b border-tertiary/25">
  <div className="lg:col-span-2 pr-0 lg:pr-space-lg">
  <div className="flex items-center gap-space-xs mb-space-sm">
