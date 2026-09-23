@@ -109,7 +109,7 @@ export default function Header() {
             <div className="flex items-center gap-space-lg min-w-0">
               <Link href="/" className="flex items-center gap-space-sm focus:outline-none shrink-0" aria-label="EIRA Forklifts Pakistan — home">
                 <Image
-                  src="/images/eira-logo.jpg"
+                  src="/images/eira-logo.png"
                   alt="EIRA Forklifts Pakistan"
                   width={512}
                   height={278}
@@ -201,7 +201,7 @@ export default function Header() {
           <div className="flex items-center justify-between px-5 h-20 border-b border-tertiary/20">
             <div className="flex items-center gap-space-xs">
               <Image
-                src="/images/eira-logo.jpg"
+                src="/images/eira-logo.png"
                 alt="EIRA Forklifts Pakistan"
                 width={512}
                 height={278}

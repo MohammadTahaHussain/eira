@@ -9,7 +9,7 @@ export default function Footer() {
  <div className="flex items-center gap-space-sm mb-space-sm">
  <span className="inline-flex items-center bg-white rounded-lg px-3 py-1.5">
  <Image
- src="/images/eira-logo.jpg"
+ src="/images/eira-logo.png"
  alt="EIRA Forklifts Pakistan"
  width={512}
  height={278}
