@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ArrowRight, Mail, MessageCircle, Phone, Menu, X } from "lucide-react";
@@ -107,13 +108,18 @@ export default function Header() {
           <div className="wrapper h-full flex items-center justify-between gap-space-md">
             <div className="flex items-center gap-space-lg min-w-0">
               <Link href="/" className="flex items-center gap-space-sm focus:outline-none shrink-0" aria-label="EIRA Forklifts Pakistan — home">
+                <Image
+                  src="/images/eira-logo.jpg"
+                  alt="EIRA Forklifts Pakistan"
+                  width={512}
+                  height={278}
+                  priority
+                  className="h-11 w-auto mix-blend-multiply shrink-0"
+                />
                 <div className="flex flex-col">
-                  <div className="flex items-center gap-space-xs">
-                    <span className="text-headline-md font-extrabold tracking-tight text-on-surface">EIRA</span>
-                    <span className="px-space-xs py-0.5 bg-on-surface text-primary-container text-[10px] rounded tracking-widest uppercase font-bold">
-                      PAKISTAN
-                    </span>
-                  </div>
+                  <span className="px-space-xs py-0.5 bg-on-surface text-primary-container text-[10px] rounded tracking-widest uppercase font-bold self-start">
+                    PAKISTAN
+                  </span>
                   <span className="text-[10px] text-on-surface-variant uppercase tracking-wider font-semibold">
                     Industrial Material Handling
                   </span>
@@ -194,7 +200,13 @@ export default function Header() {
         >
           <div className="flex items-center justify-between px-5 h-20 border-b border-tertiary/20">
             <div className="flex items-center gap-space-xs">
-              <span className="text-headline-md font-extrabold tracking-tight text-on-surface">EIRA</span>
+              <Image
+                src="/images/eira-logo.jpg"
+                alt="EIRA Forklifts Pakistan"
+                width={512}
+                height={278}
+                className="h-9 w-auto mix-blend-multiply"
+              />
               <span className="px-space-xs py-0.5 bg-on-surface text-primary-container text-[10px] rounded tracking-widest uppercase font-bold">
                 PAKISTAN
               </span>

@@ -1,12 +1,22 @@
 import { CheckCircle2 } from 'lucide-react';
+import Image from 'next/image';
 export default function Footer() {
  return (
  <footer className="w-full bg-[#121417] text-surface-container-highest pt-space-xl pb-space-lg">
  <div className="wrapper">
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-space-xl pb-space-xl border-b border-tertiary/25">
  <div className="lg:col-span-2 pr-0 lg:pr-space-lg">
- <div className="flex items-center gap-space-xs mb-space-sm">
- <span className="text-headline-md font-extrabold text-surface-container-lowest tracking-tight">EIRA</span>
+ <div className="flex items-center gap-space-sm mb-space-sm">
+ <span className="inline-flex items-center bg-white rounded-lg px-3 py-1.5">
+ <Image
+ src="/images/eira-logo.jpg"
+ alt="EIRA Forklifts Pakistan"
+ width={512}
+ height={278}
+ loading="lazy"
+ className="h-9 w-auto"
+ />
+ </span>
  <span className="px-space-xs py-0.5 bg-primary-container text-on-primary-container text-[10px] rounded tracking-widest uppercase font-bold">HEAVY DUTY</span>
  </div>
  <p className="text-body-md text-tertiary-fixed-dim mb-space-md max-w-md leading-relaxed">
