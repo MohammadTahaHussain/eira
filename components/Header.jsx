@@ -17,10 +17,12 @@ const NAV = [
 
 const WA_LINK = "https://wa.me/923000214188?text=Hello%20EIRA%2C%20I%20need%20forklift%20pricing";
 
-function isActiveLink(item, pathname) {
-  if (item.href === "/") return pathname === "/";
+function isActiveLink(item, pathname, hash) {
+  if (item.href === "/") return pathname === "/" && !hash;
   if (item.href === "/#forklifts-catalog")
-    return pathname === "/" || pathname.startsWith("/products");
+    return pathname.startsWith("/products") || (pathname === "/" && hash === "#forklifts-catalog");
+  if (item.href.startsWith("/#"))
+    return pathname === "/" && hash === "#" + item.href.split("#")[1];
   return pathname === item.href;
 }
 
@@ -28,6 +30,14 @@ export default function Header() {
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+  const [hash, setHash] = useState("");
+
+  useEffect(() => {
+    const update = () => setHash(window.location.hash);
+    update();
+    window.addEventListener("hashchange", update);
+    return () => window.removeEventListener("hashchange", update);
+  }, []);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -110,7 +120,7 @@ export default function Header() {
               </Link>
               <nav className="hidden xl:flex items-center gap-1" aria-label="Primary">
                 {NAV.map((item) => {
-                  const active = isActiveLink(item, pathname);
+                  const active = isActiveLink(item, pathname, hash);
                   return (
                     <Link
                       key={item.label}
@@ -199,7 +209,7 @@ export default function Header() {
           </div>
           <nav className="flex-1 overflow-y-auto px-3 py-4" aria-label="Mobile">
             {NAV.map((item) => {
-              const active = isActiveLink(item, pathname);
+              const active = isActiveLink(item, pathname, hash);
               return (
                 <Link
                   key={item.label}
