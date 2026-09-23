@@ -12,7 +12,7 @@ const NAV = [
   { label: "About EIRA", href: "/about" },
   { label: "Industries", href: "/#industries" },
   { label: "Support", href: "/#support" },
-  { label: "Contact", href: "/#quote-module" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const WA_LINK = "https://wa.me/923000214188?text=Hello%20EIRA%2C%20I%20need%20forklift%20pricing";
