@@ -3,7 +3,7 @@ export default function AboutSection() {
  <>
  {/* 9. ABOUT EIRA */}
  <section className="py-space-xl bg-surface">
- <div className="wrapper">
+ <div className="max-w-7xl mx-auto px-gutter">
  <div className="bg-surface-container rounded-2xl p-space-lg lg:p-space-xl">
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
  <div className="lg:col-span-7">

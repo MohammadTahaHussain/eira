@@ -137,8 +137,15 @@
     margin: 0;
     padding: 0;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     overscroll-behavior: none;
+  }
+  /* Keep anchored sections clear of the fixed header */
+  [id] {
+    scroll-margin-top: 7.5rem;
   }
   main > :first-child {
     margin-top: 0 !important;

@@ -2,7 +2,7 @@ export default function SupportSection() {
  return (
  <>
  {/* 8. SUPPORT BEYOND THE SALE */}
- <section className="py-space-xl bg-surface-container-low">
+ <section className="py-space-xl bg-surface-container-low" id="support">
  <div className="wrapper">
  <div className="max-w-3xl mb-space-lg">
  <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 bg-primary/10 text-primary rounded text-label-sm font-bold uppercase tracking-wider mb-2">

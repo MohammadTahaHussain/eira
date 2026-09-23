@@ -35,32 +35,32 @@ export default function Footer() {
  <div>
  <h4 className="text-headline-sm text-surface-container-lowest mb-space-md font-bold">Power Types &amp; Fleet</h4>
  <ul className="space-y-space-xs text-body-md text-tertiary-fixed-dim">
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">Diesel Forklifts</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">Electric Li-Ion Forklifts</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="forklifts-catalog" href="#">LPG &amp; Dual Fuel Units</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#forklifts-catalog">Diesel Forklifts</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/electric-forklifts-cpd10-cpd50">Electric Li-Ion Forklifts</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/3-5-ton-lpg-forklift-cpg35">LPG &amp; Dual Fuel Units</a></li>
  </ul>
  </div>
  <div>
  <h4 className="text-headline-sm text-surface-container-lowest mb-space-md font-bold">Support &amp; Operations</h4>
  <ul className="space-y-space-xs text-body-md text-tertiary-fixed-dim">
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="support-services" href="#">Maintenance SLA Contracts</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="support-services" href="#">Genuine Spare Parts Vault</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="support-services" href="#">Operator Safety Training</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="support-services" href="#">Karachi Hub &amp; Port Link</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="contact" href="#">Lahore Regional Office</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="contact" href="#">Shanghai Engineering Link</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a data-path="contact" href="#">24/7 Field Tech Dispatch</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#support">Maintenance SLA Contracts</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#support">Genuine Spare Parts Vault</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#support">Operator Safety Training</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#support">Karachi Hub &amp; Port Link</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#quote-module">Lahore Regional Office</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/about">Shanghai Engineering Link</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#quote-module">24/7 Field Tech Dispatch</a></li>
  </ul>
  </div>
  </div>
  <div className="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm text-label-sm text-secondary-fixed-dim">
  <p>© 2025 EIRA Forklifts Pakistan. All rights reserved. Precision Material Handling Equipment.</p>
  <div className="flex items-center gap-space-md">
- <a className="hover:text-surface-container-lowest transition-colors" data-path="commercial-terms" href="#">Commercial Quotation Terms</a>
+ <a className="hover:text-surface-container-lowest transition-colors" href="/about">Commercial Quotation Terms</a>
  <span className="text-tertiary">•</span>
- <a className="hover:text-surface-container-lowest transition-colors" data-path="commercial-terms" href="#">Privacy Policy</a>
+ <a className="hover:text-surface-container-lowest transition-colors" href="/about">Privacy Policy</a>
  <span className="text-tertiary">•</span>
- <a className="hover:text-surface-container-lowest transition-colors" data-path="commercial-terms" href="#">Port Delivery Protocol</a>
+ <a className="hover:text-surface-container-lowest transition-colors" href="/about">Port Delivery Protocol</a>
  </div>
  </div>
  </div>

@@ -2,7 +2,7 @@ export default function ApplicationsSection() {
  return (
  <>
  {/* 7. PAKISTANI INDUSTRIAL APPLICATIONS */}
- <section className="py-space-xl bg-surface">
+ <section className="py-space-xl bg-surface" id="industries">
  <div className="wrapper">
  <div className="flex flex-col md:flex-row md:items-end justify-between mb-space-lg">
  <div>
