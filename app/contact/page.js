@@ -102,7 +102,7 @@ export default function ContactPage() {
           <div className="bg-surface-container-lowest rounded-2xl p-space-lg card-3d">
             <h2 className="text-headline-md font-extrabold text-on-surface mb-2">Request a Callback</h2>
             <p className="text-body-md text-secondary mb-space-md">
-              Fill this in — it opens WhatsApp with your enquiry pre-written. No account needed.
+              Fill this in — your enquiry lands directly in our inbox, and a specialist calls you back.
             </p>
             <ContactForm />
           </div>
