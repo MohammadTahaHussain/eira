@@ -9,6 +9,7 @@ const NAV = [
   { label: "Home", href: "/" },
   { label: "Forklifts", href: "/#forklifts-catalog" },
   { label: "Specifications", href: "/specifications" },
+  { label: "Prices", href: "/forklift-prices" },
   { label: "About EIRA", href: "/about" },
   { label: "Industries", href: "/industries" },
   { label: "Support", href: "/support" },

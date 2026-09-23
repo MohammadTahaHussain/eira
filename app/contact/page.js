@@ -130,6 +130,29 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
+
+      <section className="max-w-7xl mx-auto px-gutter pb-space-xl">
+        <h2 className="text-headline-md font-extrabold text-on-surface mb-2">Forklift Delivery &amp; Service Areas</h2>
+        <p className="text-body-md text-secondary mb-space-md max-w-3xl leading-relaxed">
+          EIRA delivers forklifts and dispatches service technicians across Pakistan from its Karachi
+          hub. Key coverage cities include:
+        </p>
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-space-sm">
+          {[
+            ["Karachi", "Stock & parts hub"],
+            ["Lahore", "Delivery & service"],
+            ["Faisalabad", "Textile belt coverage"],
+            ["Islamabad", "Delivery & service"],
+            ["Sialkot", "Delivery on order"],
+            ["Multan", "Delivery on order"],
+          ].map(([city, note]) => (
+            <div key={city} className="bg-surface-container-lowest rounded-xl p-space-md card-3d">
+              <div className="text-headline-sm font-bold text-on-surface">{city}</div>
+              <div className="text-label-md text-secondary">{note}</div>
+            </div>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }

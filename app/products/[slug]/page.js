@@ -109,20 +109,41 @@ export default function ProductPage({ params }) {
       seller: { "@type": "Organization", name: "EIRA Forklifts Pakistan", telephone: "+92 300 0214188" },
     },
   };
+  const sharedFaqs = [
+    [
+      `What is the price of the ${p.name} in Pakistan?`,
+      `Pricing depends on mast height, tyres and attachments. EIRA provides a free written quotation for the ${p.model} on WhatsApp, usually the same day. See our forklift price guide for what drives prices in Pakistan.`,
+    ],
+    [
+      `Do you deliver the ${p.model} outside Karachi?`,
+      "Yes. Machines are dispatched from Karachi stock and delivered by road to Lahore, Faisalabad, Islamabad and other cities across Pakistan.",
+    ],
+  ];
+  const allFaqs = [...p.faqs, ...sharedFaqs];
   const faqSchema = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    mainEntity: p.faqs.map(([q, a]) => ({
+    mainEntity: allFaqs.map(([q, a]) => ({
       "@type": "Question",
       name: q,
       acceptedAnswer: { "@type": "Answer", text: a },
     })),
+  };
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://eiraforklifts.com.pk/" },
+      { "@type": "ListItem", position: 2, name: "Specifications", item: "https://eiraforklifts.com.pk/specifications" },
+      { "@type": "ListItem", position: 3, name: p.name, item: url },
+    ],
   };
 
   return (
     <main className="pt-28 bg-surface min-h-screen">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
 
       {/* Breadcrumb */}
       <nav className="wrapper pt-space-md text-label-md text-secondary flex items-center gap-1.5 flex-wrap" aria-label="Breadcrumb">
@@ -203,12 +224,17 @@ export default function ProductPage({ params }) {
           Frequently Asked Questions
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-space-sm">
-          {p.faqs.map(([q, a]) => (
+          {allFaqs.map(([q, a], fi) => (
             <div key={q} className="bg-surface-container-lowest rounded-xl p-space-md card-3d">
               <h3 className="text-body-lg font-bold text-on-surface mb-2 flex gap-2">
                 <BadgeCheck className="text-primary shrink-0 mt-0.5" size={18} /> {q}
               </h3>
-              <p className="text-body-md text-secondary leading-relaxed">{a}</p>
+              <p className="text-body-md text-secondary leading-relaxed">
+                {a}
+                {fi === p.faqs.length && (
+                  <> <Link href="/forklift-prices" className="text-primary font-bold hover:underline">Read the price guide</Link>.</>
+                )}
+              </p>
             </div>
           ))}
         </div>

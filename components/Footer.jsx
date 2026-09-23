@@ -47,7 +47,8 @@ export default function Footer() {
  <li className="hover:text-primary-fixed-dim transition-colors"><a href="/support">Genuine Spare Parts Vault</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a href="/support">Operator Safety Training</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a href="/support">Karachi Hub &amp; Port Link</a></li>
- <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#quote-module">Lahore Regional Office</a></li>
+ <li className="hover:text-primary-fixed-dim transition-colors"><a href="/forklift-prices">Forklift Prices in Pakistan</a></li>
+<li className="hover:text-primary-fixed-dim transition-colors"><a href="/guides/diesel-vs-electric-vs-lpg-forklifts">Diesel vs Electric vs LPG Guide</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a href="/about">Shanghai Engineering Link</a></li>
  <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#quote-module">24/7 Field Tech Dispatch</a></li>
  </ul>
