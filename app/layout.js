@@ -10,9 +10,52 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
+const SITE_URL = "https://eiraforklifts.com.pk";
+
 export const metadata = {
-  title: "EIRA Forklifts Pakistan | Heavy-Duty Material Handling Solutions",
-  description: "Reliable Forklifts for Sale in Pakistan",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "EIRA Forklifts Pakistan | Heavy-Duty Material Handling Solutions",
+    template: "%s | EIRA Forklifts Pakistan",
+  },
+  description:
+    "EIRA supplies reliable diesel, electric & LPG forklifts (3–10 ton) across Pakistan. Karachi stock, genuine parts & factory-trained service. Get a quote on WhatsApp +92 300 0214188.",
+  keywords: [
+    "forklift price in Pakistan",
+    "forklift for sale Karachi",
+    "diesel forklift Pakistan",
+    "electric forklift Pakistan",
+    "LPG forklift",
+    "EIRA forklifts",
+    "material handling equipment Pakistan",
+  ],
+  openGraph: {
+    type: "website",
+    locale: "en_PK",
+    siteName: "EIRA Forklifts Pakistan",
+    title: "EIRA Forklifts Pakistan | Heavy-Duty Material Handling Solutions",
+    description:
+      "Reliable diesel, electric & LPG forklifts (3–10 ton) for sale in Pakistan. Karachi stock, genuine parts, nationwide service.",
+    images: [{ url: "/images/eira-3-ton-heavy-duty-diesel-forklift-pakistan.jpg", alt: "EIRA 3 ton diesel forklift in Pakistan" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "EIRA Forklifts Pakistan | Heavy-Duty Material Handling Solutions",
+    description: "Reliable diesel, electric & LPG forklifts (3–10 ton) for sale in Pakistan.",
+    images: ["/images/eira-3-ton-heavy-duty-diesel-forklift-pakistan.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large" },
+  },
+  alternates: { canonical: SITE_URL },
+};
+
+export const viewport = {
+  themeColor: "#121c2a",
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({ children }) {

@@ -38,11 +38,11 @@ export default function HeroSection() {
     </div>
     {/* Buttons */}
     <div className="flex flex-wrap items-center gap-space-sm pt-space-xs">
-    <a className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container font-headline-sm text-body-md font-bold transition-transform hover:-translate-y-0.5 shadow-sm" data-path="forklifts-catalog" href="#">
+    <a className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-primary-container hover:bg-primary-fixed btn-3d text-on-primary-container font-headline-sm text-body-md font-bold transition-transform hover:-translate-y-0.5 shadow-sm" href="/#forklifts-catalog">
     <span>Explore Our Forklifts</span>
     <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
     </a>
-    <a className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-headline-sm text-body-md font-semibold transition-colors" data-path="contact" href="#">
+    <a className="inline-flex items-center gap-space-xs px-space-lg py-3 rounded-lg bg-surface-container-high hover:bg-surface-container-highest text-on-surface font-headline-sm text-body-md font-semibold transition-colors" href="/#quote-module">
     <span className="material-symbols-outlined text-[18px]">engineering</span>
     <span>Talk to EIRA</span>
     </a>

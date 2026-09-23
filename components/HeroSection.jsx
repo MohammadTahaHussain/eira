@@ -18,7 +18,7 @@ export default function HeroSection() {
  <h1 className="text-headline-sm text-primary font-bold tracking-tight mb-space-xs">
  Reliable Forklifts for Sale in Pakistan
  </h1>
- <h2 className="text-display-hero text-on-surface font-extrabold tracking-tight leading-[1.08] mb-space-md">
+ <h2 className="text-display-hero-mobile lg:text-display-hero text-on-surface font-extrabold tracking-tight leading-[1.08] mb-space-md">
  Reliable Forklifts. <br />
  <span className="text-primary-container">Practical Prices.</span> <br />
  Built for Pakistan.

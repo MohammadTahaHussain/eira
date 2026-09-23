@@ -11,6 +11,18 @@ import Support from "../../components/about/Support";
 import BrandStatement from "../../components/about/BrandStatement";
 import ContactCta from "../../components/about/ContactCta";
 
+export const metadata = {
+  title: "About EIRA Forklifts Pakistan — Shanghai Engineering, Karachi Service Hub",
+  description:
+    "EIRA (Shanghai Zhuojing Trading Co., Ltd.) supplies K Series diesel, electric & LPG forklifts across Pakistan with Karachi parts warehousing and factory-trained technicians.",
+  alternates: { canonical: "https://eiraforklifts.com.pk/about" },
+  openGraph: {
+    title: "About EIRA Forklifts Pakistan",
+    description:
+      "Shanghai engineering, Karachi service hub — heavy-duty forklifts (3–10 ton) with genuine parts and nationwide support.",
+  },
+};
+
 export default function About() {
   return (
     <main className="w-full pt-28 bg-surface min-h-screen">
