@@ -22,7 +22,7 @@ const orgSchema = {
   name: "EIRA Forklifts Pakistan",
   legalName: "Shanghai Zhuojing Trading Co., Ltd. (EIRA)",
   url: "https://eiraforklifts.com.pk",
-  logo: "https://eiraforklifts.com.pk/images/eira-logo.jpg",
+  logo: "https://eiraforklifts.com.pk/images/eira-logo.png",
   description:
     "Supplier of heavy-duty diesel, electric and LPG forklifts (3–10 ton) across Pakistan with Karachi stock and nationwide after-sales service.",
   contactPoint: [

@@ -83,7 +83,7 @@ export default function BrandStory() {
     <p className="font-body-md text-body-md text-surface-variant max-w-lg">Every machine rolling off the line carries structural certification, CE stamp compliance, and tested hydraulic manifolds engineered for 45°C+ continuous duty.</p>
     </div>
     <div className="p-space-sm bg-surface-container-highest/10 rounded-lg self-stretch sm:self-center flex items-center justify-center min-w-[140px]">
-    <img alt="Official EIRA Logo Emblem" className="h-10 w-auto object-contain filter invert opacity-90" src="/images/eira-brand-mark.jpg" loading="lazy" decoding="async" />
+    <img alt="Official EIRA Logo Emblem" className="h-10 w-auto object-contain filter invert opacity-90" src="/images/eira-logo.png" loading="lazy" decoding="async" />
     </div>
     </div>
     </div>

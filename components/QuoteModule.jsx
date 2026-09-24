@@ -200,7 +200,7 @@ export default function QuoteModule() {
  </div>
  <div className="bg-surface-container p-space-md rounded-xl flex items-center justify-between">
  <div className="flex items-center gap-3">
- <img alt="EIRA Brand Mark" className="h-6 w-auto object-contain" src="/images/eira-brand-mark.jpg" loading="lazy" decoding="async" />
+ <img alt="EIRA Brand Mark" className="h-6 w-auto object-contain" src="/images/eira-logo.png" loading="lazy" decoding="async" />
  <span className="text-label-sm font-semibold uppercase tracking-wider text-secondary">EIRA Forklifts Pakistan</span>
  </div>
  <span className="text-label-sm text-primary font-bold">Shanghai • Karachi</span>

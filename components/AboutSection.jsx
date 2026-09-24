@@ -8,7 +8,7 @@ export default function AboutSection() {
  <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-center">
  <div className="lg:col-span-7">
  <div className="flex items-center gap-3 mb-space-sm">
- <img alt="EIRA Logo" className="h-7 w-auto object-contain" src="/images/eira-logo.jpg" loading="lazy" decoding="async" />
+ <img alt="EIRA Logo" className="h-7 w-auto object-contain" src="/images/eira-logo.png" loading="lazy" decoding="async" />
  <span className="px-2 py-0.5 bg-on-surface text-primary-container text-[10px] rounded tracking-widest uppercase font-bold">ABOUT US</span>
  </div>
  <h2 className="text-display-hero-mobile font-extrabold text-on-surface tracking-tight mb-space-sm">
@@ -38,7 +38,7 @@ export default function AboutSection() {
  <div className="lg:col-span-5">
  <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d">
  <div className="rounded-lg overflow-hidden mb-space-sm bg-surface-container-highest">
- <img alt="EIRA Forklift Assembly and Verification" className="w-full h-52 object-cover" src="/images/eira-forklift-assembly-and-verification.jpg" loading="lazy" decoding="async" />
+ <img alt="EIRA Forklift Assembly and Verification" className="w-full h-52 object-cover" src="/images/eira-3-5-ton-heavy-diesel-forklift.jpg" loading="lazy" decoding="async" />
  </div>
  <div className="p-2">
  <div className="flex items-center justify-between text-label-sm text-secondary uppercase mb-1">

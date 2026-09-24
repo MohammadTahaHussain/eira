@@ -27,13 +27,13 @@ export const metadata = {
       "All 7 EIRA forklifts: 3–10 ton diesel, 3.5 ton LPG dual-fuel and 1–5 ton electric. Specs and WhatsApp pricing across Pakistan.",
     url: `${BASE}/products`,
     type: "website",
-    images: [{ url: "/images/eira-3-ton-heavy-duty-diesel-forklift-pakistan.jpg", alt: "EIRA forklifts for sale in Pakistan" }],
+    images: [{ url: "/images/eira-3-5-ton-heavy-diesel-forklift.jpg", alt: "EIRA forklifts for sale in Pakistan" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Forklifts for Sale in Pakistan | EIRA",
     description: "3–10 ton diesel, LPG dual-fuel and electric forklifts with specs and WhatsApp pricing.",
-    images: ["/images/eira-3-ton-heavy-duty-diesel-forklift-pakistan.jpg"],
+    images: ["/images/eira-3-5-ton-heavy-diesel-forklift.jpg"],
   },
 };
 

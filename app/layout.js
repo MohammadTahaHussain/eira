@@ -51,13 +51,13 @@ export const metadata = {
     title: "EIRA Forklifts Pakistan | Heavy-Duty Material Handling Solutions",
     description:
       "Reliable diesel, electric & LPG forklifts (3–10 ton) for sale in Pakistan. Karachi stock, genuine parts, nationwide service.",
-    images: [{ url: "/images/eira-3-ton-heavy-duty-diesel-forklift-pakistan.jpg", alt: "EIRA 3 ton diesel forklift in Pakistan" }],
+    images: [{ url: "/images/eira-3-5-ton-heavy-diesel-forklift.jpg", alt: "EIRA 3 ton diesel forklift in Pakistan" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "EIRA Forklifts Pakistan | Heavy-Duty Material Handling Solutions",
     description: "Reliable diesel, electric & LPG forklifts (3–10 ton) for sale in Pakistan.",
-    images: ["/images/eira-3-ton-heavy-duty-diesel-forklift-pakistan.jpg"],
+    images: ["/images/eira-3-5-ton-heavy-diesel-forklift.jpg"],
   },
   robots: {
     index: true,

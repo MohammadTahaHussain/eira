@@ -20,7 +20,7 @@ export default function BrandStatement() {
               </p>
     {/* Official Logo mark representation */}
     <div className="pt-4 flex items-center gap-4">
-    <img alt="Official EIRA Logo Wordmark" className="h-10 w-auto object-contain" src="/images/eira-logo.jpg" loading="lazy" decoding="async" />
+    <img alt="Official EIRA Logo Wordmark" className="h-10 w-auto object-contain" src="/images/eira-logo.png" loading="lazy" decoding="async" />
     <span className="text-tertiary font-label-sm text-label-sm uppercase">Registered Industrial Machinery Mark</span>
     </div>
     </div>

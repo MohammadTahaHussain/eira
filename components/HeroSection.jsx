@@ -69,11 +69,11 @@ export default function HeroSection() {
  <div className="relative mx-auto max-w-[560px] lg:max-w-none">
  <div className="relative bg-surface-container rounded-xl p-3 shadow-xl overflow-hidden group tilt-3d">
  <div className="absolute top-4 left-4 z-20 flex items-center gap-2 bg-on-surface/90 backdrop-blur px-3 py-1.5 rounded-lg text-surface-container-lowest">
- <img alt="EIRA Industrial Machinery" className="h-4 w-auto invert" src="/images/eira-industrial-machinery.jpg" loading="lazy" decoding="async" />
+ <img alt="EIRA Industrial Machinery" className="h-4 w-auto invert" src="/images/eira-logo.png" loading="lazy" decoding="async" />
  <span className="text-secondary-container text-[10px] tracking-widest uppercase">SERIES-30D SPEC</span>
  </div>
  <div className="relative rounded-lg overflow-hidden bg-surface-container-highest">
- <Image alt="EIRA 3 Ton Heavy Duty Diesel Forklift Pakistan" className="w-full h-auto object-cover max-h-[540px] transform group-hover:scale-[1.01] transition-transform duration-500 ease-out" src="/images/eira-3-ton-heavy-duty-diesel-forklift-pakistan.jpg" width={384} height={512} priority sizes="(max-width: 1024px) 100vw, 50vw" />
+ <Image alt="EIRA 3 Ton Heavy Duty Diesel Forklift Pakistan" className="w-full h-auto object-cover max-h-[540px] transform group-hover:scale-[1.01] transition-transform duration-500 ease-out" src="/images/eira-3-5-ton-heavy-diesel-forklift.jpg" width={384} height={512} priority sizes="(max-width: 1024px) 100vw, 50vw" />
  </div>
  <div className="absolute bottom-6 left-6 z-20 flex flex-wrap gap-2">
  <div className="bg-on-surface/95 text-surface-container-lowest backdrop-blur px-3 py-1.5 rounded-md shadow flex items-center gap-1.5">
@@ -97,7 +97,7 @@ export default function HeroSection() {
  <div className="mt-space-sm flex items-center justify-between px-2 text-secondary">
  <div className="flex items-center gap-2">
  <span className="text-label-sm uppercase tracking-widest text-on-surface-variant">AUTHENTIC BRANDING:</span>
- <img alt="EIRA Forklifts" className="h-5 w-auto object-contain opacity-80" src="/images/eira-forklifts.jpg" loading="lazy" decoding="async" />
+ <img alt="EIRA Forklifts" className="h-5 w-auto object-contain opacity-80" src="/images/eira-logo.png" loading="lazy" decoding="async" />
  </div>
  <span className="text-label-sm text-on-surface-variant">Shanghai Engineering Link • Karachi Hub</span>
  </div>
