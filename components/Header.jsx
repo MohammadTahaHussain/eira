@@ -65,15 +65,13 @@ export default function Header() {
   return (
     <>
       <header
-        className={`fixed top-0 w-full z-50 transition-shadow duration-300 ${
-          scrolled ? "shadow-[0_4px_20px_rgba(0,0,0,0.10)]" : "shadow-[0_1px_8px_rgba(0,0,0,0.04)]"
-        }`}
+        className={`fixed top-0 w-full z-50 transition-shadow duration-300 ${scrolled ? "shadow-[0_4px_20px_rgba(0,0,0,0.10)]" : "shadow-[0_1px_8px_rgba(0,0,0,0.04)]"
+          }`}
       >
         {/* Utility top bar — collapses on scroll for more viewport space */}
         <div
-          className={`bg-on-surface text-surface-dim text-label-sm border-b border-tertiary/20 overflow-hidden transition-all duration-300 ${
-            scrolled ? "max-h-0 opacity-0 border-b-0" : "max-h-10 opacity-100"
-          }`}
+          className={`bg-on-surface text-surface-dim text-label-sm border-b border-tertiary/20 overflow-hidden transition-all duration-300 ${scrolled ? "max-h-0 opacity-0 border-b-0" : "max-h-10 opacity-100"
+            }`}
         >
           <div className="wrapper h-8 flex items-center justify-between gap-space-sm">
             <div className="flex items-center gap-space-sm min-w-0">
@@ -109,12 +107,12 @@ export default function Header() {
             <div className="flex items-center gap-space-lg min-w-0">
               <Link href="/" className="flex items-center gap-space-sm focus:outline-none shrink-0" aria-label="EIRA Forklifts Pakistan — home">
                 <Image
-                  src="/images/eira-logo.png"
+                  src="/images/logo.png"
                   alt="EIRA Forklifts Pakistan"
                   width={512}
                   height={278}
                   priority
-                  className="h-11 w-auto mix-blend-multiply shrink-0"
+                  className="h-14 w-auto mix-blend-multiply shrink-0"
                 />
                 <div className="flex flex-col">
                   <span className="px-space-xs py-0.5 bg-on-surface text-primary-container text-[10px] rounded tracking-widest uppercase font-bold self-start">
@@ -133,11 +131,10 @@ export default function Header() {
                       key={item.label}
                       href={item.href}
                       aria-current={active ? "page" : undefined}
-                      className={`px-3 py-2 rounded transition-colors text-body-md ${
-                        active
+                      className={`px-3 py-2 rounded transition-colors text-body-md ${active
                           ? "text-primary font-semibold bg-surface-container-high/50"
                           : "text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high"
-                      }`}
+                        }`}
                     >
                       {item.label}
                     </Link>
@@ -162,13 +159,13 @@ export default function Header() {
                 <span>Request a Quote</span>
                 <ArrowRight className="text-[16px]" />
               </Link>
-              <div className="hidden sm:block pl-space-xs border-l border-surface-container-highest">
+              {/* <div className="hidden sm:block pl-space-xs border-l border-surface-container-highest">
                 <img
                   alt="EIRA Pakistan representative"
                   className="w-8 h-8 rounded-full object-cover ring-1 ring-surface-container-highest"
-                  src="/images/eira-logo.png"
-                loading="lazy" decoding="async" />
-              </div>
+                  src="/images/logo.png"
+                  loading="lazy" decoding="async" />
+              </div> */}
               <button
                 type="button"
                 onClick={() => setMenuOpen(true)}
@@ -185,23 +182,21 @@ export default function Header() {
 
       {/* Mobile drawer */}
       <div
-        className={`fixed inset-0 z-[60] xl:hidden transition-opacity duration-300 ${
-          menuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
-        }`}
+        className={`fixed inset-0 z-[60] xl:hidden transition-opacity duration-300 ${menuOpen ? "opacity-100" : "opacity-0 pointer-events-none"
+          }`}
         aria-hidden={!menuOpen}
       >
         <div className="absolute inset-0 bg-on-surface/60 backdrop-blur-sm" onClick={() => setMenuOpen(false)} />
         <aside
-          className={`absolute top-0 right-0 h-full w-80 max-w-[85vw] bg-surface shadow-2xl flex flex-col transition-transform duration-300 ease-out ${
-            menuOpen ? "translate-x-0" : "translate-x-full"
-          }`}
+          className={`absolute top-0 right-0 h-full w-80 max-w-[85vw] bg-surface shadow-2xl flex flex-col transition-transform duration-300 ease-out ${menuOpen ? "translate-x-0" : "translate-x-full"
+            }`}
           role="dialog"
           aria-label="Site navigation"
         >
           <div className="flex items-center justify-between px-5 h-20 border-b border-tertiary/20">
             <div className="flex items-center gap-space-xs">
               <Image
-                src="/images/eira-logo.png"
+                src="/images/logo.png"
                 alt="EIRA Forklifts Pakistan"
                 width={512}
                 height={278}
@@ -228,11 +223,10 @@ export default function Header() {
                   key={item.label}
                   href={item.href}
                   onClick={() => setMenuOpen(false)}
-                  className={`flex items-center justify-between px-4 py-3.5 rounded-xl text-body-lg font-semibold transition-colors ${
-                    active
+                  className={`flex items-center justify-between px-4 py-3.5 rounded-xl text-body-lg font-semibold transition-colors ${active
                       ? "text-primary bg-primary-container/15"
                       : "text-on-surface hover:bg-surface-container-high"
-                  }`}
+                    }`}
                 >
                   {item.label}
                   <ArrowRight size={16} className={active ? "text-primary" : "text-secondary"} />
