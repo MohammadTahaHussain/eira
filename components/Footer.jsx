@@ -20,11 +20,11 @@ export default function Footer() {
                             <span className="px-space-xs py-0.5 bg-primary-container text-on-primary-container text-[10px] rounded tracking-widest uppercase font-bold">HEAVY DUTY</span>
                         </div>
                         <p className="text-body-md text-tertiary-fixed-dim mb-space-md max-w-md leading-relaxed">
-                            EIRA supplies heavy-duty, reliable, and practical diesel, electric, and LPG industrial forklifts across Pakistan. Engineering excellence sourced directly from Shanghai with localized assembly, service hubs, and parts warehousing in Karachi, Lahore, Faisalabad, and Islamabad.
+                            EIRA supplies heavy-duty, reliable, and practical diesel, electric, and LPG industrial forklifts across Pakistan. Manufactured in China to EIRA specifications, with service hubs and parts warehousing in Karachi, Lahore, Faisalabad, and Islamabad.
                         </p>
                         <p className="text-body-md text-tertiary-fixed-dim mb-space-sm max-w-md leading-relaxed">
-                            <span className="text-surface-container-lowest font-bold">Shanghai Zhuojing Trading Co., Ltd. (EIRA)</span><br />
-                            WhatsApp Business — Ali Raj: <a className="text-primary-fixed-dim hover:text-surface-container-lowest transition-colors" href="https://wa.me/923000214188" target="_blank" rel="noopener noreferrer">+92 300 0214188</a> (Pakistan) · <span className="text-surface-container-lowest">+86 18516005027</span> (Shanghai)
+                            <span className="text-surface-container-lowest font-bold">Shanghai Zhuojing Trading Company Ltd</span><br />
+                            WhatsApp Business — Ali Raj: <a className="text-primary-fixed-dim hover:text-surface-container-lowest transition-colors" href="https://wa.me/923000214188" target="_blank" rel="noopener noreferrer">+92 300 0214188</a> (Pakistan) · <span className="text-surface-container-lowest">+86 18516005027</span> (China)
                         </p>
                         <div className="flex items-center gap-space-xs text-label-sm text-surface-dim uppercase tracking-wider">
                             <CheckCircle2 className="text-primary-fixed-dim text-[16px]" />Certified ISO 9001 / CE Industrial Machinery Export Standard
@@ -59,7 +59,7 @@ export default function Footer() {
                             <li className="hover:text-primary-fixed-dim transition-colors"><a href="/support">Karachi Hub &amp; Port Link</a></li>
                             <li className="hover:text-primary-fixed-dim transition-colors"><a href="/forklift-prices">Forklift Prices in Pakistan</a></li>
                             <li className="hover:text-primary-fixed-dim transition-colors"><a href="/guides/diesel-vs-electric-vs-lpg-forklifts">Diesel vs Electric vs LPG Guide</a></li>
-                            <li className="hover:text-primary-fixed-dim transition-colors"><a href="/about">Shanghai Engineering Link</a></li>
+                            <li className="hover:text-primary-fixed-dim transition-colors"><a href="/about">China Manufacturing</a></li>
                             <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#quote-module">24/7 Field Tech Dispatch</a></li>
                         </ul>
                     </div>

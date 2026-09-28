@@ -77,7 +77,7 @@ export default function Header() {
             <div className="flex items-center gap-space-sm min-w-0">
               <span className="inline-block w-2 h-2 rounded-full bg-primary-container animate-pulse shrink-0"></span>
               <span className="tracking-wide uppercase text-surface-container-high truncate">
-                Forklift Solutions for Pakistan — Sourcing &amp; Engineering direct from Karachi &amp; Shanghai
+                Forklift Solutions for Pakistan — Manufactured in China, Serviced from Karachi
               </span>
             </div>
             <div className="hidden lg:flex items-center gap-space-md text-surface-variant shrink-0">

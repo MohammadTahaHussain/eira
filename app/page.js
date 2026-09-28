@@ -20,7 +20,7 @@ const orgSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "EIRA Forklifts Pakistan",
-  legalName: "Shanghai Zhuojing Trading Co., Ltd. (EIRA)",
+  legalName: "Shanghai Zhuojing Trading Company Ltd",
   url: "https://eiraforklifts.com.pk",
   logo: "https://eiraforklifts.com.pk/images/logo.png",
   description:

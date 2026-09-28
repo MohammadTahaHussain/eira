@@ -13,7 +13,7 @@ export default function WhyEiraSection() {
  Industrial Performance Without the Premium Markup
  </h2>
  <p className="text-body-md text-secondary mt-1">
- Eliminating inflated dealer overheads through streamlined engineering sourcing direct from Shanghai into Karachi.
+ Eliminating inflated dealer overheads — manufactured in China, imported direct into Karachi.
  </p>
  </div>
  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
@@ -57,9 +57,9 @@ export default function WhyEiraSection() {
  <div className="w-10 h-10 rounded-lg bg-primary-container/20 text-primary-container flex items-center justify-center mb-space-md">
  <Network className="text-[22px]" />
  </div>
- <h3 className="text-headline-sm font-bold text-on-surface mb-2">Direct Engineering Sourcing</h3>
+ <h3 className="text-headline-sm font-bold text-on-surface mb-2">Direct Factory Manufacturing</h3>
  <p className="text-body-md text-secondary leading-relaxed">
- Directly connected with advanced Shanghai heavy equipment manufacturing clusters, ensuring world-class CE/ISO quality controls on every single unit.
+ Manufactured in China under world-class CE/ISO quality controls on every single unit.
  </p>
  </div>
  <div className="bg-surface-container-lowest p-space-lg rounded-xl card-3d tilt-3d">

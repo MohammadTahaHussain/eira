@@ -103,7 +103,7 @@ export default async function ProductPage({ params }) {
     name: `EIRA ${p.name} (${p.model})`,
     image: p.image,
     description: p.seo.description,
-    brand: { "@type": "Brand", name: "EIRA — Shanghai Zhuojing Trading Co., Ltd." },
+    brand: { "@type": "Brand", name: "EIRA" },
     model: p.model,
     category: "Forklift",
     offers: {
@@ -216,8 +216,8 @@ export default async function ProductPage({ params }) {
           {p.name} — Full Technical Specifications
         </h2>
         <p className="text-body-md text-secondary mb-space-md max-w-3xl">
-          Factory catalogue data for model {p.model}. Supplied in Pakistan by Shanghai Zhuojing
-          Trading Co., Ltd. (EIRA) with Karachi stock, genuine parts and after-sales service.
+          Factory catalogue data for model {p.model}. Manufactured in China for EIRA and supplied
+          in Pakistan with Karachi stock, genuine parts and after-sales service.
         </p>
         {isElectric ? <ElectricTable /> : <SpecTable groups={p.groups} />}
       </section>

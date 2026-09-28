@@ -88,7 +88,7 @@ export default function SpecificationsClient() {
         <p className="text-body-lg text-secondary max-w-3xl leading-relaxed">
           Complete factory specifications for the full EIRA K Series lineup — diesel counterbalance
           forklifts from 3 to 10 tons, the 3.5 ton LPG dual-fuel unit, and the electric CPD range
-          from 1.0 to 5.0 tons. Data per official catalogue: Shanghai Zhuojing Trading Co., Ltd.
+          from 1.0 to 5.0 tons. Data per official catalogue: Shanghai Zhuojing Trading Company Ltd
         </p>
       </section>
 
@@ -178,7 +178,7 @@ export default function SpecificationsClient() {
         </div>
 
         <p className="mt-space-md text-label-md text-secondary text-center">
-          All specifications per official factory catalogue — Shanghai Zhuojing Trading Co., Ltd. (EIRA).
+          All specifications per official factory catalogue — Shanghai Zhuojing Trading Company Ltd.
           Specifications subject to factory revision without notice.
         </p>
       </section>

@@ -12,14 +12,14 @@ import BrandStatement from "../../components/about/BrandStatement";
 import ContactCta from "../../components/about/ContactCta";
 
 export const metadata = {
-  title: "About EIRA Forklifts Pakistan — Shanghai Engineering, Karachi Service Hub",
+  title: "About EIRA Forklifts Pakistan — Manufactured in China, Serviced in Karachi",
   description:
-    "EIRA (Shanghai Zhuojing Trading Co., Ltd.) supplies K Series diesel, electric & LPG forklifts across Pakistan with Karachi parts warehousing and factory-trained technicians.",
+    "EIRA forklifts are manufactured in China and imported to Pakistan — K Series diesel, electric & LPG range with Karachi parts warehousing and factory-trained technicians.",
   alternates: { canonical: "https://eiraforklifts.com.pk/about" },
   openGraph: {
     title: "About EIRA Forklifts Pakistan",
     description:
-      "Shanghai engineering, Karachi service hub — heavy-duty forklifts (3–10 ton) with genuine parts and nationwide support.",
+      "Manufactured in China, serviced in Karachi — heavy-duty forklifts (3–10 ton) with genuine parts and nationwide support.",
   },
 };
 

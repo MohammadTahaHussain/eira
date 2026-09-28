@@ -5,7 +5,7 @@ import ContactForm from "./ContactForm";
 export const metadata = {
   title: "Contact Us — WhatsApp, Phone & Email | EIRA Forklifts Pakistan",
   description:
-    "Contact EIRA Forklifts Pakistan: WhatsApp Ali Raj +92 300 0214188, Shanghai +86 18516005027, rajputbrotherstradingco@gmail.com. Karachi hub, nationwide service.",
+    "Contact EIRA Forklifts Pakistan: WhatsApp Ali Raj +92 300 0214188, China factory +86 18516005027, rajputbrotherstradingco@gmail.com. Karachi hub, nationwide service.",
   alternates: { canonical: "https://eiraforklifts.com.pk/contact" },
   openGraph: {
     title: "Contact EIRA Forklifts Pakistan",
@@ -26,10 +26,10 @@ const cards = [
   },
   {
     icon: Phone,
-    title: "Shanghai Head Office",
-    lines: ["Shanghai Zhuojing Trading Co., Ltd.", "+86 18516005027"],
+    title: "China Factory Office",
+    lines: ["Shanghai Zhuojing Trading Company Ltd", "+86 18516005027"],
     href: "tel:+8618516005027",
-    cta: "Call Shanghai",
+    cta: "Call China Factory",
   },
   {
     icon: Mail,
@@ -120,8 +120,8 @@ export default function ContactPage() {
               <h2 className="text-headline-md font-extrabold mb-2">Karachi Hub &amp; Port Link</h2>
               <p className="text-body-md text-surface-container-high leading-relaxed mb-4">
                 Parts warehousing, pre-delivery inspection and port clearance support at Karachi —
-                with service coverage in Lahore, Faisalabad and Islamabad, and engineering linkage
-                to Shanghai.
+                with service coverage in Lahore, Faisalabad and Islamabad, and manufacturing linkage
+                to China.
               </p>
               <Link href="/about" className="inline-flex items-center gap-2 text-label-md font-bold text-primary-fixed hover:underline">
                 More about EIRA <ArrowRight size={16} />

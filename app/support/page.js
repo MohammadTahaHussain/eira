@@ -80,7 +80,7 @@ const FAQS = [
   ["What does a maintenance contract (AMC) include?",
     "Scheduled preventive visits, consumables replacement per checklist, breakdown labour coverage, priority response times and a documented service history for every machine under contract."],
   ["Are spare parts readily available in Pakistan?",
-    "Fast-moving parts for all catalogue models are stocked at our Karachi hub. Slow-moving or model-specific parts are air-freighted from Shanghai with committed lead times quoted upfront."],
+    "Fast-moving parts for all catalogue models are stocked at our Karachi hub. Slow-moving or model-specific parts are air-freighted from China with committed lead times quoted upfront."],
   ["Do you train our in-house operators?",
     "Yes — on-site operator safety training is available as a standalone service or bundled with new machine delivery and AMC contracts."],
 ];

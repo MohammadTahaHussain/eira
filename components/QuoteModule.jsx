@@ -203,7 +203,7 @@ export default function QuoteModule() {
                   <img alt="EIRA Brand Mark" className="h-6 w-auto object-contain" src="/images/logo.png" loading="lazy" decoding="async" />
                   <span className="text-label-sm font-semibold uppercase tracking-wider text-secondary">EIRA Forklifts Pakistan</span>
                 </div>
-                <span className="text-label-sm text-primary font-bold">Shanghai • Karachi</span>
+                <span className="text-label-sm text-primary font-bold">China • Karachi</span>
               </div>
             </div>
           </div>

@@ -67,7 +67,7 @@ export default function HeroSection() {
     <BadgeCheck size={20} className="text-primary" />
     <div>
     <div className="font-label-sm text-label-sm uppercase font-bold text-on-surface">Factory Direct Inspection</div>
-    <div className="font-body-md text-[11px] text-secondary">Pre-shipment Load Tested in Shanghai Facility</div>
+    <div className="font-body-md text-[11px] text-secondary">Pre-shipment Load Tested in China</div>
     </div>
     </div>
     </div>

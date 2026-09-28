@@ -99,7 +99,7 @@ export default function HeroSection() {
                                         <span className="text-label-sm uppercase tracking-widest text-on-surface-variant">AUTHENTIC BRANDING:</span>
                                         <img alt="EIRA Forklifts" className="h-5 w-auto object-contain opacity-80" src="/images/logo.png" loading="lazy" decoding="async" />
                                     </div>
-                                    <span className="text-label-sm text-on-surface-variant">Shanghai Engineering Link • Karachi Hub</span>
+                                    <span className="text-label-sm text-on-surface-variant">Manufactured in China • Karachi Hub</span>
                                 </div>
                             </div>
                         </div>

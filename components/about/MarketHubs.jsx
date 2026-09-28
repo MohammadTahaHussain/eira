@@ -9,11 +9,11 @@ export default function MarketHubs() {
               Two Markets. One Purpose.
             </h2>
     <p className="font-body-lg text-body-lg text-secondary mt-2">
-              Bridging the world's most advanced manufacturing ecosystem in Shanghai directly with Pakistan's fast-growing port, manufacturing, and trade hubs.
+              Bridging advanced manufacturing in China directly with Pakistan's fast-growing port, manufacturing, and trade hubs.
             </p>
     </div>
     <div className="grid grid-cols-1 lg:grid-cols-12 gap-space-md items-stretch">
-    {/* Left Hub: Shanghai */}
+    {/* Left Hub: China */}
     <div className="lg:col-span-5 bg-surface-container-lowest p-space-lg lg:p-8 rounded-xl card-3d tilt-3d flex flex-col justify-between relative overflow-hidden">
     <div className="space-y-space-md">
     <div className="flex items-center justify-between">
@@ -21,14 +21,13 @@ export default function MarketHubs() {
     <Factory size={24} className="text-primary" />
     <span className="font-label-md text-label-md font-bold uppercase tracking-wider text-on-surface">East Hub</span>
     </div>
-    <span className="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">31°13′N, 121°28′E</span>
     </div>
     <div>
-    <h3 className="font-headline-lg text-headline-lg font-extrabold text-on-surface">SHANGHAI</h3>
-    <p className="font-label-md text-label-md text-primary font-bold tracking-wide uppercase mt-1">Direct Factory Sourcing &amp; Engineering Rigor</p>
+    <h3 className="font-headline-lg text-headline-lg font-extrabold text-on-surface">CHINA</h3>
+    <p className="font-label-md text-label-md text-primary font-bold tracking-wide uppercase mt-1">Direct Manufacturing &amp; Quality Control</p>
     </div>
     <p className="font-body-md text-body-md text-secondary leading-relaxed">
-                  Shanghai serves as EIRA’s central manufacturing liaison. Here, industrial design choices, structural steel gauge validations, mast hydraulic tolerance checks, and battery quality audits are enforced before container vessel loading.
+                  EIRA forklifts are manufactured in China. Industrial design choices, structural steel gauge validations, mast hydraulic tolerance checks, and battery quality audits are enforced before container vessel loading.
                 </p>
     <ul className="space-y-2 pt-2">
     <li className="flex items-start gap-2 text-on-surface font-body-md text-body-md">

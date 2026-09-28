@@ -23,7 +23,7 @@ export default function ContactCta() {
     <span className="font-body-md text-body-md font-bold text-on-surface">+92 300 0214188</span>
     </div>
     <div className="p-space-sm bg-surface-container rounded-lg">
-    <span className="font-label-sm text-label-sm text-secondary uppercase block font-semibold">Shanghai Factory Link</span>
+    <span className="font-label-sm text-label-sm text-secondary uppercase block font-semibold">China Factory Link</span>
     <span className="font-body-md text-body-md font-bold text-on-surface">+86 18516005027</span>
     </div>
     </div>
@@ -39,7 +39,7 @@ export default function ContactCta() {
     </a>
     <div className="text-center pt-2">
     <span className="font-label-sm text-label-sm text-secondary">
-                    Direct factory sourcing link: Shanghai Engineering Facility
+                    Direct from our China manufacturing facility
                   </span>
     </div>
     </div>

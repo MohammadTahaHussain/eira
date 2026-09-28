@@ -15,7 +15,7 @@ export default function AboutSection() {
                                     Global Supply. <span className="text-primary">Local Understanding.</span>
                                 </h2>
                                 <p className="text-body-lg text-on-surface-variant leading-relaxed mb-space-md">
-                                    EIRA combines manufacturing and sourcing expertise connected directly with Shanghai industrial hubs with deep operational market understanding in Karachi. We provide heavy-duty forklift solutions designed strictly around practical industrial requirements.
+                                    EIRA forklifts are manufactured in China and imported to Pakistan, combined with deep operational market understanding in Karachi. We provide heavy-duty forklift solutions designed strictly around practical industrial requirements.
                                 </p>
                                 <p className="text-body-md text-secondary leading-relaxed mb-space-lg">
                                     For too long, Pakistani industrial enterprises have faced an impractical binary: exorbitant price tags for legacy Japanese/European brands, or unverified secondary market machinery with zero parts continuity. EIRA delivers the balanced solution: proven industrial-grade engineering, reliable components, and local nationwide backing.
@@ -43,7 +43,7 @@ export default function AboutSection() {
                                     <div className="p-2">
                                         <div className="flex items-center justify-between text-label-sm text-secondary uppercase mb-1">
                                             <span>Direct Trade Pipeline</span>
-                                            <span className="text-primary font-bold">Shanghai ➔ Karachi</span>
+                                            <span className="text-primary font-bold">China ➔ Karachi</span>
                                         </div>
                                         <p className="text-body-md text-on-surface font-medium">
                                             Continuous supply chain integration ensuring timely dispatch and rapid spare parts replenishment.
