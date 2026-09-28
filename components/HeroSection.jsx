@@ -21,7 +21,7 @@ export default function HeroSection() {
                             </p>
                             <h1 className="text-display-hero-mobile lg:text-display-hero text-on-surface font-extrabold tracking-tight leading-[1.08] mb-space-md">
                                 Reliable Forklifts. <br />
-                                <span className="text-primary-container">Practical Prices.</span> <br />
+                                <span className="text-primary-container">Affordable Prices.</span> <br />
                                 Built for Pakistan.
                             </h1>
                             <p className="text-body-lg text-secondary mb-space-lg max-w-xl leading-relaxed">
