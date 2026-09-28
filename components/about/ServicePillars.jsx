@@ -35,7 +35,7 @@ export default function ServicePillars() {
     <span className="font-spec-numeral text-headline-md font-extrabold text-primary block">02</span>
     <h3 className="font-headline-sm text-headline-sm font-bold text-on-surface">Forklift Supply</h3>
     <p className="font-body-md text-body-md text-secondary">
-                  Robust diesel, Li-ion electric, and dual-fuel LPG forklifts configured precisely for industrial conditions across Pakistan.
+                  Robust diesel, AC electric, and dual-fuel LPG forklifts configured precisely for industrial conditions across Pakistan.
                 </p>
     </div>
     <div className="pt-space-md mt-space-md flex items-center gap-2 text-primary font-label-md text-label-md uppercase font-bold">

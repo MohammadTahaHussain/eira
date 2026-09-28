@@ -38,7 +38,7 @@ export default function ProductRange() {
     <span className="font-label-sm text-label-sm font-bold text-primary">In Stock (Karachi Hub)</span>
     </div>
     </div>
-    {/* Machine 2: Electric Li-Ion */}
+    {/* Machine 2: Electric AC */}
     <div className="bg-surface-container p-space-md rounded-xl flex flex-col justify-between card-3d tilt-3d">
     <div className="space-y-space-sm">
     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container-high">
@@ -48,11 +48,11 @@ export default function ProductRange() {
                   </span>
     </div>
     <div className="pt-2">
-    <h3 className="font-headline-sm text-headline-sm font-extrabold text-on-surface">Li-Ion Electric Series</h3>
+    <h3 className="font-headline-sm text-headline-sm font-extrabold text-on-surface">Electric AC Series</h3>
     <p className="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-semibold">1.0T – 5.0T · 8 Models</p>
     </div>
     <p className="font-body-md text-body-md text-secondary">
-                  Fast opportunity-charging lithium technology with zero tailpipe emissions, perfect for pharmaceuticals, cold storage, and food processing.
+                  Clean AC-drive technology with zero tailpipe emissions, perfect for pharmaceuticals, cold storage, and food processing.
                 </p>
     </div>
     <div className="pt-space-md mt-space-md bg-surface-container-lowest p-space-sm rounded-lg flex items-center justify-between">

@@ -57,7 +57,7 @@ export default function ApplicationsSection() {
  <p className="text-body-md text-secondary mb-2">
  Zero-emission indoor handling inside FMCG cold storage, confectionery warehouses, and packaging floors.
  </p>
- <span className="text-label-sm font-bold text-primary">Key Match: 1.5T – 3.5T Li-Ion Electric</span>
+ <span className="text-label-sm font-bold text-primary">Key Match: 1.5T – 3.5T AC Electric</span>
  </div>
  <div className="bg-surface-container-lowest rounded-xl p-space-md card-3d tilt-3d">
  <div className="flex items-center gap-3 mb-2">

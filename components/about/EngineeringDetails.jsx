@@ -54,7 +54,7 @@ export default function EngineeringDetails() {
     <p className="font-body-md text-body-md text-secondary">
                 Precision drop-forged alloy steel tines heat-treated for maximum tensile yield, paired with integrated hydraulic side-shifters as standard.
               </p>
-    <div className="text-primary font-label-sm text-label-sm font-bold uppercase">1070mm to 1520mm Fork Lengths</div>
+    <div className="text-primary font-label-sm text-label-sm font-bold uppercase">1,070 – 1,220 mm Fork Lengths</div>
     </div>
     </div>
     </div>

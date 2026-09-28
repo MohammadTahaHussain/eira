@@ -8,57 +8,64 @@ const capacityData = {
  title: '3.0 Ton Diesel Series',
  desc: 'The benchmark industrial workhorse for Pakistani factories, textile mills, and warehouse unloading. Built on high-tensile steel mast rails and high-torque diesel performance.',
  load: '3,000',
- lift: '3.0 - 4.5',
- radius: '2,420',
- chassis: 'Pneumatic HD'
+ lift: '3.0',
+ radius: '2,390',
+ chassis: 'Pneumatic HD',
+ loadCenter: '500 mm Load Center'
  },
  '35t': {
  title: '3.5 Ton Heavy Diesel Forklift',
  desc: 'Reinforced dual-chain carriage designed for container stripping, cross-dock loading, and heavy steel fabrication yards where additional safety margin is mandatory.',
  load: '3,500',
- lift: '3.0 - 5.0',
- radius: '2,480',
- chassis: 'Reinforced HD'
+ lift: '3.0',
+ radius: '2,390',
+ chassis: 'Reinforced HD',
+ loadCenter: '500 mm Load Center'
  },
  '4t': {
  title: '4.0 Ton Industrial Diesel Forklift',
  desc: 'High-torque direct fuel injection diesel with dual-speed powershift transmission, engineered for stone yards, marble processing, and heavy mechanical factories.',
  load: '4,000',
- lift: '3.0 - 5.0',
- radius: '2,650',
- chassis: 'Wide Stance'
+ lift: '3.0',
+ radius: '2,550',
+ chassis: 'Wide Stance',
+ loadCenter: '500 mm Load Center'
  },
  '5t': {
  title: '5.0 Ton Heavy Yard Diesel Forklift',
  desc: 'Equipped with dual front drive wheels, oversized counterweight, and rugged steer axle built for continuous shifting of timber logs, structural steel, and precast concrete.',
  load: '5,000',
- lift: '3.0 - 6.0',
- radius: '3,100',
- chassis: 'Dual Front Tyres'
+ lift: '3.0',
+ radius: '3,000',
+ chassis: 'Dual Front Tyres',
+ loadCenter: '500 mm Load Center'
  },
  '10t': {
  title: '10.0 Ton Port & Terminal Handler',
  desc: 'Extreme-capacity industrial unit tailored for dry ports, Karachi Port Trust yards, container freight stations, and heavy project cargo logistics across Pakistan.',
  load: '10,000',
- lift: '3.0 - 6.5',
- radius: '3,950',
- chassis: 'Extreme Yard'
+ lift: null,
+ radius: '3,995',
+ chassis: 'Extreme Yard',
+ loadCenter: '600 mm Load Center'
  },
  'ev': {
  title: 'Electric Forklifts (1.0 - 5.0 Ton)',
  desc: 'Zero-emission AC drive motors. Essential for clean pharmaceutical facilities, food & beverage plants, and cold storages.',
  load: '1,000 - 5,000',
- lift: '3.0 - 6.0',
- radius: '2,150',
- chassis: 'Non-Marking Tyres'
+ lift: null,
+ radius: '1,780 – 2,750',
+ chassis: 'AC Electric Drive',
+ loadCenter: 'Varies by model'
  },
  'lpg': {
  title: '3.5 Ton Clean LPG Dual-Fuel Forklift',
  desc: 'Clean combustion engineered for both indoor warehouse air safety and outdoor yard agility. Swift 2-minute gas cylinder swaps eliminate recharging downtime.',
  load: '3,500',
- lift: '3.0 - 4.8',
- radius: '2,480',
- chassis: 'Pneumatic / Solid'
+ lift: '3.0',
+ radius: '2,390',
+ chassis: 'Pneumatic / Solid',
+ loadCenter: '500 mm Load Center'
  }
 };
 
@@ -140,14 +147,14 @@ export default function CapacitySelector() {
  <span className="text-[32px] font-extrabold text-on-surface block">
  {activeData.load} <span className="text-headline-sm font-normal text-secondary">KG</span>
  </span>
- <span className="text-label-sm text-primary block mt-1">500 mm Load Center</span>
+ <span className="text-label-sm text-primary block mt-1">{activeData.loadCenter}</span>
  </div>
  <div className="bg-surface-container-low p-space-md rounded-xl">
  <span className="text-label-sm uppercase tracking-wider text-secondary block mb-1">Mast Elevation</span>
  <span className="text-[32px] font-extrabold text-on-surface block">
- {activeData.lift} <span className="text-headline-sm font-normal text-secondary">M</span>
+ {activeData.lift ? <>{activeData.lift} <span className="text-headline-sm font-normal text-secondary">M</span></> : <span>—</span>}
  </span>
- <span className="text-label-sm text-secondary block mt-1">2-Stage / 3-Stage Triplex</span>
+ <span className="text-label-sm text-secondary block mt-1">Standard duplex mast per factory catalogue</span>
  </div>
  <div className="bg-surface-container-low p-space-md rounded-xl">
  <span className="text-label-sm uppercase tracking-wider text-secondary block mb-1">Turning Radius</span>

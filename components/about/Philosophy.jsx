@@ -50,7 +50,7 @@ export default function Philosophy() {
     <span className="text-secondary text-[12px]">Continuous Outdoor</span>
     </div>
     <div className="p-2 bg-surface-container-lowest rounded text-on-surface font-body-md text-body-md flex items-center justify-between">
-    <span className="font-semibold">Electric Li-Ion</span>
+    <span className="font-semibold">Electric AC</span>
     <span className="text-secondary text-[12px]">Clean Indoor/Pharma</span>
     </div>
     <div className="p-2 bg-surface-container-lowest rounded text-on-surface font-body-md text-body-md flex items-center justify-between">

@@ -68,7 +68,7 @@ export default function Industries() {
     </div>
     </div>
     <p className="font-body-md text-body-md text-secondary">
-                Low-temperature Li-ion electric units operating with zero emission output inside food packaging, cold stores, and central grocery distribution.
+                Low-temperature AC electric units operating with zero emission output inside food packaging, cold stores, and central grocery distribution.
               </p>
     </div>
     <div className="p-space-lg bg-surface-container-lowest rounded-xl card-3d tilt-3d">

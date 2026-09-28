@@ -34,7 +34,7 @@ export default function SpotlightSection() {
                             <div className="bg-inverse-surface p-space-md rounded-xl">
                                 <span className="text-label-sm uppercase tracking-wider text-primary-fixed block">Metric 03</span>
                                 <span className="text-body-md text-surface-dim">Standard Lift Height</span>
-                                <strong className="text-[22px] text-white block mt-0.5">3,000 – 4,500 mm</strong>
+                                <strong className="text-[22px] text-white block mt-0.5">3,000 mm</strong>
                             </div>
                         </div>
                         <div className="lg:col-span-6 relative order-1 lg:order-2 flex flex-col items-center">
@@ -63,12 +63,12 @@ export default function SpotlightSection() {
                             <div className="bg-inverse-surface p-space-md rounded-xl">
                                 <span className="text-label-sm uppercase tracking-wider text-primary-fixed block">Metric 05</span>
                                 <span className="text-body-md text-surface-dim">Turning Radius</span>
-                                <strong className="text-[22px] text-white block mt-0.5">Compact 2,420 mm</strong>
+                                <strong className="text-[22px] text-white block mt-0.5">Compact 2,390 mm</strong>
                             </div>
                             <div className="bg-inverse-surface p-space-md rounded-xl">
                                 <span className="text-label-sm uppercase tracking-wider text-primary-fixed block">Metric 06</span>
                                 <span className="text-body-md text-surface-dim">Fork Dimensions</span>
-                                <strong className="text-[18px] text-white block mt-0.5">1,070 × 125 × 45 mm</strong>
+                                <strong className="text-[18px] text-white block mt-0.5">1,220 × 122 × 45 mm</strong>
                             </div>
                         </div>
                     </div>

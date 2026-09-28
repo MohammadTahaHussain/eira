@@ -126,7 +126,7 @@ export default function QuoteModule() {
                       <option value="5.0 Ton High-Torque Diesel Forklift">5.0 Ton High-Torque Diesel Forklift</option>
                       <option value="10.0 Ton Heavy Port & Terminal Handler">10.0 Ton Heavy Port &amp; Terminal Handler</option>
                       <option value="3.5 Ton Clean LPG Dual-Fuel Unit">3.5 Ton Clean LPG Dual-Fuel Unit</option>
-                      <option value="1.0 - 5.0 Ton Li-Ion Electric Forklift">1.0 - 5.0 Ton Li-Ion Electric Forklift</option>
+                      <option value="1.0 - 5.0 Ton AC Electric Forklift">1.0 - 5.0 Ton AC Electric Forklift</option>
                       <option value="Technical Load Assessment">Not Sure — Request Technical Load Assessment</option>
                     </select>
                   </div>
@@ -167,7 +167,7 @@ export default function QuoteModule() {
                 <div className="bg-black/20 rounded-xl p-3 mb-space-md flex items-center justify-between">
                   <div>
                     <span className="text-label-sm uppercase text-surface-container-high block">Official WhatsApp Line</span>
-                    <span className="text-spec-numeral font-bold text-white text-[18px]">+92 300 EIRA-PK (3472-750)</span>
+                    <span className="text-spec-numeral font-bold text-white text-[18px]">+92 300 0214188</span>
                   </div>
                   <MessageCircle className="text-[32px] text-[#25D366]" />
                 </div>
@@ -190,7 +190,7 @@ export default function QuoteModule() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="text-primary text-[18px]" />
-                    <span>Mon – Sat: 8:30 AM – 6:30 PM PKT</span>
+                    <span>Mon – Sat: 9:00 AM – 7:00 PM PKT</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <ShieldCheck className="text-primary text-[18px]" />

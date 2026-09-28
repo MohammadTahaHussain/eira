@@ -39,14 +39,14 @@ export default function Footer() {
                             <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/5-ton-diesel-forklift-cpc50">5.0 Ton Yard Heavy</a></li>
                             <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/10-ton-diesel-forklift-cpcd100t">10.0 Ton Port Terminal Unit</a></li>
                             <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/3-5-ton-lpg-forklift-cpg35">3.5 Ton Clean LPG Dual-Fuel</a></li>
-                            <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/electric-forklifts-cpd10-cpd50">1.0 - 5.0 Ton Li-Ion Electric</a></li>
+                            <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/electric-forklifts-cpd10-cpd50">1.0 - 5.0 Ton AC Electric</a></li>
                         </ul>
                     </div>
                     <div>
                         <h4 className="text-headline-sm text-surface-container-lowest mb-space-md font-bold">Power Types &amp; Fleet</h4>
                         <ul className="space-y-space-xs text-body-md text-tertiary-fixed-dim">
                             <li className="hover:text-primary-fixed-dim transition-colors"><a href="/#forklifts-catalog">Diesel Forklifts</a></li>
-                            <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/electric-forklifts-cpd10-cpd50">Electric Li-Ion Forklifts</a></li>
+                            <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/electric-forklifts-cpd10-cpd50">Electric AC Forklifts</a></li>
                             <li className="hover:text-primary-fixed-dim transition-colors"><a href="/products/3-5-ton-lpg-forklift-cpg35">LPG &amp; Dual Fuel Units</a></li>
                         </ul>
                     </div>

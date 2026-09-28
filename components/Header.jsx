@@ -159,13 +159,6 @@ export default function Header() {
                 <span>Request a Quote</span>
                 <ArrowRight className="text-[16px]" />
               </Link>
-              {/* <div className="hidden sm:block pl-space-xs border-l border-surface-container-highest">
-                <img
-                  alt="EIRA Pakistan representative"
-                  className="w-8 h-8 rounded-full object-cover ring-1 ring-surface-container-highest"
-                  src="/images/logo.png"
-                  loading="lazy" decoding="async" />
-              </div> */}
               <button
                 type="button"
                 onClick={() => setMenuOpen(true)}

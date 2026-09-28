@@ -91,7 +91,9 @@ export default async function ProductPage({ params }) {
   if (!p) return <main className="pt-40 pb-24 text-center">Product not found.</main>;
 
   const isElectric = p.id === "electric";
-  const related = PRODUCTS.filter((r) => r.slug !== p.slug).slice(0, 3);
+  const related = PRODUCTS.filter((r) => r.slug !== p.slug)
+    .sort((a, b) => (b.powerType === p.powerType) - (a.powerType === p.powerType))
+    .slice(0, 3);
   const quoteText = `Hello EIRA, I need a quote for the ${p.name} (Model ${p.model}).`;
   const url = `https://eiraforklifts.com.pk${productUrl(p.slug)}`;
 
