@@ -39,7 +39,7 @@ export default function SpotlightSection() {
                         </div>
                         <div className="lg:col-span-6 relative order-1 lg:order-2 flex flex-col items-center">
                             <div className="relative w-full max-w-lg rounded-2xl overflow-hidden shadow-2xl bg-inverse-surface/40 p-2 tilt-3d">
-                                <img alt="EIRA 3 Ton Detailed Industrial Mast and Cabin View" className="w-full h-auto object-cover rounded-xl" src="/images/eira-3-ton-diesel-forklift.jpg" loading="lazy" decoding="async" />
+                                <img alt="EIRA 3 Ton Detailed Industrial Mast and Cabin View" className="w-full h-auto object-cover rounded-xl" src="/images/eira-3-ton-diesel-forklift.webp" loading="lazy" decoding="async" />
                                 <div className="absolute top-8 left-8 bg-on-surface/90 backdrop-blur px-3 py-1.5 rounded-lg flex items-center gap-2">
                                     <span className="w-2.5 h-2.5 rounded-full bg-primary-container animate-pulse"></span>
                                     <span className="text-label-sm font-semibold text-white uppercase tracking-wider">Reinforced Triplex Mast</span>

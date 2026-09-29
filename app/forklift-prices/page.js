@@ -6,9 +6,9 @@ import {
 import { PRODUCTS, productUrl } from "../../lib/products";
 
 export const metadata = {
-  title: "Forklift Price in Pakistan 2026 — New Forklift Price Guide | EIRA",
+  title: { absolute: "Forklift Price in Pakistan 2026 — Price Guide | EIRA" },
   description:
-    "How much does a forklift cost in Pakistan? Price factors for 3 to 10 ton diesel, electric and LPG forklifts, new vs used comparison, and how to get the best price from EIRA.",
+    "How much does a forklift cost in Pakistan? Price factors for 3–10 ton diesel, electric and LPG forklifts, new vs used, and how to get the best price.",
   keywords: [
     "forklift price in Pakistan",
     "new forklift price in Pakistan",

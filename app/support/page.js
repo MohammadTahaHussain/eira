@@ -5,9 +5,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Forklift Service, Maintenance & Genuine Spare Parts in Pakistan | EIRA Support",
+  title: { absolute: "Forklift Service, Maintenance & Spare Parts in Pakistan | EIRA" },
   description:
-    "EIRA after-sales support: forklift maintenance contracts, genuine spare parts, operator training & 24/7 field repair across Pakistan. Karachi parts hub — WhatsApp +92 300 0214188.",
+    "EIRA after-sales support: forklift maintenance contracts, genuine spare parts, operator training & 24/7 field repair across Pakistan. Karachi parts hub.",
   keywords: [
     "forklift maintenance Pakistan",
     "forklift spare parts Karachi",

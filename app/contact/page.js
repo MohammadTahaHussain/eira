@@ -3,9 +3,9 @@ import { ArrowRight, MessageCircle, Phone, Mail, MapPin, Clock, ChevronRight } f
 import ContactForm from "./ContactForm";
 
 export const metadata = {
-  title: "Contact Us — WhatsApp, Phone & Email | EIRA Forklifts Pakistan",
+  title: { absolute: "Contact Us — WhatsApp, Phone & Email | EIRA Forklifts Pakistan" },
   description:
-    "Contact EIRA Forklifts Pakistan: WhatsApp Ali Raj +92 300 0214188, China factory +86 18516005027, rajputbrotherstradingco@gmail.com. Karachi hub, nationwide service.",
+    "Contact EIRA Forklifts Pakistan: WhatsApp Ali Raj +92 300 0214188, China factory +86 18516005027, rajputbrotherstradingco@gmail.com.",
   alternates: { canonical: "https://eiraforklifts.com.pk/contact" },
   openGraph: {
     title: "Contact EIRA Forklifts Pakistan",

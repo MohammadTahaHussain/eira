@@ -52,7 +52,7 @@ export default function HeroSection() {
     {/* Right: Real Machine Photographic Stage */}
     <div className="lg:col-span-6 relative flex justify-center items-center">
     <div className="relative w-full aspect-[4/3] lg:aspect-[5/4] bg-surface-container-high rounded-xl overflow-hidden shadow-md tilt-3d">
-    <img alt="EIRA 3.0 Ton Diesel Forklift side profile showing reinforced heavy duty steel chassis, all-terrain industrial tyres, and safety overhead cabin" className="w-full h-full object-cover object-center" src="/images/eira-3-5-ton-heavy-diesel-forklift.jpg" loading="lazy" decoding="async" />
+    <img alt="EIRA 3.0 Ton Diesel Forklift side profile showing reinforced heavy duty steel chassis, all-terrain industrial tyres, and safety overhead cabin" className="w-full h-full object-cover object-center" src="/images/eira-3-5-ton-heavy-diesel-forklift.webp" loading="eager" fetchPriority="high" decoding="async" />
     {/* Technical Overlay Badges */}
     <div className="absolute top-4 left-4 flex flex-col gap-2">
     <span className="px-3 py-1 rounded bg-on-surface/90 text-surface-container-lowest font-label-sm text-label-sm tracking-wider uppercase backdrop-blur-sm">

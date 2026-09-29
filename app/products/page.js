@@ -6,9 +6,9 @@ import { PRODUCTS, productUrl, waLink } from "../../lib/products";
 const BASE = "https://eiraforklifts.com.pk";
 
 export const metadata = {
-  title: "Forklifts for Sale in Pakistan — Diesel, Electric & LPG (3–10 Ton) | EIRA",
+  title: { absolute: "All EIRA Forklift Models (3–10 Ton) — Diesel, Electric, LPG" },
   description:
-    "Browse all 7 EIRA forklifts for sale in Pakistan: 3–10 ton K Series diesel, 3.5 ton LPG dual-fuel and 1–5 ton electric forklifts. Specs, capacities and WhatsApp pricing: +92 300 0214188.",
+    "Browse all 7 EIRA forklifts for sale in Pakistan: 3–10 ton K Series diesel, 3.5 ton LPG dual-fuel and 1–5 ton electric. Specs, capacities and WhatsApp pricing.",
   keywords: [
     "forklifts in Pakistan",
     "forklift for sale in Pakistan",
@@ -27,13 +27,13 @@ export const metadata = {
       "All 7 EIRA forklifts: 3–10 ton diesel, 3.5 ton LPG dual-fuel and 1–5 ton electric. Specs and WhatsApp pricing across Pakistan.",
     url: `${BASE}/products`,
     type: "website",
-    images: [{ url: "/images/eira-3-5-ton-heavy-diesel-forklift.jpg", alt: "EIRA forklifts for sale in Pakistan" }],
+    images: [{ url: "/images/eira-3-5-ton-heavy-diesel-forklift.webp", alt: "EIRA forklifts for sale in Pakistan" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Forklifts for Sale in Pakistan | EIRA",
     description: "3–10 ton diesel, LPG dual-fuel and electric forklifts with specs and WhatsApp pricing.",
-    images: ["/images/eira-3-5-ton-heavy-diesel-forklift.jpg"],
+    images: ["/images/eira-3-5-ton-heavy-diesel-forklift.webp"],
   },
 };
 

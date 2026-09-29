@@ -5,9 +5,9 @@ import {
 } from "lucide-react";
 
 export const metadata = {
-  title: "Diesel vs Electric vs LPG Forklift — Which Is Best in Pakistan? | EIRA",
+  title: { absolute: "Diesel vs Electric vs LPG Forklift — Pakistan Guide | EIRA" },
   description:
-    "Honest comparison of diesel, electric (battery operated) and LPG forklifts for Pakistani conditions: purchase price, fuel and electricity costs, maintenance, and which suits your warehouse, factory or yard.",
+    "Diesel vs electric vs LPG forklifts for Pakistani conditions: purchase price, fuel and power costs, maintenance — and which suits your warehouse or factory.",
   keywords: [
     "diesel vs electric forklift",
     "electric vs diesel forklift Pakistan",

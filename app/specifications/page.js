@@ -1,9 +1,9 @@
 import SpecificationsClient from "./SpecificationsClient";
 
 export const metadata = {
-  title: "Forklift Technical Specifications — K Series Diesel, LPG & Electric (CPCD/CPC/CPG/CPD)",
+  title: { absolute: "Forklift Specifications — Diesel, LPG & Electric | EIRA" },
   description:
-    "Official EIRA factory spec sheets: 3–10 ton diesel forklifts (CPCD30–CPCD100t), 3.5T LPG (CPG35) and electric CPD10–CPD50. Engines, dimensions, performance data.",
+    "Official EIRA factory spec sheets: 3–10 ton diesel (CPCD30–CPCD100t), 3.5T LPG (CPG35) and electric CPD10–CPD50. Engines, dimensions, performance data.",
   alternates: { canonical: "https://eiraforklifts.com.pk/specifications" },
   openGraph: {
     title: "EIRA Forklift Technical Specifications",

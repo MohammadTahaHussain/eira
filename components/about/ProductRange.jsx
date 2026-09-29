@@ -20,7 +20,7 @@ export default function ProductRange() {
     <div className="bg-surface-container p-space-md rounded-xl flex flex-col justify-between card-3d tilt-3d">
     <div className="space-y-space-sm">
     <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden bg-surface-container-high">
-    <img alt="EIRA Diesel Heavy Forklift 3.0 Ton high angle view showing rugged mast system and heavy counterweight in an industrial warehouse setting" className="w-full h-full object-cover" src="/images/eira-3-ton-diesel-forklift.jpg" loading="lazy" decoding="async" />
+    <img alt="EIRA Diesel Heavy Forklift 3.0 Ton high angle view showing rugged mast system and heavy counterweight in an industrial warehouse setting" className="w-full h-full object-cover" src="/images/eira-3-ton-diesel-forklift.webp" loading="lazy" decoding="async" />
     <span className="absolute top-3 left-3 px-2 py-0.5 rounded bg-primary-container text-on-primary-container font-label-sm text-label-sm font-bold uppercase">
                     Heavy Duty
                   </span>

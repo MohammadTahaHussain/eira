@@ -12,7 +12,7 @@ import QuoteModule from "../components/QuoteModule";
 export const metadata = {
   title: "Forklifts for Sale in Pakistan (3–10 Ton Diesel, Electric, LPG) | EIRA",
   description:
-    "Buy reliable forklifts in Pakistan — 3 to 10 ton diesel, 1–5 ton electric & 3.5 ton LPG. K Series with Quanchai engines, Karachi stock, nationwide service. WhatsApp +92 300 0214188.",
+    "Buy reliable forklifts in Pakistan — 3 to 10 ton diesel, 1–5 ton electric & 3.5 ton LPG. K Series with Quanchai engines, Karachi stock, nationwide service.",
   alternates: { canonical: "https://eiraforklifts.com.pk/" },
 };
 

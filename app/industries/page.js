@@ -6,9 +6,9 @@ import {
 import { productUrl } from "../../lib/products";
 
 export const metadata = {
-  title: "Forklifts for Every Industry in Pakistan — Textile, Warehouse, Ports, Pharma & More | EIRA",
+  title: { absolute: "Forklifts for Every Industry in Pakistan | EIRA" },
   description:
-    "EIRA forklifts serve Pakistan's key industries: textile mills, warehouses & 3PL, food & cold chain, pharma, construction, steel, ports and agriculture. Diesel 3–10T, electric & LPG with Karachi stock.",
+    "EIRA forklifts for key industries in Pakistan: textile, warehousing, cold chain, pharma, construction, steel, ports, agriculture. Diesel 3–10T, electric, LPG.",
   keywords: [
     "forklift for textile mills Pakistan",
     "warehouse forklift Pakistan",

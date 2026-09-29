@@ -73,7 +73,7 @@ export default function HeroSection() {
                                         <span className="text-secondary-container text-[10px] tracking-widest uppercase">SERIES-30D SPEC</span>
                                     </div>
                                     <div className="relative rounded-lg overflow-hidden bg-surface-container-highest">
-                                        <Image alt="EIRA 3 Ton Heavy Duty Diesel Forklift Pakistan" className="w-full h-auto object-cover max-h-[540px] transform group-hover:scale-[1.01] transition-transform duration-500 ease-out" src="/images/eira-3-5-ton-heavy-diesel-forklift.jpg" width={384} height={512} priority sizes="(max-width: 1024px) 100vw, 50vw" />
+                                        <Image alt="EIRA 3 Ton Heavy Duty Diesel Forklift Pakistan" className="w-full h-auto object-cover max-h-[540px] transform group-hover:scale-[1.01] transition-transform duration-500 ease-out" src="/images/eira-3-5-ton-heavy-diesel-forklift.webp" width={384} height={512} priority sizes="(max-width: 1024px) 100vw, 50vw" />
                                     </div>
                                     <div className="absolute bottom-6 left-6 z-20 flex flex-wrap gap-2">
                                         <div className="bg-on-surface/95 text-surface-container-lowest backdrop-blur px-3 py-1.5 rounded-md shadow flex items-center gap-1.5">

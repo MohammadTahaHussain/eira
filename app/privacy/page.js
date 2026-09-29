@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ShieldCheck, ArrowRight } from "lucide-react";
 
 export const metadata = {
-  title: "Privacy Policy | EIRA Forklifts Pakistan",
+  title: { absolute: "Privacy Policy | EIRA Forklifts Pakistan" },
   description:
     "How EIRA Forklifts Pakistan collects, uses and protects your personal information when you request a quote or contact us.",
   alternates: { canonical: "https://eiraforklifts.com.pk/privacy" },
