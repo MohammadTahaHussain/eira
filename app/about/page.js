@@ -15,7 +15,7 @@ export const metadata = {
   title: { absolute: "About EIRA Forklifts Pakistan — Manufactured in China, Serviced in Karachi" },
   description:
     "EIRA forklifts are manufactured in China and imported to Pakistan — K Series diesel, electric & LPG with Karachi parts warehousing and trained technicians.",
-  alternates: { canonical: "https://eiraforklifts.com.pk/about" },
+  alternates: { canonical: "https://eira.com.pk/about" },
   openGraph: {
     title: "About EIRA Forklifts Pakistan",
     description:

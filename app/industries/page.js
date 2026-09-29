@@ -19,7 +19,7 @@ export const metadata = {
     "forklift for steel industry",
     "industrial forklift applications Pakistan",
   ],
-  alternates: { canonical: "https://eiraforklifts.com.pk/industries" },
+  alternates: { canonical: "https://eira.com.pk/industries" },
   openGraph: {
     title: "Forklifts for Every Industry in Pakistan | EIRA",
     description:

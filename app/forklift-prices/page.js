@@ -19,7 +19,7 @@ export const metadata = {
     "best forklift price in Pakistan",
     "forklift for sale in Pakistan",
   ],
-  alternates: { canonical: "https://eiraforklifts.com.pk/forklift-prices" },
+  alternates: { canonical: "https://eira.com.pk/forklift-prices" },
   openGraph: {
     title: "Forklift Price in Pakistan — 2026 Buying Guide | EIRA",
     description:

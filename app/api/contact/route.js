@@ -62,7 +62,7 @@ export async function POST(req) {
       </table>
       <p><b>Message</b></p>
       <p>${esc(message).replace(/\n/g, "<br>") || "—"}</p>
-      <hr><p style="color:#888;font-size:12px">Sent from eiraforklifts.com.pk</p>
+      <hr><p style="color:#888;font-size:12px">Sent from eira.com.pk</p>
     `;
 
     await transporter.sendMail({

@@ -25,7 +25,7 @@ const manrope = Manrope({
   display: "swap",
 });
 
-const SITE_URL = "https://eiraforklifts.com.pk";
+const SITE_URL = "https://eira.com.pk";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
