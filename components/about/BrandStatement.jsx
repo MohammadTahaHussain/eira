@@ -27,7 +27,7 @@ export default function BrandStatement() {
           {/* Machine Framing */}
           <div className="lg:col-span-5 relative">
             <div className="w-full aspect-square bg-surface-container rounded-2xl overflow-hidden shadow-md relative tilt-3d">
-              <img alt="EIRA Green Industrial Forklift 3.0 Ton parked inside modern assembly floor, showing rugged mast details and high visibility paint" className="w-full h-full object-cover" src="/images/eira-3-ton-diesel-forklift.jpg" loading="lazy" decoding="async" />
+              <img alt="Rear view of EIRA K Series diesel counterbalance forklifts showing EIRA branding, counterweight and operator overhead guard" className="w-full h-full object-cover" src="/images/eira-forklifts-rear-closeup-china-factory.webp" loading="lazy" decoding="async" />
               <div className="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div>
               <div className="absolute bottom-6 left-6 right-6 text-surface-container-lowest">
                 <span className="font-label-sm text-label-sm uppercase text-primary-container font-bold block mb-1">Authentic Quality</span>

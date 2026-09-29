@@ -38,7 +38,7 @@ export default function AboutSection() {
                             <div className="lg:col-span-5">
                                 <div className="bg-surface-container-lowest p-space-md rounded-xl card-3d tilt-3d">
                                     <div className="rounded-lg overflow-hidden mb-space-sm bg-surface-container-highest">
-                                        <img alt="EIRA Forklift Assembly and Verification" className="w-full h-52 object-cover" src="/images/eira-3-5-ton-heavy-diesel-forklift.jpg" loading="lazy" decoding="async" />
+                                        <img alt="EIRA forklift duplex mast and forged fork assemblies lined up at the factory during pre-shipment inspection" className="w-full h-52 object-cover" src="/images/eira-forklift-mast-lineup-china-factory.webp" loading="lazy" decoding="async" />
                                     </div>
                                     <div className="p-2">
                                         <div className="flex items-center justify-between text-label-sm text-secondary uppercase mb-1">

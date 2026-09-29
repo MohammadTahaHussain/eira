@@ -26,6 +26,9 @@ export default function MarketHubs() {
     <h3 className="font-headline-lg text-headline-lg font-extrabold text-on-surface">CHINA</h3>
     <p className="font-label-md text-label-md text-primary font-bold tracking-wide uppercase mt-1">Direct Manufacturing &amp; Quality Control</p>
     </div>
+    <div className="rounded-lg overflow-hidden">
+    <img className="w-full h-56 lg:h-64 object-cover" alt="EIRA K Series diesel counterbalance forklifts lined up at the China factory before export to Pakistan" src="/images/eira-forklifts-china-factory-lineup.webp" loading="lazy" decoding="async" />
+    </div>
     <p className="font-body-md text-body-md text-secondary leading-relaxed">
                   EIRA forklifts are manufactured in China. Industrial design choices, structural steel gauge validations, mast hydraulic tolerance checks, and battery quality audits are enforced before container vessel loading.
                 </p>
