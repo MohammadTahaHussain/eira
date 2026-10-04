@@ -6,7 +6,7 @@ export const metadata = {
   title: { absolute: "Contact Us — WhatsApp, Phone & Email | EIRA Forklifts Pakistan" },
   description:
     "Contact EIRA Forklifts Pakistan: WhatsApp Ali Raj +92 300 0214188, China factory +86 18516005027, rajputbrotherstradingco@gmail.com.",
-  alternates: { canonical: "https://eira.com.pk/contact" },
+  alternates: { canonical: "https://www.eira.com.pk/contact" },
   openGraph: {
     title: "Contact EIRA Forklifts Pakistan",
     description: "WhatsApp, phone & email — Karachi hub with nationwide forklift sales and service.",

@@ -13,7 +13,7 @@ export const metadata = {
   title: "Forklifts for Sale in Pakistan (3–10 Ton Diesel, Electric, LPG) | EIRA",
   description:
     "Buy reliable forklifts in Pakistan — 3 to 10 ton diesel, 1–5 ton electric & 3.5 ton LPG. K Series with Quanchai engines, Karachi stock, nationwide service.",
-  alternates: { canonical: "https://eira.com.pk/" },
+  alternates: { canonical: "https://www.eira.com.pk/" },
 };
 
 const orgSchema = {
@@ -21,8 +21,8 @@ const orgSchema = {
   "@type": "Organization",
   name: "EIRA Forklifts Pakistan",
   legalName: "Shanghai Zhuojing Trading Company Ltd",
-  url: "https://eira.com.pk",
-  logo: "https://eira.com.pk/images/logo.png",
+  url: "https://www.eira.com.pk",
+  logo: "https://www.eira.com.pk/images/logo.png",
   description:
     "Supplier of heavy-duty diesel, electric and LPG forklifts (3–10 ton) across Pakistan with Karachi stock and nationwide after-sales service.",
   contactPoint: [

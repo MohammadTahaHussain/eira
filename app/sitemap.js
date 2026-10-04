@@ -1,6 +1,6 @@
 import { PRODUCTS, productUrl } from "../lib/products";
 
-const BASE = "https://eira.com.pk";
+const BASE = "https://www.eira.com.pk";
 
 export default function sitemap() {
   const staticRoutes = [

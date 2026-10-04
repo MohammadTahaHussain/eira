@@ -10,7 +10,7 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const p = getProduct(slug);
   if (!p) return { title: "Product not found | EIRA Forklifts Pakistan" };
-  const url = `https://eira.com.pk${productUrl(p.slug)}`;
+  const url = `https://www.eira.com.pk${productUrl(p.slug)}`;
   return {
     title: p.seo.title,
     description: p.seo.description,
@@ -95,7 +95,7 @@ export default async function ProductPage({ params }) {
     .sort((a, b) => (b.powerType === p.powerType) - (a.powerType === p.powerType))
     .slice(0, 3);
   const quoteText = `Hello EIRA, I need a quote for the ${p.name} (Model ${p.model}).`;
-  const url = `https://eira.com.pk${productUrl(p.slug)}`;
+  const url = `https://www.eira.com.pk${productUrl(p.slug)}`;
 
   const productSchema = {
     "@context": "https://schema.org",
@@ -137,8 +137,8 @@ export default async function ProductPage({ params }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://eira.com.pk/" },
-      { "@type": "ListItem", position: 2, name: "Specifications", item: "https://eira.com.pk/specifications" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.eira.com.pk/" },
+      { "@type": "ListItem", position: 2, name: "Specifications", item: "https://www.eira.com.pk/specifications" },
       { "@type": "ListItem", position: 3, name: p.name, item: url },
     ],
   };

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { ArrowRight, MessageCircle, ChevronRight, BadgeCheck, Fuel, Zap, Flame } from "lucide-react";
 import { PRODUCTS, productUrl, waLink } from "../../lib/products";
 
-const BASE = "https://eira.com.pk";
+const BASE = "https://www.eira.com.pk";
 
 export const metadata = {
   title: { absolute: "All EIRA Forklift Models (3–10 Ton) — Diesel, Electric, LPG" },

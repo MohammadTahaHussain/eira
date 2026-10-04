@@ -16,7 +16,7 @@ export const metadata = {
     "gas forklift Pakistan",
     "which forklift is best for warehouse",
   ],
-  alternates: { canonical: "https://eira.com.pk/guides/diesel-vs-electric-vs-lpg-forklifts" },
+  alternates: { canonical: "https://www.eira.com.pk/guides/diesel-vs-electric-vs-lpg-forklifts" },
   openGraph: {
     title: "Diesel vs Electric vs LPG Forklift — Pakistan Buying Guide | EIRA",
     description:

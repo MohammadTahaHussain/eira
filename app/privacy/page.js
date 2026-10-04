@@ -5,7 +5,7 @@ export const metadata = {
   title: { absolute: "Privacy Policy | EIRA Forklifts Pakistan" },
   description:
     "How EIRA Forklifts Pakistan collects, uses and protects your personal information when you request a quote or contact us.",
-  alternates: { canonical: "https://eira.com.pk/privacy" },
+  alternates: { canonical: "https://www.eira.com.pk/privacy" },
   robots: { index: true, follow: true },
 };
 

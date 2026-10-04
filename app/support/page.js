@@ -16,7 +16,7 @@ export const metadata = {
     "forklift operator training Pakistan",
     "forklift breakdown service Karachi",
   ],
-  alternates: { canonical: "https://eira.com.pk/support" },
+  alternates: { canonical: "https://www.eira.com.pk/support" },
   openGraph: {
     title: "EIRA Forklift Support — Service, Parts & Training Across Pakistan",
     description:
